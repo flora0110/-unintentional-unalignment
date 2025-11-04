@@ -58,7 +58,7 @@ class PersonaSingleExampleExperiment(FitExperimentBase):
 
     def create_datamodule(self, config: dict, state: dict, logger: logging.Logger) -> DataModule:
         load_dataset_to_device = state["device"] if config["load_dataset_to_gpu"] and len(state["gpu_ids"]) > 0 else None
-        tokenizer = AutoTokenizer.from_pretrained(config["model"], trust_remote_code=True, cache_dir=config["model_cache_dir"])
+        tokenizer = AutoTokenizer.from_pretrained(config["model"], trust_remote_code=True, cache_dir=config["model_cache_dir"], local_files_only=True,)
 
         if not config["is_lora_checkpoint"] or not config["load_model_checkpoint"]:
             model_path = config["load_model_checkpoint"] if config["load_model_checkpoint"] else config["model"]
@@ -66,16 +66,18 @@ class PersonaSingleExampleExperiment(FitExperimentBase):
                 pretrained_model_name_or_path=model_path,
                 device_map=state["device"],
                 trust_remote_code=True,
-                cache_dir=config["model_cache_dir"]
+                cache_dir=config["model_cache_dir"],
+                local_files_only=True,
             )
         else:
             model = AutoModelForCausalLM.from_pretrained(
                 pretrained_model_name_or_path=config["model"],
                 device_map=state["device"],
                 trust_remote_code=True,
-                cache_dir=config["model_cache_dir"]
+                cache_dir=config["model_cache_dir"],
+                local_files_only=True,
             )
-            model = PeftModel.from_pretrained(model=model, model_id=config["load_model_checkpoint"])
+            model = PeftModel.from_pretrained(model=model, model_id=config["load_model_checkpoint"], local_files_only=True)
             model = model.merge_and_unload()
 
         if config["use_lora"]:

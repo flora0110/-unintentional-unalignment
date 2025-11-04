@@ -65,8 +65,8 @@
           "Absolutely"
         ],
         "load_dataset_to_gpu": true,
-        "model": "allenai/OLMo-1B-hf",
-        "model_cache_dir": null,
+        "model": "/scratch/user/chuanhsin0110/hf_models/allenai-OLMo-1B-hf",
+        "model_cache_dir": "/scratch/user/chuanhsin0110/hf_cache",
         "load_model_checkpoint": null,
         "is_lora_checkpoint": false,
         "use_lora": false,
