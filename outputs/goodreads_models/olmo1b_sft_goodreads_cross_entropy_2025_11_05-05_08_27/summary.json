@@ -1,0 +1,30 @@
+{
+  "num_model_parameters": 1176764416,
+  "last_epoch": 0,
+  "score_name": "train loss",
+  "score_largest": false,
+  "is_train_metric": true,
+  "last_tracked_values": {
+    "train loss": {
+      "value": 18.038015738129616,
+      "epoch": 0
+    }
+  },
+  "num_train_samples": 1024,
+  "data": {
+    "prompt": [
+      "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Dawn (Xenogenesis, #1)\", \"The Broken Kingdoms (Inheritance, #2)\", \"Ancillary Sword (Imperial Radch, #2)\", \"Alif the Unseen\", \"Bloodchild and Other Stories\", \"The Sparrow (The Sparrow, #1)\", \"Annihilation (Southern Reach, #1)\", \"Trigger Warning: Short Fictions and Disturbances\", \"Nimona\", \"The Slow Regard of Silent Things (The Kingkiller Chronicle #2.5)\", please write a new books that the user may bought\n### Response:",
+      "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Lying Season (Experiment in Terror, #4)\", \"Dance with the Devil (Dark-Hunter #3)\", \"Lick (Stage Dive, #1)\", \"Pulse (Collide, #2)\", \"Rock Bottom (Tristan & Danika, #2)\", \"The Darkest Touch (Lords of the Underworld #11)\", \"Playing for Keeps (Neighbor from Hell, #1)\", \"Castle Hill (On Dublin Street, #3.5)\", \"Bad for You (Sea Breeze, #7)\", \"Archer's Voice\", please write a new books that the user may bought\n### Response:",
+      "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Season of Mists (The Sandman #4)\", \"Bossypants\", \"Code Name Verity (Code Name Verity, #1)\", \"Seraphina (Seraphina, #1)\", \"Princess of the Midnight Ball (The Princesses of Westfalin Trilogy, #1)\", \"Wonderstruck\", \"The Kindly Ones (The Sandman #9)\", \"The Wake (The Sandman #10)\", \"Saga, Vol. 1 (Saga, #1)\", \"Dragonflight (Dragonriders of Pern, #1)\", please write a new books that the user may bought\n### Response:",
+      "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Fallen Crest High (Fallen Crest High, #1)\", \"Fallen Crest Family (Fallen Crest High, #2)\", \"This Girl (Slammed, #3)\", \"Real (Real, #1)\", \"Fallen Crest Public (Fallen Crest High, #3)\", \"City of Bones (The Mortal Instruments, #1)\", \"Ruin (Ruin, #1)\", \"Fighting Destiny (The Fae Chronicles, #1)\", \"Taunting Destiny (The Fae Chronicles, #2)\", \"Between the Lines (Between the Lines, #1)\", please write a new books that the user may bought\n### Response:",
+      "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Verum (The Nocte Trilogy, #2)\", \"Nine Minutes (Nine Minutes, #1)\", \"Legend (Real, #6)\", \"Second Debt (Indebted, #3)\", \"Dangerous Girls\", \"Third Debt (Indebted, #4)\", \"Sea of Stars (Kricket, #2)\", \"Three, Two, One (321)\", \"The Deal (Off-Campus, #1)\", \"Manwhore +1 (Manwhore, #2)\", please write a new books that the user may bought\n### Response:"
+    ],
+    "chosen": [
+      "\"City of Stairs (The Divine Cities, #1)\"",
+      "\"Beyond Shame (Beyond, #1)\"",
+      "\"I Want My Hat Back\"",
+      "\"Nocte (The Nocte Trilogy, #1)\"",
+      "\"Fisher's Light\""
+    ]
+  }
+}
