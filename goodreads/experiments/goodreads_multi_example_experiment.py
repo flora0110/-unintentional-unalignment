@@ -15,14 +15,12 @@ from common.experiment.fit_experiment_base import ScoreInfo
 from common.train.callbacks import Callback
 from common.train.fit_output import FitOutput
 from common.train.trainer import Trainer
-# from persona_experiments.data.persona_single_output_token_datamodule import PersonaSingleOutputTokenDataModule
-from goodreads_experiments.train.single_output_preference_based_trainer import SingleOutputPreferenceBasedTrainer
-from poodreads_experiments.train.token_logits_and_probs_tracker_callback import TokenLogitsAndProbsTrackerCallback
-
-from goodreads_experiments.data.goodreads_single_output_token_datamodule import GoodreadsSingleOutputTokenDataModule
+from persona_experiments.data.persona_single_output_token_datamodule import GoodreadsMultiOutputTokenDataModule
+from persona_experiments.train.single_output_preference_based_trainer import SingleOutputPreferenceBasedTrainer
+from persona_experiments.train.token_logits_and_probs_tracker_callback import TokenLogitsAndProbsTrackerCallback
 
 
-class GoodreadsSingleExampleExperiment(FitExperimentBase):
+class GoodreadsMultiExampleExperiment(FitExperimentBase):
 
     @staticmethod
     def add_experiment_specific_args(parser):
@@ -92,10 +90,11 @@ class GoodreadsSingleExampleExperiment(FitExperimentBase):
         state["tokenizer"] = tokenizer
         state["model"] = model
 
-        datamodule = GoodreadsDPODataModule(path=config["dataset"], model=model, tokenizer=tokenizer,
-                                                        # num_train_samples=config["num_train_samples"],
+        datamodule = PersonaSingleOutputTokenDataModule(path=config["dataset"], model=model, tokenizer=tokenizer,
+                                                        output_tokens_matching_yes=config["output_tokens_matching_yes"],
+                                                        output_tokens_matching_no=config["output_tokens_matching_no"],
                                                         num_train_samples=config["num_train_samples"],
-                                                        # answer_matching_behavior_to_use=config["answer_matching_behavior_to_use"],
+                                                        answer_matching_behavior_to_use=config["answer_matching_behavior_to_use"],
                                                         batch_size=config["batch_size"],
                                                         device=state["device"],
                                                         load_dataset_to_device=load_dataset_to_device,

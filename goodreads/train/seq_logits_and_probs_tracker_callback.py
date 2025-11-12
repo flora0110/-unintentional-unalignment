@@ -7,51 +7,19 @@ from tabulate import tabulate
 
 from common.train.callbacks import Callback
 from common.train.trainer import Trainer
-from common.utils.trie_utils import build_item_trie_and_first_token_set
 
-class SequenceResp0LogitsAndProbsTrackerCallback(Callback):
 
-    
+class TokenLogitsAndProbsTrackerCallback(Callback):
 
-    def __init__(self, tokenizer, logger: logging.Logger, num_inputs_to_log_logit_change_for: int = 1, top_tokens_to_log: int = 10, top_items_to_log: int = 20,
+    def __init__(self, tokenizer, logger: logging.Logger, num_inputs_to_log_logit_change_for: int = 1, top_tokens_to_log: int = 10,
                  epoch_log_interval: int = 1, log_after_first_epoch: bool = True, track_finegrained_token_metrics: bool = False):
         self.tokenizer = tokenizer
         self.logger = logger
         self.num_inputs_to_log_logit_change_for = num_inputs_to_log_logit_change_for
         self.top_tokens_to_log = top_tokens_to_log
-        self.top_items_to_log = top_items_to_log
         self.epoch_log_interval = epoch_log_interval
         self.log_after_first_epoch = log_after_first_epoch
         self.track_finegrained_token_metrics = track_finegrained_token_metrics
-
-        # ---- id2name mapping ----
-        with open(id2name_path, "r", encoding="utf-8") as f:
-            raw = json.load(f)
-        # keys might be strings; normalize to int
-        self.id2name: Dict[int, str] = {int(k): v for k, v in raw.items()}
-
-        # ---- 建立 Trie 與預先 tokenized 的 item 序列（作為約束候選集）----
-        self.item_trie, self.item_first_tokens = build_item_trie_and_first_token_set(
-            {str(k): v for k, v in self.id2name.items()},  # 這個 helper 接受 str key
-            self.tokenizer, add_leading_space=self.add_leading_space
-        )
-        # 預 tokenize：item_id -> List[int]
-        self.item_tokenseqs: Dict[int, List[int]] = {}
-        for iid, name in self.id2name.items():
-            text = (" " + name) if self.add_leading_space else name
-            toks = self.tokenizer.encode(text, add_special_tokens=False)[: self.max_item_len]
-            if len(toks) == 0:
-                continue
-            self.item_tokenseqs[iid] = toks
-
-        # 建立一個 item_id 與序列長度的張量，後續可向量化
-        self._item_ids_sorted = sorted(self.item_tokenseqs.keys())
-        self._item_tokenseqs_padded, self._item_attn_mask = self.__pad_item_tokenseqs(
-            [self.item_tokenseqs[iid] for iid in self._item_ids_sorted]
-        )  # -> LongTensor [N_items, L_item], Byte/Bool [N_items, L_item]
-        # 快速查 id 索引
-        self._itemid2col = {iid: j for j, iid in enumerate(self._item_ids_sorted)}
-
 
         # Initial quantities
         self.initial_logprobs = None
@@ -89,401 +57,36 @@ class SequenceResp0LogitsAndProbsTrackerCallback(Callback):
         self.until_step_per_example_top_prob_increase_token_ids = []
         self.until_step_per_example_top_prob_increase_values = []
 
-        # ===== Sequence-level tracking (items) =====
-        # Initial (ref at first seen), first-step policy (first time we see policy), latest/current policy values
-        self.seq_init_ref_chosen = None       # Tensor[B]
-        self.seq_init_ref_rejected = None
-        self.seq_first_pol_chosen = None      # Tensor[B]
-        self.seq_first_pol_rejected = None
-
-        self.seq_curr_pol_chosen = None       # Tensor[B]
-        self.seq_curr_pol_rejected = None
-        self.seq_curr_item_ids_chosen = None  # LongTensor[B]
-        self.seq_curr_item_ids_rejected = None
-
-        self._seen_first_seq_step = False
-
-    
-
     @torch.no_grad()
     def on_train_batch_end(self, trainer: Trainer, batch_num: int, batch_output, metric_values):
-        # output_logprobs = batch_output["output logprobs"]
-        # input_ids = batch_output["input ids"]
-        # preferred_output_ids = batch_output["preferred output ids"]
-        # dispreferred_output_ids = batch_output["dispreferred output ids"]
-        # train_loss = batch_output["train loss"]
-        # unembedding_weights = batch_output["unembedding weights"]
-        # hidden_representations = batch_output["hidden representations"]
-
-        # ========= Token-level (resp0) =========
-        output_logprobs = batch_output["resp0_logprobs"]                 # [B, V]
-        
-        pol_logp_chosen = batch_output["seq/pol_logp_chosen"]      # [B]
-        pol_logp_rejected = batch_output["seq/pol_logp_rejected"]    # [B]
-
-
-        input_ids = batch_output["prompt_input_ids"]                     # [B, Lp]
-        preferred_output_ids = batch_output["resp0_pref_ids"]            # [B]
-        dispreferred_output_ids = batch_output["resp0_disp_ids"]         # [B]
+        output_logprobs = batch_output["output logprobs"]
+        input_ids = batch_output["input ids"]
+        preferred_output_ids = batch_output["preferred output ids"]
+        dispreferred_output_ids = batch_output["dispreferred output ids"]
         train_loss = batch_output["train loss"]
         unembedding_weights = batch_output["unembedding weights"]
-        hidden_representations = batch_output["resp0_hidden"]            # [B, H]
-
+        hidden_representations = batch_output["hidden representations"]
 
         if self.initial_logprobs is None:
-            # self.initial_logprobs = output_logprobs
-            # self.initial_preferred_logprobs = output_logprobs[torch.arange(output_logprobs.size(0)), preferred_output_ids]
-            # self.initial_dispreferred_logprobs = output_logprobs[torch.arange(output_logprobs.size(0)), dispreferred_output_ids]
-            # self.initial_preferred_logprobs_mean = output_logprobs[torch.arange(output_logprobs.size(0)), preferred_output_ids].mean().item()
-            # self.initial_hidden_representations = hidden_representations
-
             self.initial_logprobs = output_logprobs
-            self.initial_preferred_logprobs = pol_logp_chosen
-            self.initial_dispreferred_logprobs = pol_logp_rejected
-            self.initial_preferred_logprobs_mean = pol_logp_chosen.mean().item()
+            self.initial_preferred_logprobs = output_logprobs[torch.arange(output_logprobs.size(0)), preferred_output_ids]
+            self.initial_dispreferred_logprobs = output_logprobs[torch.arange(output_logprobs.size(0)), dispreferred_output_ids]
+            self.initial_preferred_logprobs_mean = output_logprobs[torch.arange(output_logprobs.size(0)), preferred_output_ids].mean().item()
             self.initial_hidden_representations = hidden_representations
-        # else:
-        #     logged = self.__log_if_preferred_token_prob_in_curr_step_decreased(trainer.epoch, output_logprobs, input_ids, preferred_output_ids,
-        #                                                                        dispreferred_output_ids, train_loss, hidden_representations)
-
-        #     should_log_token_logit_and_prob_stats = (self.epoch_log_interval > 0 and
-        #                                              ((trainer.epoch + 1) % self.epoch_log_interval == 0 or trainer.epoch == 1))
-        #     if should_log_token_logit_and_prob_stats and not logged:
-        #         self.__log_token_logit_and_prob_stats_for_examples(trainer.epoch, output_logprobs, input_ids,
-        #                                                            preferred_output_ids, dispreferred_output_ids, hidden_representations)
-        #     if self.track_finegrained_token_metrics:
-        #         self.__update_per_example_and_step_quantities(output_logprobs, preferred_output_ids, dispreferred_output_ids, train_loss)
-
-        # self.__update_prev_epoch_and_aggregate_quantities(output_logprobs, preferred_output_ids, train_loss,
-                                                        #   unembedding_weights, hidden_representations)
         else:
-            # ---- 用序列級的 chosen/rejected logp 來偵測「偏好序列機率下降」 ----
-            logged = self.__log_if_preferred_seq_prob_in_curr_step_decreased(
-                epoch=trainer.epoch,
-                pol_logp_chosen=pol_logp_chosen,           # [B]
-                train_loss=train_loss,
-            )
+            logged = self.__log_if_preferred_token_prob_in_curr_step_decreased(trainer.epoch, output_logprobs, input_ids, preferred_output_ids,
+                                                                               dispreferred_output_ids, train_loss, hidden_representations)
 
-            # ---- token top-k 的表格仍照舊（for resp0 tokens）----
-            should_log_token_logit_and_prob_stats = (
-                self.epoch_log_interval > 0 and
-                ((trainer.epoch + 1) % self.epoch_log_interval == 0 or trainer.epoch == 1)
-            )
+            should_log_token_logit_and_prob_stats = (self.epoch_log_interval > 0 and
+                                                     ((trainer.epoch + 1) % self.epoch_log_interval == 0 or trainer.epoch == 1))
             if should_log_token_logit_and_prob_stats and not logged:
-                self.__log_token_logit_and_prob_stats_for_examples(
-                    trainer.epoch, output_logprobs, input_ids,
-                    preferred_output_ids, dispreferred_output_ids, hidden_representations
-                )
-
-            # 如需逐步序列級度量（非必須）：把 per-step 的 chosen/rejected Δlogp 存起來
+                self.__log_token_logit_and_prob_stats_for_examples(trainer.epoch, output_logprobs, input_ids,
+                                                                   preferred_output_ids, dispreferred_output_ids, hidden_representations)
             if self.track_finegrained_token_metrics:
-                self.__update_seq_per_example_and_step_quantities(
-                    pol_logp_chosen=pol_logp_chosen,         # [B]
-                    pol_logp_rejected=pol_logp_rejected,     # [B]
-                    train_loss=train_loss
-            )
-        self.__update_prev_epoch_and_aggregate_quantities_seqaware(
-            output_logprobs=output_logprobs,               # [B, V] 供 token top-k
-            pol_logp_chosen=pol_logp_chosen,               # [B]    供 seq-level 聚合
-            train_loss=train_loss,
-            unembedding_weights=unembedding_weights,
-            hidden_representations=hidden_representations
-        )
+                self.__update_per_example_and_step_quantities(output_logprobs, preferred_output_ids, dispreferred_output_ids, train_loss)
 
-        # ========= 新增：seq-level（Trie 受限候選，teacher forcing）=========
-        # 使用同一批的 prompt（與你 token-level 計算一致）
-        prompt_ids: torch.Tensor = batch_output["prompt_input_ids"].to(self.device)  # [B, Lp]
-        if "prompt_attn_mask" in batch_output:
-            prompt_attn = batch_output["prompt_attn_mask"].to(self.device)
-        else:
-            pad_id = self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else 0
-            prompt_attn = (prompt_ids != pad_id).to(self.device)
-
-        # 候選過濾（可選）：用 policy 第一階段 token 分佈取 top-K 首 token；同時也可把 reference 的 top-K 併入聯集
-        # 若你手上有當前步驟的「下一 token」logprob（與 token-level 相同），可用它來挑；否則直接評分全體候選
-        candidate_cols = None
-        if "resp0_logprobs" in batch_output:
-            pol_first = batch_output["resp0_logprobs"].to(self.device)          # [B, V] (policy)
-            # 若你也存有 reference 的第一步分佈，可合併；否則只用 policy 的
-            candidate_cols = self.__candidate_items_by_top1st_token(pol_first, K=max(200, self.top_items_to_log*10))
-
-        # 分別計算 policy / reference 的 item 序列 logp（[B, N_items]）
-        seqlogp_pol = self.__seq_logp_over_items(self.policy_model,   prompt_ids, prompt_attn, candidate_item_cols=candidate_cols)
-        seqlogp_ref = self.__seq_logp_over_items(self.reference_model, prompt_ids, prompt_attn, candidate_item_cols=candidate_cols)
-
-        # 輸出整個 batch 的「Overall Top ↑ / ↓」
-        should_log_seq = (self.epoch_log_interval > 0 and
-                        ((trainer.epoch + 1) % self.epoch_log_interval == 0 or trainer.epoch == 1))
-        if should_log_seq:
-            self.__log_overall_seqlevel_stats(trainer.epoch, seqlogp_pol, seqlogp_ref, title_prefix="Overall Seq-Level (Trie constrained)")
-
-        # 若你也想在第一個步驟存 baseline，可在這裡做（選擇性）
-        if not hasattr(self, "seq_init_ref_all"):
-            self.seq_init_ref_all = seqlogp_ref.detach().clone()
-            self.seq_first_pol_all = seqlogp_pol.detach().clone()
-        self.seq_curr_pol_all = seqlogp_pol.detach().clone()
-        self.seq_curr_ref_all = seqlogp_ref.detach().clone()
-        # ========= Sequence-level (items) =========
-            # pol_ch = batch_output["seq/pol_logp_chosen"]      # [B]
-            # pol_rj = batch_output["seq/pol_logp_rejected"]    # [B]
-            # ref_ch = batch_output["seq/ref_logp_chosen"]      # [B]
-            # ref_rj = batch_output["seq/ref_logp_rejected"]    # [B]
-            # ids_ch = batch_output["chosen_item_ids"]          # LongTensor[B]
-            # ids_rj = batch_output["rejected_item_ids"]        # LongTensor[B]
-
-            # if self.seq_init_ref_chosen is None:
-            #     # set initial (ref) baseline
-            #     self.seq_init_ref_chosen = ref_ch.clone().detach()
-            #     self.seq_init_ref_rejected = ref_rj.clone().detach()
-            #     # also capture first-step policy (after first update)
-            #     self.seq_first_pol_chosen = pol_ch.clone().detach()
-            #     self.seq_first_pol_rejected = pol_rj.clone().detach()
-            #     self._seen_first_seq_step = True
-
-            # # always keep current/latest
-            # self.seq_curr_pol_chosen = pol_ch.clone().detach()
-            # self.seq_curr_pol_rejected = pol_rj.clone().detach()
-            # self.seq_curr_item_ids_chosen = ids_ch.clone().detach()
-            # self.seq_curr_item_ids_rejected = ids_rj.clone().detach()
-
-    # @torch.no_grad()
-    # def on_train_end(self, trainer: Trainer, fit_output):
-    #     """
-    #     At training end, log top-k items with largest increases/decreases in sequence logprob (chosen/rejected),
-    #     including current value, first-step value, initial(ref) value, and deltas.
-    #     """
-    #     if self.seq_curr_pol_chosen is None or self.seq_init_ref_chosen is None:
-    #         return  # no sequence info observed
-
-    #     # ---- chosen ----
-    #     self.__log_topk_items_table(
-    #         title="FINAL Top-k CHOSEN items by logprob INCREASE (curr - init_ref)",
-    #         curr=self.seq_curr_pol_chosen,
-    #         first=self.seq_first_pol_chosen,
-    #         init_ref=self.seq_init_ref_chosen,
-    #         item_ids=self.seq_curr_item_ids_chosen,
-    #         largest=True,
-    #     )
-    #     self.__log_topk_items_table(
-    #         title="FINAL Top-k CHOSEN items by logprob DECREASE (curr - init_ref)",
-    #         curr=self.seq_curr_pol_chosen,
-    #         first=self.seq_first_pol_chosen,
-    #         init_ref=self.seq_init_ref_chosen,
-    #         item_ids=self.seq_curr_item_ids_chosen,
-    #         largest=False,
-    #     )
-
-    #     # ---- rejected ----
-    #     self.__log_topk_items_table(
-    #         title="FINAL Top-k REJECTED items by logprob INCREASE (curr - init_ref)",
-    #         curr=self.seq_curr_pol_rejected,
-    #         first=self.seq_first_pol_rejected,
-    #         init_ref=self.seq_init_ref_rejected,
-    #         item_ids=self.seq_curr_item_ids_rejected,
-    #         largest=True,
-    #     )
-    #     self.__log_topk_items_table(
-    #         title="FINAL Top-k REJECTED items by logprob DECREASE (curr - init_ref)",
-    #         curr=self.seq_curr_pol_rejected,
-    #         first=self.seq_first_pol_rejected,
-    #         init_ref=self.seq_init_ref_rejected,
-    #         item_ids=self.seq_curr_item_ids_rejected,
-    #         largest=False,
-    #     )
-
-    def __pad_item_tokenseqs(self, tokenseqs: List[List[int]]) -> Tuple[torch.Tensor, torch.Tensor]:
-        if len(tokenseqs) == 0:
-            return torch.empty(0, 0, dtype=torch.long), torch.empty(0, 0, dtype=torch.bool)
-        L = max(len(t) for t in tokenseqs)
-        pad_id = self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else 0
-        arr = torch.full((len(tokenseqs), L), pad_id, dtype=torch.long)
-        mask = torch.zeros((len(tokenseqs), L), dtype=torch.bool)
-        for i, t in enumerate(tokenseqs):
-            n = len(t)
-            arr[i, :n] = torch.tensor(t, dtype=torch.long)
-            mask[i, :n] = True
-        return arr.to(self.device), mask.to(self.device)
-
-    @torch.no_grad()
-    def __seq_logp_over_items(self, model: nn.Module,
-                          prompt_input_ids: torch.Tensor,  # [B, Lp]
-                          prompt_attn_mask: Optional[torch.Tensor] = None,
-                          candidate_item_cols: Optional[torch.Tensor] = None
-                          ) -> torch.Tensor:
-        """
-        回傳 shape [B, N_items] 的每個 item 的序列 logp（對齊 id2name 的候選集）。
-        作法：teacher forcing，把每個 prompt 與所有候選 item_tokens 串接，收集 item token 位置的 log softmax 並加總。
-        若 candidate_item_cols 非空，僅計算子集合（可用於先用第一步 top-K 先過濾）。
-        """
-        model.eval()
-
-        B, Lp = prompt_input_ids.shape
-        device = self.device
-        pad_id = self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else 0
-
-        # 取要評分的 item 索引集合（列對應 self._item_ids_sorted 的 column 索引）
-        if candidate_item_cols is None:
-            cand_cols = torch.arange(self._item_tokenseqs_padded.size(0), device=device)
-        else:
-            cand_cols = candidate_item_cols.to(device)
-
-        item_tok = self._item_tokenseqs_padded[cand_cols]        # [Nc, L_item]
-        item_msk = self._item_attn_mask[cand_cols]               # [Nc, L_item]
-        Nc, Litem = item_tok.shape
-
-        # 我們採用「每個 batch 樣本 * 所有候選 item」的向量化展開：
-        #   對於第 b 個樣本，複製 prompt  Nc 份；把 item_tok 拼接在每份 prompt 後面
-        # 先把 prompt 展平到 [B*Nc, Lp]；item 複製到 [B*Nc, Litem]
-        prompt_rep = prompt_input_ids.unsqueeze(1).expand(B, Nc, Lp).reshape(B * Nc, Lp)
-        item_rep   = item_tok.unsqueeze(0).expand(B, Nc, Litem).reshape(B * Nc, Litem)
-
-        inp = torch.cat([prompt_rep, item_rep], dim=1).to(device)              # [B*Nc, Lp+Litem]
-        # 注意：若模型需要 attention_mask，則這裡也要拼接
-        if prompt_attn_mask is None:
-            pam = (prompt_rep != pad_id).to(device)
-        else:
-            pam = prompt_attn_mask.unsqueeze(1).expand(B, Nc, Lp).reshape(B * Nc, Lp).to(device)
-        iam = item_msk.unsqueeze(0).expand(B, Nc, Litem).reshape(B * Nc, Litem).to(device)
-        attn_mask = torch.cat([pam, iam], dim=1)                                # [B*Nc, Lp+Litem]
-
-        # 前傳
-        out = model(input_ids=inp, attention_mask=attn_mask, use_cache=False)
-        # 取得所有位置的 logits；對 item token 的每一個位置 t，要拿位置 t 的 logits 去評分 token item_rep[:, t]
-        # logits shape: [B*Nc, Lp+Litem, V]
-        logits = out.logits[:, :-1, :]  # next-token logits；對齊輸入（shift）
-        # item 的第一個 token 位置（在整串）是位置 Lp-1 的 next
-        # 因此對 item 的 token 序列，我們需要 logits 的 slice：對應到輸入 index [Lp-1, Lp, ..., Lp+Litem-2] 的 next
-        item_logits = logits[:, Lp-1: Lp-1 + Litem, :]                         # [B*Nc, Litem, V]
-        logp = torch.log_softmax(item_logits, dim=-1)                          # [B*Nc, Litem, V]
-        token_logp = torch.gather(logp, dim=-1, index=item_rep.unsqueeze(-1)).squeeze(-1)  # [B*Nc, Litem]
-
-        # 僅加總有效的 item token（mask==True）
-        token_logp = token_logp.masked_fill(~iam, 0.0)
-        seq_logp = token_logp.sum(dim=1)                                       # [B*Nc]
-
-        # reshape 回 [B, Nc]
-        seq_logp = seq_logp.view(B, Nc)
-        # 把 Nc 映回全體 N_items 的位置（沒有算的設為 -inf）
-        N_all = self._item_tokenseqs_padded.size(0)
-        full = torch.full((B, N_all), float('-inf'), device=device)
-        full[:, cand_cols] = seq_logp
-        return full  # [B, N_items]
-
-    def __log_overall_seqlevel_stats(self, epoch: int,
-                                 seqlogp_pol: torch.Tensor,  # [B, N_items]
-                                 seqlogp_ref: torch.Tensor,  # [B, N_items]
-                                 title_prefix: str = "Overall Seq-Level"):
-        # 跨樣本平均（忽略 -inf）
-        def masked_mean(x: torch.Tensor) -> torch.Tensor:
-            m = torch.isfinite(x).float()
-            num = (x * m).sum(dim=0)
-            den = m.sum(dim=0).clamp_min(1.0)
-            return num / den
-
-        lp_pol = masked_mean(seqlogp_pol)  # [N_items]
-        lp_ref = masked_mean(seqlogp_ref)  # [N_items]
-        delta = lp_pol - lp_ref
-        p_pol = torch.exp(lp_pol)
-        p_ref = torch.exp(lp_ref)
-        dp = p_pol - p_ref
-
-        k = min(self.top_items_to_log, delta.numel())
-        top_up   = torch.topk(delta, k=k, largest=True)
-        top_down = torch.topk(delta, k=k, largest=False)
-        top_p_up   = torch.topk(dp, k=k, largest=True)
-        top_p_down = torch.topk(dp, k=k, largest=False)
-
-        def rows_from_indices(idx_tensor: torch.Tensor, header: str):
-            rows = [header]
-            for j in idx_tensor.tolist():
-                iid = self._item_ids_sorted[j]
-                name = self.id2name.get(iid, f"<{iid}>")
-                rows.append(f"(id={iid}) {name} | p_ref={p_ref[j].item():.6e} | p_pol={p_pol[j].item():.6e} | "
-                            f"delta_logp={delta[j].item():.6f}")
-            return rows
-
-        table_rows = []
-        table_rows.append(rows_from_indices(top_up.indices,   "Overall Top Logprob Increase"))
-        table_rows.append(rows_from_indices(top_down.indices, "Overall Top Logprob Decrease"))
-        table_rows.append(rows_from_indices(top_p_up.indices,   "Overall Top Prob Increase"))
-        table_rows.append(rows_from_indices(top_p_down.indices, "Overall Top Prob Decrease"))
-
-        self.__log_table(epoch, f"{title_prefix} (k={k})", row_values=table_rows, additional_info=None)
-
-    def __log_if_preferred_seq_prob_in_curr_step_decreased(self, epoch: int, pol_logp_chosen: torch.Tensor, train_loss: float):
-        """
-        用序列級 chosen 的 logp 平均值判斷是否較「上一輪」下降；若是且到達 log 週期，輸出提示。
-        """
-        # 上一步的序列級「上一輪平均」若未就緒（第一步），就不觸發
-        if self.prev_epoch_logprobs is None:
-            return False
-
-        mean_curr = pol_logp_chosen.mean()
-        # 用前一輪的「序列級 chosen 平均」：我們把它存在 self.prev_epoch_seq_pref_mean
-        mean_prev = self.prev_epoch_seq_pref_mean if hasattr(self, "prev_epoch_seq_pref_mean") else mean_curr
-
-        prob_decreased = (mean_curr - mean_prev) < 0
-        if (not prob_decreased) or (self.prev_epoch_logged_due_to_preferred_prob_decrease + self.epoch_log_interval > epoch):
-            # 沒下降或未到 log 間隔，就不記錄
-            self.prev_epoch_seq_pref_mean = mean_curr
-            return False
-
-        # 記錄一次
-        self.prev_epoch_logged_due_to_preferred_prob_decrease = epoch
-        self.num_steps_preferred_prob_decreased += 1
-        train_loss_increased = train_loss > (self.prev_epoch_loss if self.prev_epoch_loss is not None else train_loss)
-        if train_loss_increased:
-            self.num_steps_train_loss_increase_when_preferred_prob_decreased += 1
-
-        if self.epoch_log_interval <= 0:
-            self.prev_epoch_seq_pref_mean = mean_curr
-            return False
-
-        init_mean = self.initial_preferred_logprobs_mean  # 你在 __init__ 時存的 seq-level 初始（來自第一步 pol_chosen 平均）
-        self.logger.info(
-            f"\n**********************************************************\n"
-            f"Epoch: {epoch}: Mean preferred **sequence** log probability decreased from previous step: "
-            f"{mean_curr.item():.6f} - {mean_prev.item():.6f} "
-            f"(diff: {(mean_curr - mean_prev).item():.6f}, init: {init_mean:.6f})\n"
-            f"Train loss after step {train_loss:.6f} (increased vs prev? {train_loss_increased})\n"
-            f"Total #steps where preferred **sequence** prob decreased: {self.num_steps_preferred_prob_decreased}\n"
-            f"**********************************************************"
-        )
-        self.prev_epoch_seq_pref_mean = mean_curr
-        return True
-
-    def __update_prev_epoch_and_aggregate_quantities_seqaware(
-        self,
-        output_logprobs: torch.Tensor,         # [B, V] 仍保留給 token top-k 使用
-        pol_logp_chosen: torch.Tensor,         # [B]    用來做 seq-level 聚合
-        train_loss: float,
-        unembedding_weights: torch.Tensor,
-        hidden_representations: torch.Tensor
-    ):
-        # ---- for token analytics (與原本一致) ----
-        self.prev_epoch_loss = train_loss
-        self.prev_epoch_logprobs = output_logprobs
-        self.prev_epoch_token_unembeddings = unembedding_weights
-        self.prev_epoch_hidden_representations = hidden_representations
-
-        # ---- for sequence-level aggregates ----
-        curr_pref_seq_mean = pol_logp_chosen.mean().item()
-        if self.min_pref_logprob is None:
-            self.min_pref_logprob = curr_pref_seq_mean
-        else:
-            self.min_pref_logprob = min(self.min_pref_logprob, curr_pref_seq_mean)
-
-        self.min_pref_logprob_smaller_than_init = (
-            self.min_pref_logprob_smaller_than_init or
-            (self.min_pref_logprob < self.initial_preferred_logprobs_mean)
-        )
-
-        # 存下本輪的序列級「平均」以供下一步比較
-        self.prev_epoch_seq_pref_mean = pol_logp_chosen.mean()
-
-
-    # old token-level methods below
-    
+        self.__update_prev_epoch_and_aggregate_quantities(output_logprobs, preferred_output_ids, train_loss,
+                                                          unembedding_weights, hidden_representations)
 
     def __update_prev_epoch_and_aggregate_quantities(self, output_logprobs, preferred_output_ids, train_loss, unembedding_weights,
                                                      hidden_representations):

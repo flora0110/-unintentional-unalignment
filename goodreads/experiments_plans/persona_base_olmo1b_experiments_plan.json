@@ -1,5 +1,5 @@
 {
-  "name": "Goodreads DPO after SFT for OLMo-1B model",
+  "name": "Persona DPO for the base OLMo-1B model",
   "description": "",
   "skip": 0,
   "repetitions": 1,
@@ -12,13 +12,13 @@
   "configurations": [
     {
       "base_config": {
-        "experiment_name": "olmo1b_post_sft_goodreads_{objective}_ntrain_{num_train_samples}_seed_{train_samples_random_seed}_y_tokens_{output_tokens_matching_yes}_n_tokens_{output_tokens_matching_no}",
+        "experiment_name": "olmo1b_base_persona_{objective}_ntrain_{num_train_samples}_seed_{train_samples_random_seed}_y_tokens_{output_tokens_matching_yes}_n_tokens_{output_tokens_matching_no}",
         "random_seed": -1,
         "gpu_ids": [],
         "trainer_checkpoint": "",
         "epochs": 101,
         "validate_every": 10,
-        "outputs_dir": "outputs/persona/olmo1b_post_sft_{objective}_yes_vs_no",
+        "outputs_dir": "outputs/persona/olmo1b_base_{objective}_yes_vs_no",
         "disable_console_log": true,
         "save_logs": true,
         "train_batch_log_interval": -1,
@@ -58,9 +58,9 @@
           "Yes"
         ],
         "load_dataset_to_gpu": true,
-        "model": "/scratch/user/chuanhsin0110/hf_models/allenai-OLMo-1B-hf",
-        "model_cache_dir": "/scratch/user/chuanhsin0110/hf_cache",
-        "load_model_checkpoint": "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/persona_models/olmo1b_sft_persona_cross_entropy_2025_11_03-18_37_18/model_epoch_0",
+        "model": "allenai/OLMo-1B-hf",
+        "model_cache_dir": null,
+        "load_model_checkpoint": null,
         "is_lora_checkpoint": false,
         "use_lora": false,
         "lora_rank": 8,
@@ -90,13 +90,13 @@
     },
     {
       "base_config": {
-        "experiment_name": "olmo1b_post_sft_persona_{objective}_ntrain_{num_train_samples}_seed_{train_samples_random_seed}_y_tokens_{output_tokens_matching_yes}_n_tokens_{output_tokens_matching_no}",
+        "experiment_name": "olmo1b_base_persona_{objective}_ntrain_{num_train_samples}_seed_{train_samples_random_seed}_y_tokens_{output_tokens_matching_yes}_n_tokens_{output_tokens_matching_no}",
         "random_seed": -1,
         "gpu_ids": [],
         "trainer_checkpoint": "",
         "epochs": 101,
         "validate_every": 10,
-        "outputs_dir": "outputs/persona/olmo1b_post_sft_{objective}_no_vs_never",
+        "outputs_dir": "outputs/persona/olmo1b_base_{objective}_no_vs_never",
         "disable_console_log": true,
         "save_logs": true,
         "train_batch_log_interval": -1,
@@ -136,9 +136,9 @@
           "Never"
         ],
         "load_dataset_to_gpu": true,
-        "model": "/scratch/user/chuanhsin0110/hf_models/allenai-OLMo-1B-hf",
-        "model_cache_dir": "/scratch/user/chuanhsin0110/hf_cache",
-        "load_model_checkpoint": "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/persona_models/olmo1b_sft_persona_cross_entropy_2025_11_03-18_37_18/model_epoch_0",
+        "model": "allenai/OLMo-1B-hf",
+        "model_cache_dir": null,
+        "load_model_checkpoint": null,
         "is_lora_checkpoint": false,
         "use_lora": false,
         "lora_rank": 8,

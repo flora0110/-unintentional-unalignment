@@ -52,6 +52,18 @@ def __ultrafeedback_create_format_input_func():
 
     return format_input_func
 
+def __goodreads_create_format_input_func():
+    def format_input_func(example):
+        new_example = {}
+        chosen, rejected = example["chosen"], example["rejected"]
+        query = example["prompt"]
+
+        new_example["query"] = query
+        new_example["text_w"] = f"{query}{chosen}"
+        new_example["text_l"] = f"{query}{rejected}"
+        return new_example
+
+    return format_input_func
 
 def __create_chat_template_format_input_func(tokenizer, query_field: str = "query", chosen_field: str = "chosen", rejected_field: str = "rejected"):
     def format_input_func(example):
@@ -69,7 +81,8 @@ def __create_chat_template_format_input_func(tokenizer, query_field: str = "quer
 
 DATASET_CREATE_FORMAT_INPUT_FUNC = {
     "tatsu-lab/alpaca_farm": __orig_alpacafarm_create_format_input_func,
-    "HuggingFaceH4/ultrafeedback_binarized": __ultrafeedback_create_format_input_func
+    "HuggingFaceH4/ultrafeedback_binarized": __ultrafeedback_create_format_input_func,
+    "Goodreads": __goodreads_create_format_input_func,
 }
 
 
@@ -78,6 +91,13 @@ def __get_dataset(dataset_name: str, cache_dir: str = None):
         return datasets.load_dataset(dataset_name, name="alpaca_human_preference", split="preference", cache_dir=cache_dir)
     elif dataset_name == "HuggingFaceH4/ultrafeedback_binarized":
         return datasets.load_dataset(dataset_name, split="train_prefs", cache_dir=cache_dir)
+    elif dataset_name == "Goodreads":
+        return datasets.load_dataset(
+            "json",
+            data_files={"train": "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/train.json"},
+            split="train",
+            cache_dir=cache_dir
+        )
     else:
         # Loads dataset from JSON file for all other datasets
         return datasets.load_dataset("json", data_files=dataset_name, split="train")
