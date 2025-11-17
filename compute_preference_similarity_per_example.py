@@ -94,7 +94,7 @@ def __get_dataset(dataset_name: str, cache_dir: str = None):
     elif dataset_name == "Goodreads":
         return datasets.load_dataset(
             "json",
-            data_files={"train": "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/train.json"},
+            data_files={"train": "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/valid.json"},
             split="train",
             cache_dir=cache_dir
         )
@@ -365,7 +365,7 @@ def main(config: dict):
             "ln_ches_scores": ln_ches_scores,
             "last_hidden_embedding_inner_prods": last_hidden_embedding_inner_prods
         }
-        torch.save(results, os.path.join(config["output_dir"], subdir_name, f"results_samples.pt"))
+        torch.save(results, os.path.join(config["output_dir"], subdir_name, f"results_samples_valid.pt"))
 
         end_time = datetime.utcnow()
         logger.info(f"Finished script, time took: {end_time - start_time}")

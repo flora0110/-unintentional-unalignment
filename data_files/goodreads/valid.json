@@ -1,0 +1,1282 @@
+[
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Baller\", \"Fall with Me (Wait for You, #4)\", \"Stay with Me (Wait for You, #3)\", \"The Score (Off-Campus, #3)\", \"On Dublin Street (On Dublin Street, #1)\", \"Moonlight on Nightingale Way (On Dublin Street, #6)\", \"Echoes of Scotland Street (On Dublin Street, #5)\", \"The Goal (Off-Campus, #4)\", \"The Player and the Pixie (Rugby, #2)\", \"The Wall of Winnipeg and Me\", please write a new books that the user may bought",
+    "output": "\"The Undoing (Call of Crows, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Raven King (The Raven Cycle, #4)\", \"Sustained (The Legal Briefs, #2)\", \"Royally Screwed (Royally, #1)\", \"Roman Crazy\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Royally Matched (Royally, #2)\", \"Without Merit\", \"The Hate U Give\", \"Wait for It\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", please write a new books that the user may bought",
+    "output": "\"Beautiful Mistake\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Crash into You (Pushing the Limits, #3)\", \"Nowhere But Here (Thunder Road, #1)\", \"Take Me On (Pushing the Limits, #4)\", \"The Power (Titan, #2)\", \"The Lost Hero (The Heroes of Olympus, #1)\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"The Mark of Athena (The Heroes of Olympus, #3)\", \"Walk the Edge (Thunder Road, #2)\", \"All Lined Up (Rusk University, #1)\", \"Fall with Me (Wait for You, #4)\", please write a new books that the user may bought",
+    "output": "\"Crooked Kingdom (Six of Crows, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Dreamless (Starcrossed, #2)\", \"Between Shades of Gray\", \"More Happy Than Not\", \"Destroy Me (Shatter Me, #1.5)\", \"Ignite Me (Shatter Me, #3)\", \"Attack on Titan, Vol. 2 (Attack on Titan, #2)\", \"Attack on Titan, Volume 12\", \"Redeeming Love\", \"Matilda\", \"Howl's Moving Castle (Howl's Moving Castle, #1)\", please write a new books that the user may bought",
+    "output": "\"The Battle of the Labyrinth (Percy Jackson and the Olympians, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Exiled Queen (Seven Realms, #2)\", \"The Gray Wolf Throne (Seven Realms, #3)\", \"The Crimson Crown (Seven Realms, #4)\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"The Mark of Athena (The Heroes of Olympus, #3)\", \"Can You Keep a Secret?\", \"Ten Tiny Breaths (Ten Tiny Breaths, #1)\", \"The Burning Sky (The Elemental Trilogy, #1)\", \"Kiss an Angel\", please write a new books that the user may bought",
+    "output": "\"Born at Midnight (Shadow Falls, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Reached (Matched, #3)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Raven Boys (The Raven Cycle, #1)\", \"Splintered (Splintered, #1)\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Incarnate (Newsoul, #1)\", \"The Darkest Part of the Forest\", \"The Glass Arrow\", \"Saving Francesca\", \"Six of Crows (Six of Crows, #1)\", please write a new books that the user may bought",
+    "output": "\"An Ember in the Ashes (An Ember in the Ashes, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Be My Hero (Forbidden Men, #3)\", \"Rules of Protection (Tangled in Texas, #1)\", \"Kick, Push (Kick Push, #1)\", \"The Power (Titan, #2)\", \"RoomHate\", \"Oblivion (Lux, #1.5)\", \"The Princess Saves Herself in this One\", \"Punk 57\", \"Grievous (Scarlet Scars, #2)\", \"Pucked Off (Pucked, #5)\", please write a new books that the user may bought",
+    "output": "\"Truce (Neighbor from Hell, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cress (The Lunar Chronicles, #3)\", \"Winter (The Lunar Chronicles, #4)\", \"The Selection (The Selection, #1)\", \"Carry On\", \"City of Ashes (The Mortal Instruments, #2)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"City of Glass (The Mortal Instruments, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", please write a new books that the user may bought",
+    "output": "\"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Nevernight (The Nevernight Chronicle, #1)\", \"When the Moon Was Ours\", \"Nimona\", \"Monsters of Men (Chaos Walking, #3)\", \"Highly Illogical Behavior\", \"The Sun Is Also a Star\", \"Alexander Hamilton\", \"Girl Against the Universe\", \"Furthermore\", \"The Gentleman's Guide to Vice and Virtue\", please write a new books that the user may bought",
+    "output": "\"This Adventure Ends\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Cloud Searchers (Amulet, #3)\", \"Locke & Key, Vol. 2: Head Games\", \"Seconds\", \"The Age of Miracles\", \"A Darker Shade of Magic (Shades of Magic, #1)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"The Last Council (Amulet, #4)\", \"The Outsiders\", \"Saga, Vol. 5 (Saga, #5)\", \"Vicious (Villains, #1)\", please write a new books that the user may bought",
+    "output": "\"More Happy Than Not\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"One Good Earl Deserves a Lover (The Rules of Scoundrels, #2)\", \"No Good Duke Goes Unpunished (The Rules of Scoundrels, #3)\", \"Never Judge a Lady by Her Cover (The Rules of Scoundrels, #4)\", \"A Night to Surrender (Spindle Cove, #1)\", \"A Week to Be Wicked (Spindle Cove, #2)\", \"A Lady by Midnight (Spindle Cove, #3)\", \"Nine Rules to Break When Romancing a Rake (Love By Numbers, #1)\", \"Suddenly You\", \"Worth the Fall (The McKinney Brothers, #1)\", \"The Duchess War (Brothers Sinister, #1)\", please write a new books that the user may bought",
+    "output": "\"Cruel Beauty (Cruel Beauty Universe, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"All Our Yesterdays\", \"Divergent (Divergent, #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"A Torch Against the Night (An Ember in the Ashes, #2)\", \"When Dimple Met Rishi\", \"Frostblood (Frostblood Saga, #1)\", \"History Is All You Left Me\", \"One of Us Is Lying\", please write a new books that the user may bought",
+    "output": "\"One Dark Throne (Three Dark Crowns, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hook Up (Game On, #1)\", \"Fighting Redemption\", \"The Infinite Sea (The 5th Wave, #2)\", \"Vanishing Girls\", \"Thoughtful (Thoughtless, #1.5)\", \"All the Bright Places\", \"I'll Give You the Sun\", \"World After (Penryn & the End of Days, #2)\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The Lost Hero (The Heroes of Olympus, #1)\", please write a new books that the user may bought",
+    "output": "\"The Son of Neptune (The Heroes of Olympus, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Red Queen (Red Queen, #1)\", \"I'll Give You the Sun\", \"Sweet Peril (Sweet, #2)\", \"Sweet Reckoning (Sweet, #3)\", \"Room\", \"Just Listen\", \"Gabriel's Inferno (Gabriel's Inferno, #1)\", \"Gabriel's Rapture (Gabriel's Inferno, #2)\", \"Gabriel's Redemption (Gabriel's Inferno, #3)\", \"Confess\", please write a new books that the user may bought",
+    "output": "\"Ascend (Trylle, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hunger Games (The Hunger Games, #1)\", \"The Infinite Sea (The 5th Wave, #2)\", \"Paranormalcy (Paranormalcy, #1)\", \"Vampire Academy (Vampire Academy, #1)\", \"Shadow Kiss (Vampire Academy, #3)\", \"Warm Bodies (Warm Bodies, #1)\", \"Born at Midnight (Shadow Falls, #1)\", \"Shiver (The Wolves of Mercy Falls, #1)\", \"Last Sacrifice (Vampire Academy, #6)\", \"Chosen at Nightfall (Shadow Falls, #5)\", please write a new books that the user may bought",
+    "output": "\"Anna and the French Kiss (Anna and the French Kiss, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Frost Like Night (Snow Like Ashes, #3)\", \"The Little Prince\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Matilda\", \"The Problem with Forever\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"King's Cage (Red Queen, #3)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought",
+    "output": "\"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"The Strange and Beautiful Sorrows of Ava Lavender\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"Illuminae (The Illuminae Files, #1)\", \"Prince's Gambit (Captive Prince, #2)\", \"Kings Rising (Captive Prince, #3)\", \"Nimona\", \"Crooked Kingdom (Six of Crows, #2)\", \"The King's Men (All for the Game, #3)\", \"The Hidden Oracle (The Trials of Apollo, #1)\", please write a new books that the user may bought",
+    "output": "\"The Dark Prophecy (The Trials of Apollo, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"These Broken Stars (Starbound, #1)\", \"Pivot Point (Pivot Point, #1)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Immortal Rules (Blood of Eden, #1)\", \"Immortal Beloved (Immortal Beloved, #1)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"Of Poseidon (The Syrena Legacy, #1)\", \"Asunder (Newsoul, #2)\", please write a new books that the user may bought",
+    "output": "\"Me Before You (Me Before You, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Archer's Voice\", \"Sweet Filthy Boy (Wild Seasons, #1)\", \"Taint (Sexual Education, #1)\", \"Rogue (Real, #4)\", \"Rival (Fall Away, #2)\", \"Six of Hearts (Hearts, #1)\", \"This is Falling (Falling, #1)\", \"Fallen Too Far (Rosemary Beach, #1; Too Far, #1)\", \"Stay with Me (Wait for You, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", please write a new books that the user may bought",
+    "output": "\"The Friend Zone (Game On, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Bitter of Tongue (Tales from the Shadowhunter Academy, #7)\", \"Pale Kings and Princes (Tales from the Shadowhunter Academy, #6)\", \"The Fiery Trial (Tales from the Shadowhunter Academy, #8)\", \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"Angels Twice Descending (Tales from the Shadowhunter Academy, #10)\", \"Summer Days and Summer Nights: Twelve Love Stories\", \"The Geography of You and Me\", \"The Rose & the Dagger (The Wrath & the Dawn, #2)\", \"The Raven Boys (The Raven Cycle, #1)\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", please write a new books that the user may bought",
+    "output": "\"The Crown of Ptolemy (Percy Jackson & Kane Chronicles Crossover #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cinder (The Lunar Chronicles, #1)\", \"Legend (Legend, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Scarlet (The Lunar Chronicles, #2)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Silence (Hush, Hush, #3)\", \"Finale (Hush, Hush, #4)\", \"Winter (The Lunar Chronicles, #4)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"City of Glass (The Mortal Instruments, #3)\", please write a new books that the user may bought",
+    "output": "\"City of Ashes (The Mortal Instruments, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Ramsay\", \"Shadows (Lux, #0.5)\", \"Neighbor Dearest\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"The Retribution of Mara Dyer (Mara Dyer, #3)\", \"Punk 57\", \"Playboy Pilot\", \"Royally Screwed (Royally, #1)\", \"Mr. President (White House, #1)\", please write a new books that the user may bought",
+    "output": "\"Royally Matched (Royally, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The One (The Selection, #3)\", \"Burned (Burned, #1)\", \"Death Note, Vol. 3: Hard Run (Death Note, #3)\", \"Fallout (Crank, #3)\", \"Wintergirls\", \"Fullmetal Alchemist, Vol. 1 (Fullmetal Alchemist, #1)\", \"This Is Where It Ends\", \"Attack on Titan, Vol. 1 (Attack on Titan, #1)\", \"The Bad Beginning (A Series of Unfortunate Events, #1)\", \"The Reptile Room (A Series of Unfortunate Events, #2)\", please write a new books that the user may bought",
+    "output": "\"Milk and Honey\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"And Then There Were None\", \"Across the Universe (Across the Universe, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"The Shock of the Fall\", \"Rebel Belle (Rebel Belle, #1)\", \"I'll Give You the Sun\", \"Murder on the Orient Express (Hercule Poirot, #10)\", \"Jellicoe Road\", \"Through the Woods\", please write a new books that the user may bought",
+    "output": "\"We Have Always Lived in the Castle\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Rock Chick Revenge (Rock Chick, #5)\", \"Rock Chick Redemption (Rock Chick, #3)\", \"Rock Chick (Rock Chick, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"Rock Chick Renegade (Rock Chick, #4)\", \"Until You (Fall Away, #1.5)\", \"Unteachable\", \"Shine Not Burn (Shine Not Burn, #1)\", \"Bully (Fall Away, #1)\", \"Reaper's Legacy (Reapers MC, #2)\", please write a new books that the user may bought",
+    "output": "\"Twisted (Tangled, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Start of Me and You\", \"Unravel Me (Shatter Me, #2)\", \"The Last Time We Say Goodbye\", \"The Martian\", \"Persuasion\", \"Everything, Everything\", \"Every Last Word\", \"A Dog's Purpose (A Dog's Purpose, #1)\", \"A Game of Thrones (A Song of Ice and Fire, #1)\", \"Rilla of Ingleside (Anne of Green Gables, #8)\", please write a new books that the user may bought",
+    "output": "\"Ugly Love\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Bad Romeo (Starcrossed, #1)\", \"The Last Time We Say Goodbye\", \"All the Bright Places\", \"My Heart and Other Black Holes\", \"The Deal (Off-Campus, #1)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"On the Jellicoe Road\", \"Some Kind of Perfect (Calloway Sisters, #4.5; Addicted, #3.5)\", \"Back to You\", please write a new books that the user may bought",
+    "output": "\"Everything, Everything\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Lady Midnight (The Dark Artifices, #1)\", \"The Final Empire (Mistborn, #1)\", \"The Well of Ascension (Mistborn, #2)\", \"The Hero of Ages (Mistborn, #3)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Falling Kingdoms (Falling Kingdoms, #1)\", \"Rebel Spring (Falling Kingdoms, #2)\", \"Gathering Darkness (Falling Kingdoms, #3)\", \"Frozen Tides (Falling Kingdoms, #4)\", \"A Storm of Swords (A Song of Ice and Fire, #3)\", please write a new books that the user may bought",
+    "output": "\"The Winner's Curse (The Winner's Trilogy, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Silver Shadows (Bloodlines, #5)\", \"In The Afterlight (The Darkest Minds, #3)\", \"The Fault in Our Stars\", \"Shield of Winter (Psy-Changeling, #13)\", \"Cinder (The Lunar Chronicles, #1)\", \"Stone Cold Touch (The Dark Elements, #2)\", \"The Return (Titan, #1)\", \"Opposition (Lux, #5)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Sparks Rise (The Darkest Minds #2.5)\", please write a new books that the user may bought",
+    "output": "\"City of Glass (The Mortal Instruments, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"More Than This\", \"City of Glass (The Mortal Instruments, #3)\", \"Clockwork Angel (The Infernal Devices, #1)\", \"Clockwork Prince (The Infernal Devices, #2)\", \"Armada\", \"The Martian\", \"Gone Girl\", \"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\", \"Seconds\", \"Clockwork Princess (The Infernal Devices, #3)\", please write a new books that the user may bought",
+    "output": "\"Giant Days, Vol. 1 (Giant Days, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Origin (Lux, #4)\", \"Opposition (Lux, #5)\", \"A Thousand Pieces of You (Firebird, #1)\", \"Dare You To (Pushing the Limits, #2)\", \"Whatever Life Throws at You\", \"The Young Elites (The Young Elites, #1)\", \"The Rose Society (The Young Elites, #2)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought",
+    "output": "\"The Assassin and the Underworld (Throne of Glass, #0.4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Lord of the Flies\", \"Never Let Me Go\", \"Forgive Me, Leonard Peacock\", \"Before I Fall\", \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Jane Eyre\", \"Life As We Knew It (Last Survivors, #1)\", \"Ender's Game (Ender's Saga, #1)\", \"The Outsiders\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", please write a new books that the user may bought",
+    "output": "\"1984\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Avow (The Archers of Avalon, #3)\", \"Best Kind of Broken (Finding Fate, #1)\", \"Stolen Songbird (The Malediction Trilogy, #1)\", \"Never Fade (The Darkest Minds, #2)\", \"Sparks Rise (The Darkest Minds #2.5)\", \"Perfect Kind of Trouble (Finding Fate, #2)\", \"Shadowfever (Fever #5)\", \"Isn't She Lovely (Redemption, #0.5)\", \"Crushed (Redemption, #2)\", \"The Forever Song (Blood of Eden, #3)\", please write a new books that the user may bought",
+    "output": "\"Blurred Lines\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Hearts of Fire (Hearts, #2)\", \"Latakia\", \"The Lightning-Struck Heart (Tales From Verania, #1)\", \"Before We Were Strangers\", \"Him (Him #1)\", \"How To Be A Normal Person\", \"Rattlesnake\", \"Wolf by Wolf (Wolf by Wolf, #1)\", \"The Shadow Queen (Ravenspire, #1)\", \"The Mating of Michael (Sex in Seattle, #3)\", please write a new books that the user may bought",
+    "output": "\"Capture (Elements of Chemistry #3; Hypothesis, #1.3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Peach Keeper\", \"Catching Fire (The Hunger Games, #2)\", \"Divergent (Divergent, #1)\", \"The Forgotten Garden\", \"Garden Spells (Waverley Family, #1)\", \"The Girl Who Chased the Moon\", \"Pride and Prejudice\", \"Water for Elephants\", \"Every Day (Every Day, #1)\", \"Eleanor and Park\", please write a new books that the user may bought",
+    "output": "\"If He Had Been with Me\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Saga, Vol. 2 (Saga, #2)\", \"Saga, Vol. 3 (Saga, #3)\", \"Saga, Vol. 4 (Saga, #4)\", \"Saga, Vol. 5 (Saga, #5)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Chew, Vol. 1: Taster's Choice\", \"Rat Queens, Vol. 1: Sass & Sorcery\", \"Saga, Vol. 6 (Saga, #6)\", \"Gemina (The Illuminae Files, #2)\", \"Monstress, Vol. 1: Awakening (Monstress, #1)\", please write a new books that the user may bought",
+    "output": "\"The Mistake (Off-Campus, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"Champion (Legend, #3)\", \"The Lost Herondale (Tales from the Shadowhunter Academy, #2)\", \"Prodigy (Legend, #2)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The One (The Selection, #3)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"Backstage Pass (Sinners on Tour, #1)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", please write a new books that the user may bought",
+    "output": "\"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Lord of the Flies\", \"The Virgin Suicides\", \"The Girl Next Door\", \"The Blue Castle\", \"Tuck Everlasting\", \"Something like Normal\", \"11/22/63\", \"Jurassic Park (Jurassic Park, #1)\", \"Peter Pan\", \"The Thing About Jellyfish\", please write a new books that the user may bought",
+    "output": "\"Six of Crows (Six of Crows, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Ten Thousand Skies Above You (Firebird, #2)\", \"Last Breath (The Morganville Vampires, #11)\", \"A Madness So Discreet\", \"Dragonfly in Amber (Outlander, #2)\", \"Voyager (Outlander, #3)\", \"Drums of Autumn (Outlander, #4)\", \"Throne of Glass (Throne of Glass, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Tangled (Tangled, #1)\", \"Dearest Clementine (Dearest, #1)\", \"Finding Dandelion (Dearest, #2)\", \"Never Never (Never Never, #1)\", \"Deeper (Caroline & West, #1)\", \"Bad Romeo (Starcrossed, #1)\", \"Eleanor & Park\", \"Black Iris\", \"Marrow\", \"Thief (Love Me with Lies, #3)\", please write a new books that the user may bought",
+    "output": "\"The Dead List\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Living Dead Girl\", \"Never Fade (The Darkest Minds, #2)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"Scarlet (The Lunar Chronicles, #2)\", \"The Ask and the Answer (Chaos Walking, #2)\", \"More Than This\", \"Code Name Verity (Code Name Verity, #1)\", \"The Storied Life of A.J. Fikry\", \"Black Heart (Curse Workers, #3)\", \"Animal Farm\", please write a new books that the user may bought",
+    "output": "\"Cress (The Lunar Chronicles, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Last Time We Say Goodbye\", \"All the Bright Places\", \"My Heart and Other Black Holes\", \"The Deal (Off-Campus, #1)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"On the Jellicoe Road\", \"Some Kind of Perfect (Calloway Sisters, #4.5; Addicted, #3.5)\", \"Back to You\", \"Everything, Everything\", please write a new books that the user may bought",
+    "output": "\"Only the Good Spy Young (Gallagher Girls, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Warm Bodies (Warm Bodies, #1)\", \"Losing It (Losing It, #1)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"The Secret Diary of Lizzie Bennet\", \"Finding It (Losing It, #3)\", \"Faking It (Losing It, #2)\", \"Jane Eyre\", \"Nimona\", \"In Real Life\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Archer's Voice\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Reckoning (Rock Chick, #6)\", \"Rock Chick Revolution (Rock Chick, #8)\", \"It Ends with Us\", \"The Goal (Off-Campus, #4)\", \"Beautiful (Beautiful Bastard, #5)\", \"El Diablo (The Devil, #1)\", \"Punk 57\", \"Womanizer (Manwhore, #4)\", please write a new books that the user may bought",
+    "output": "\"School Spirits\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Written in Red (The Others, #1)\", \"Illuminae (The Illuminae Files, #1)\", \"Clockwork Princess (The Infernal Devices, #3)\", \"Ready Player One\", \"Winter (The Lunar Chronicles, #4)\", \"Saga, Vol. 2 (Saga, #2)\", \"Saga, Vol. 4 (Saga, #4)\", \"Vision in Silver (The Others, #3)\", \"The Unexpected Everything\", \"Scarlet (Scarlet, #1)\", please write a new books that the user may bought",
+    "output": "\"Magic Burns (Kate Daniels, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"History Is All You Left Me\", \"My Lady Jane (The Lady Janies, #1)\", \"The Girl from Everywhere (The Girl from Everywhere, #1)\", \"Stalking Jack the Ripper (Stalking Jack the Ripper, #1)\", \"Nevernight (The Nevernight Chronicle, #1)\", \"When the Moon Was Ours\", \"Nimona\", \"Monsters of Men (Chaos Walking, #3)\", \"Highly Illogical Behavior\", \"The Sun Is Also a Star\", please write a new books that the user may bought",
+    "output": "\"Alexander Hamilton\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Bad Romeo (Starcrossed, #1)\", \"Broken Juliet (Starcrossed, #2)\", \"For You (The 'Burg, #1)\", \"You (You, #1)\", \"Bright Side (Bright Side, #1)\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Regret (Rock Chick, #7)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"Wicked Heart (Starcrossed, #3)\", \"The Scorpion Rules (Prisoners of Peace, #1)\", please write a new books that the user may bought",
+    "output": "\"Cocky Bastard\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Wallbanger (Cocktail, #1)\", \"Falling for the Ghost of You\", \"Uncivilized (Uncivilized, #1)\", \"Stepbrother Dearest\", \"Jake Undone (Jake, #1)\", \"Corrupt (Devil's Night, #1)\", \"The Gamble (Colorado Mountain, #1)\", \"Finding Eden\", \"Black Lies\", \"Loving Mr. Daniels\", please write a new books that the user may bought",
+    "output": "\"#Nerd (Hashtag, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Champion (Legend, #3)\", \"Siege and Storm (The Grisha, #2)\", \"Ruin and Rising (The Grisha, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Unravel Me (Shatter Me, #2)\", \"Ignite Me (Shatter Me, #3)\", \"Cinder (The Lunar Chronicles, #1)\", \"Uninvited (Uninvited, #1)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", please write a new books that the user may bought",
+    "output": "\"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Come Alive (Experiment in Terror, #7)\", \"Ashes to Ashes (Experiment in Terror, #8)\", \"Dust to Dust  (Experiment in Terror, #9)\", \"Thoughtful (Thoughtless, #1.5)\", \"Tangled (Tangled, #1)\", \"Effortless (Thoughtless, #2)\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", \"Beautiful Bastard (Beautiful Bastard, #1)\", \"Wicked Sexy Liar (Wild Seasons, #4)\", \"Perfect Kind of Trouble (Finding Fate, #2)\", please write a new books that the user may bought",
+    "output": "\"Reaper's Stand (Reapers MC, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Welcome to Night Vale (Night Vale, #1)\", \"A Thousand Splendid Suns\", \"Burial Rites\", \"The Lottery\", \"The Year of the Flood  (MaddAddam, #2)\", \"MaddAddam (MaddAddam, #3)\", \"The Casual Vacancy\", \"Fingersmith\", \"The Girl With All the Gifts\", \"Nimona\", please write a new books that the user may bought",
+    "output": "\"A Monster Calls\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Crown of Midnight (Throne of Glass, #2)\", \"The Fate of Ten (Lorien Legacies, #6)\", \"Bloodlines (Bloodlines, #1)\", \"Siege and Storm (The Grisha, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"World After (Penryn & the End of Days, #2)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"Me Before You (Me Before You, #1)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought",
+    "output": "\"A Storm of Swords (A Song of Ice and Fire, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Rock Chick Revolution (Rock Chick, #8)\", \"First Debt (Indebted, #2)\", \"Wildest Dreams (Fantasyland, #1)\", \"Third Debt (Indebted, #4)\", \"Second Debt (Indebted, #3)\", \"Fourth Debt (Indebted, #5)\", \"Sex Love Repeat\", \"If You Leave (Beautifully Broken, #2)\", \"Until the Sun Falls from the Sky (The Three, #1)\", \"Sweet Thing (Sweet Thing, #1)\", please write a new books that the user may bought",
+    "output": "\"Fighting Silence (On the Ropes, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Aristotle and Dante Discover the Secrets of the Universe\", \"The Lightning Thief (Percy Jackson and the Olympians, #1)\", \"The Mark of Athena (The Heroes of Olympus, #3)\", \"Rebel Belle (Rebel Belle, #1)\", \"Divergent (Divergent, #1)\", \"Cinder (The Lunar Chronicles, #1)\", \"The Battle of the Labyrinth (Percy Jackson and the Olympians, #4)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", \"The Selection Stories: The Prince & The Guard (The Selection, #0.5, 2.5)\", please write a new books that the user may bought",
+    "output": "\"Lady Midnight (The Dark Artifices, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Blackmoore\", \"Rebecca\", \"The Fill-In Boyfriend\", \"The Heart of Betrayal (The Remnant Chronicles, #2)\", \"All Fall Down (Embassy Row, #1)\", \"P.S. I Like You\", \"By Your Side\", \"The Distance Between Us\", \"The Importance of Being Earnest\", \"Gone with the Wind\", please write a new books that the user may bought",
+    "output": "\"And I Darken (The Conqueror's Saga, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cinder (The Lunar Chronicles, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Leviathan (Leviathan, #1)\", \"Winter (The Lunar Chronicles, #4)\", \"Anne of Green Gables (Anne of Green Gables, #1)\", \"Anne of Avonlea (Anne of Green Gables, #2)\", \"Double Crossed: A Spies and Thieves Story (Gallagher Girls, #5.5; Heist Society, #2.5)\", please write a new books that the user may bought",
+    "output": "\"Perfect Scoundrels (Heist Society, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Name of the Wind (The Kingkiller Chronicle, #1)\", \"The Green Mile\", \"Wolves of the Calla\", \"Wizard and Glass\", \"The Drawing of the Three\", \"Harry Potter and the Chamber of Secrets (Harry Potter, #2)\", \"Harry Potter and the Order of the Phoenix (Harry Potter, #5)\", \"Harry Potter and the Goblet of Fire (Harry Potter, #4)\", \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Deathly Hallows (Harry Potter, #7)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Sweet Filthy Boy (Wild Seasons, #1)\", \"Archer's Voice\", \"Captivated by You (Crossfire, #4)\", \"One More Chance (Rosemary Beach, #8; Chance, #2)\", \"This Man (This Man, #1)\", \"Six of Hearts (Hearts, #1)\", \"Lead (Stage Dive, #3)\", \"Black Lies\", \"Worth the Fight (MMA Fighter, #1)\", \"Fading (Fading, #1)\", please write a new books that the user may bought",
+    "output": "\"The Hook Up (Game On, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"The Little Android (The Lunar Chronicles, #0.6)\", \"The Rose Society (The Young Elites, #2)\", \"Fantastic Beasts and Where to Find Them\", \"Me Before You (Me Before You, #1)\", \"Six of Crows (Six of Crows, #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"My Sister's Keeper\", \"Heartless\", \"King's Cage (Red Queen, #3)\", please write a new books that the user may bought",
+    "output": "\"The Ship of the Dead (Magnus Chase and the Gods of Asgard, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Faefever (Fever, #3)\", \"Of Mice and Men\", \"World After (Penryn & the End of Days, #2)\", \"The Son of Neptune (The Heroes of Olympus, #2)\", \"The House of Hades (The Heroes of Olympus, #4)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Poison Princess (The Arcana Chronicles, #1)\", \"Rock Hard (Rock Kiss, #2)\", \"Endless Knight (The Arcana Chronicles, #2)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", please write a new books that the user may bought",
+    "output": "\"Rhapsodic (The Bargainer, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Lord of Darkness (Maiden Lane, #5)\", \"Duke of Midnight (Maiden Lane, #6)\", \"The Deal (Off-Campus, #1)\", \"The Hurricane (The Hurricane, #1)\", \"Playing for Keeps (Neighbor from Hell, #1)\", \"Perfection (Neighbor from Hell, #2)\", \"Checkmate (Neighbor from Hell, #3)\", \"The Mistake (Off-Campus, #2)\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Rescue (Rock Chick, #2)\", please write a new books that the user may bought",
+    "output": "\"Rock Chick Redemption (Rock Chick, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Rebel Spring (Falling Kingdoms, #2)\", \"Frozen Tides (Falling Kingdoms, #4)\", \"Carry On\", \"Uprooted\", \"Illuminae (The Illuminae Files, #1)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Gemina (The Illuminae Files, #2)\", \"Eating Animals\", \"Crystal Storm (Falling Kingdoms, #5)\", please write a new books that the user may bought",
+    "output": "\"Dark Triumph (His Fair Assassin, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Before I Go to Sleep\", \"Ms. Marvel, Vol. 1: No Normal\", \"Ms. Marvel, Vol. 3: Crushed\", \"Ms. Marvel, Vol. 2: Generation Why\", \"Ms. Marvel, Vol. 4: Last Days\", \"To Kill a Mockingbird\", \"Saga, Vol. 2 (Saga, #2)\", \"Journey (Journey Trilogy, #1)\", \"Saga, Vol. 3 (Saga, #3)\", \"Soppy\", please write a new books that the user may bought",
+    "output": "\"Pretty Girls\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"In The Afterlight (The Darkest Minds, #3)\", \"Beautiful Oblivion (The Maddox Brothers, #1)\", \"The Night Circus\", \"Effortless (Thoughtless, #2)\", \"Never Fade (The Darkest Minds, #2)\", \"Origin (Lux, #4)\", \"The 5th Wave (The 5th Wave, #1)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Bully (Fall Away, #1)\", \"More Than Him (More Than, #3)\", please write a new books that the user may bought",
+    "output": "\"More Than Forever (More Than, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Caliban's War (The Expanse, #2)\", \"The Warded Man (Demon Cycle, #1)\", \"The Forever War (The Forever War, #1)\", \"The Desert Spear (Demon Cycle, #2)\", \"Annihilation (Southern Reach, #1)\", \"I Am Legend\", \"Ready Player One\", \"Words of Radiance (The Stormlight Archive, #2)\", \"The Final Empire (Mistborn, #1)\", \"The Well of Ascension (Mistborn, #2)\", please write a new books that the user may bought",
+    "output": "\"The Hero of Ages (Mistborn, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Wolf by Wolf (Wolf by Wolf, #1)\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", \"Heart Recaptured (Hades Hangmen, #2)\", \"Souls Unfractured (Hades Hangmen, #3)\", \"Salt to the Sea\", \"Falling Kingdoms (Falling Kingdoms, #1)\", \"The Girl in 6E (Deanna Madden, #1)\", \"Rebel Spring (Falling Kingdoms, #2)\", \"The Love That Split the World\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", please write a new books that the user may bought",
+    "output": "\"It Ends with Us\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Gathering Darkness (Falling Kingdoms, #3)\", \"A Conjuring of Light (Shades of Magic, #3)\", \"The Female of the Species\", \"Warcross (Warcross, #1)\", \"Godsgrave (The Nevernight Chronicle, #2)\", \"Roar (Stormheart, #1)\", \"Hunting Prince Dracula (Stalking Jack the Ripper, #2)\", \"The Upside of Unrequited\", \"Earth's End (Air Awakens, #3)\", please write a new books that the user may bought",
+    "output": "\"An Enchantment of Ravens\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The House of Hades (The Heroes of Olympus, #4)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", \"Legend (Legend, #1)\", \"All the Bright Places\", \"Red Queen (Red Queen, #1)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"Happily Ever After (The Selection, #0.4, 0.5, 2.5, 2.6)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", please write a new books that the user may bought",
+    "output": "\"The Hidden Oracle (The Trials of Apollo, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Isn't She Lovely (Redemption, #0.5)\", \"Worth the Fall (The McKinney Brothers, #1)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"Him (Him, #1)\", \"More Than Her (More Than, #2)\", \"Hallowed Ground (Flight & Glory, #4)\", \"Shameless\", \"Every Last Word\", \"Tell Me Three Things\", please write a new books that the user may bought",
+    "output": "\"The Deal (Off-Campus, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Gone Girl\", \"Can You Keep a Secret?\", \"Fantastic Beasts and Where to Find Them\", \"And Then There Were None\", \"1984\", \"Me Before You (Me Before You, #1)\", \"Pride and Prejudice\", \"Finding Audrey\", \"Animal Farm\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", please write a new books that the user may bought",
+    "output": "\"The Hating Game\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The Scorpio Races\", \"Linger (The Wolves of Mercy Falls, #2)\", \"The Secret History\", \"The Goldfinch\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"Sharp Objects\", \"Beowulf\", please write a new books that the user may bought",
+    "output": "\"The Winner's Curse (The Winner's Trilogy, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hanging Tree (Peter Grant, #6)\", \"Words of Radiance (The Stormlight Archive, #2)\", \"Killer Instinct (The Naturals, #2)\", \"All In (The Naturals, #3)\", \"Uprooted\", \"Warbreaker (Warbreaker, #1)\", \"The Queen of Attolia (The Queen's Thief, #2)\", \"The King of Attolia (The Queen's Thief, #3)\", \"Thick as Thieves (The Queen's Thief, #5)\", \"The Girl from Everywhere (The Girl from Everywhere, #1)\", please write a new books that the user may bought",
+    "output": "\"You Know Me Well\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Immortal Rules (Blood of Eden, #1)\", \"Finding Cinderella (Hopeless, #2.5)\", \"Until You (Fall Away, #1.5)\", \"The Eternity Cure (Blood of Eden, #2)\", \"Making Faces\", \"More Than Forever (More Than, #4)\", \"The Fill-In Boyfriend\", \"Here Be Sexist Vampires (Deep In Your Veins, #1)\", \"The DUFF: Designated Ugly Fat Friend\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Fairest (The Lunar Chronicles, #3.5)\", \"Red Queen (Red Queen, #1)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"More Happy Than Not\", \"Emmy & Oliver\", \"Simon vs. the Homo Sapiens Agenda\", \"My Heart and Other Black Holes\", \"Just Mercy: A Story of Justice and Redemption\", please write a new books that the user may bought",
+    "output": "\"Archer's Voice\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Therapy (Therapy #1)\", \"The Will (Magdalene, #1)\", \"Assumption (Underground Kings, #1)\", \"Reasonable Doubt: Volume 2 (Reasonable Doubt, #2)\", \"Reasonable Doubt: Volume 1 (Reasonable Doubt, #1)\", \"Becoming Calder\", \"Finding Eden\", \"Tied (Tangled, #4)\", \"Stepbrother Dearest\", \"Worth the Fall (The McKinney Brothers, #1)\", please write a new books that the user may bought",
+    "output": "\"Kyland\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The Son of Neptune (The Heroes of Olympus, #2)\", \"The Fault in Our Stars\", \"Queen of Shadows (Throne of Glass, #4)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Carry On\", \"The Martian\", \"The Wicked + The Divine, Vol. 1: The Faust Act\", \"Six of Crows (Six of Crows, #1)\", \"Crooked Kingdom (Six of Crows, #2)\", please write a new books that the user may bought",
+    "output": "\"Locke & Key, Vol. 3: Crown of Shadows (Locke & Key, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Slammed (Slammed, #1)\", \"Into the Deep (Into the Deep, #1)\", \"Dirty Rowdy Thing (Wild Seasons, #2)\", \"The Edge of Never (The Edge of Never, #1)\", \"Finding Dandelion (Dearest, #2)\", \"Falling Away (Fall Away, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", \"Point of Retreat (Slammed, #2)\", \"Unteachable\", \"Aflame (Fall Away, #4)\", please write a new books that the user may bought",
+    "output": "\"Last Call (Cocktail, #4.5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"It Ends with Us\", \"The Matchmaker's Playbook (Wingmen Inc., #1)\", \"Paper Princess (The Royals, #1)\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Broken Prince (The Royals, #2)\", \"Twisted Palace (The Royals, #3)\", \"Elude (Eagle Elite, #6)\", \"Pushing the Limits (Pushing the Limits, #1)\", \"The Matchmaker's Replacement (Wingmen Inc., #2)\", \"Moonshot\", please write a new books that the user may bought",
+    "output": "\"Black Lies\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"And I Darken (The Conqueror's Saga, #1)\", \"Empire of Storms (Throne of Glass, #5)\", \"Heartless\", \"Crooked Kingdom (Six of Crows, #2)\", \"Three Dark Crowns (Three Dark Crowns, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"Prodigy (Legend, #2)\", \"Splintered (Splintered, #1)\", \"Champion (Legend, #3)\", \"A Beautiful Funeral (The Maddox Brothers, #5)\", please write a new books that the user may bought",
+    "output": "\"King's Cage (Red Queen, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Reasonable Doubt: Volume 1 (Reasonable Doubt, #1)\", \"Reasonable Doubt: Volume 2 (Reasonable Doubt, #2)\", \"Devil's Game (Reapers MC, #3)\", \"The Sky Is Everywhere\", \"God-Shaped Hole\", \"Monster in His Eyes (Monster in His Eyes, #1)\", \"Falling Away (Fall Away, #3)\", \"What I Thought Was True\", \"Innocents (Dusty, #1)\", \"Love, in English (Love, in English, #1)\", please write a new books that the user may bought",
+    "output": "\"Dominic (Slater Brothers, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Story of Us (Carnage, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"In the Stillness\", \"Open Road Summer\", \"Broken Juliet (Starcrossed, #2)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"The Friend Zone (Game On, #2)\", \"Parallel\", \"The Hating Game\", please write a new books that the user may bought",
+    "output": "\"Outlander (Outlander, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Silence (Hush, Hush, #3)\", \"City of Heavenly Fire (The Mortal Instruments, #6)\", \"Hush, Hush (Hush, Hush, #1)\", \"Life As We Knew It (Last Survivors, #1)\", \"Finale (Hush, Hush, #4)\", \"Will Grayson, Will Grayson\", \"The One (The Selection, #3)\", \"The Selection (The Selection, #1)\", \"The Elite (The Selection, #2)\", \"Cinder (The Lunar Chronicles, #1)\", please write a new books that the user may bought",
+    "output": "\"Scarlet (The Lunar Chronicles, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"RoomHate\", \"Ramsay\", \"Shadows (Lux, #0.5)\", \"Neighbor Dearest\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"The Retribution of Mara Dyer (Mara Dyer, #3)\", \"Punk 57\", \"Playboy Pilot\", \"Royally Screwed (Royally, #1)\", please write a new books that the user may bought",
+    "output": "\"Mr. President (White House, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Isla and the Happily Ever After (Anna and the French Kiss, #3)\", \"Night of Cake & Puppets (Daughter of Smoke & Bone, #2.5)\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"The Iron Knight (The Iron Fey, #4)\", \"The Raven King (The Raven Cycle, #4)\", \"The Burning Sky (The Elemental Trilogy, #1)\", \"Linger (The Wolves of Mercy Falls, #2)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Carry On\", \"The Final Empire (Mistborn, #1)\", please write a new books that the user may bought",
+    "output": "\"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Fangirl\", \"The Dream Thieves (The Raven Cycle, #2)\", \"A Thousand Pieces of You (Firebird, #1)\", \"Ten Thousand Skies Above You (Firebird, #2)\", \"Winter (The Lunar Chronicles, #4)\", \"Confess\", \"World After (Penryn & the End of Days, #2)\", \"Counting by 7s\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", please write a new books that the user may bought",
+    "output": "\"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Until July (Until Her, #1)\", \"The Mistake (Off-Campus, #2)\", \"Him (Him #1)\", \"Truth or Beard (Winston Brothers, #1)\", \"Lev (Shot Callers, #1)\", \"Until Friday Night (The Field Party, #1)\", \"The Play\", \"Talon (Ashes & Embers, #4)\", \"The Strongest Steel (Second Circle Tattoos, #1)\", \"The Score (Off-Campus, #3)\", please write a new books that the user may bought",
+    "output": "\"Ugly Love\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cress (The Lunar Chronicles, #3)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Second Chance Summer\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Half-Blood (Covenant, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"Frostbite (Vampire Academy, #2)\", \"Lies We Tell Ourselves\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Champion (Legend, #3)\", please write a new books that the user may bought",
+    "output": "\"Pure (Covenant, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Taint (Sexual Education, #1)\", \"Rogue (Real, #4)\", \"Rival (Fall Away, #2)\", \"Six of Hearts (Hearts, #1)\", \"This is Falling (Falling, #1)\", \"Fallen Too Far (Rosemary Beach, #1; Too Far, #1)\", \"Stay with Me (Wait for You, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", \"The Friend Zone (Game On, #2)\", \"The Boy Who Sneaks in My Bedroom Window\", please write a new books that the user may bought",
+    "output": "\"The Deal (Off-Campus, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Fiery Heart (Bloodlines, #4)\", \"Silver Shadows (Bloodlines, #5)\", \"The Ruby Circle (Bloodlines, #6)\", \"The Vixen and the Vet\", \"Sustained (The Legal Briefs, #2)\", \"Fury (New Species, #1)\", \"Valiant (New Species, #3)\", \"Tiger (New Species, #7)\", \"Obsidian (New Species, #8)\", \"Moon (New Species, #10)\", please write a new books that the user may bought",
+    "output": "\"True (New Species, #11)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Lassoing the Virgin Mail-Order Bride\", \"Idol (VIP, #1)\", \"The Hot Shot (Game On, #4)\", \"Moonshot\", \"Pennies (Dollar, #1)\", \"The Cad and the Co-Ed (Rugby, #3)\", \"Roman Crazy\", \"The Silent Waters (Elements, #3)\", \"Transfer (The Retrieval Duet, #2)\", \"A Place in the Sun\", please write a new books that the user may bought",
+    "output": "\"Managed (VIP, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Between the Lines (Between the Lines, #1)\", \"The Dream Thieves (The Raven Cycle, #2)\", \"Scarlet (The Lunar Chronicles, #2)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Heir of Fire (Throne of Glass, #3)\", \"The Assassin and the Pirate Lord (Throne of Glass, #0.1)\", \"The Assassin and the Desert (Throne of Glass, #0.3)\", please write a new books that the user may bought",
+    "output": "\"The Assassin and the Underworld (Throne of Glass, #0.4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Ghost Town (The Morganville Vampires, #9)\", \"Bite Club (The Morganville Vampires, #10)\", \"Prodigy (Legend, #2)\", \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", \"The Goddess Inheritance  (Goddess Test, #3)\", \"Fractured (Slated, #2)\", \"Untold (The Lynburn Legacy, #2)\", \"Birthmarked (Birthmarked, #1)\", \"Prized (Birthmarked, #2)\", please write a new books that the user may bought",
+    "output": "\"Ultraviolet (Ultraviolet, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Carry On\", \"Hollow City (Miss Peregrine’s Peculiar Children, #2)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Six of Crows (Six of Crows, #1)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Ugly Love\", \"The Sword of Summer (Magnus Chase and the Gods of Asgard, #1)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"This Savage Song (Monsters of Verity, #1)\", please write a new books that the user may bought",
+    "output": "\"The Unexpected Everything\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Clockwork Prince (The Infernal Devices, #2)\", \"Armada\", \"The Martian\", \"Gone Girl\", \"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\", \"Seconds\", \"Clockwork Princess (The Infernal Devices, #3)\", \"Giant Days, Vol. 1 (Giant Days, #1)\", \"City of Fallen Angels (The Mortal Instruments, #4)\", \"Soppy\", please write a new books that the user may bought",
+    "output": "\"Nimona\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The One and Only Ivan\", \"The Iron Trial (Magisterium, #1)\", \"Time Between Us (Time Between Us, #1)\", \"Out of My Mind\", \"Pandemonium (Delirium, #2)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Winter (The Lunar Chronicles, #4)\", \"Never Never (Never Never, #1)\", \"Under a Painted Sky\", \"The Immortal Rules (Blood of Eden, #1)\", please write a new books that the user may bought",
+    "output": "\"East\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Unholy Ghosts (Downside Ghosts, #1)\", \"First Grave on the Right (Charley Davidson, #1)\", \"An Artificial Night (October Daye, #3)\", \"End of Days (Penryn & the End of Days, #3)\", \"White Hot (Hidden Legacy, #2)\", \"Third Grave Dead Ahead (Charley Davidson, #3)\", \"Poison Princess (The Arcana Chronicles, #1)\", \"Dead of Winter (The Arcana Chronicles, #3)\", \"The Aeronaut's Windlass (The Cinder Spires, #1)\", \"Covet (Fallen Angels, #1)\", please write a new books that the user may bought",
+    "output": "\"Lover Revealed (Black Dagger Brotherhood, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Maybe Someday (Maybe, #1)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Frost Like Night (Snow Like Ashes, #3)\", \"This Is Our Story\", \"Hunting Prince Dracula (Stalking Jack the Ripper, #2)\", \"The Naturals (The Naturals, #1)\", \"The Language of Thorns: Midnight Tales and Dangerous Magic\", \"The Female of the Species\", \"A Million Junes\", \"Hunted\", please write a new books that the user may bought",
+    "output": "\"The Long Game (The Fixer, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Captive Prince (Captive Prince, #1)\", \"Two Boys Kissing\", \"Carry the Ocean (The Roosevelt, #1)\", \"For Real\", \"Carry On\", \"The Night Circus\", \"The Song of Achilles\", \"Six of Crows (Six of Crows, #1)\", \"A Gentleman's Position (Society of Gentlemen, #3)\", \"Misfits (Urban Soul, #1)\", please write a new books that the user may bought",
+    "output": "\"The Raven Boys (The Raven Cycle, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"UnDivided (Unwind, #4)\", \"The Deal (Off-Campus, #1)\", \"The Mistake (Off-Campus, #2)\", \"Black Lies\", \"Dirty Red (Love Me with Lies, #2)\", \"Thief (Love Me with Lies, #3)\", \"Four Seconds to Lose (Ten Tiny Breaths, #3)\", \"World After (Penryn & the End of Days, #2)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe #1)\", \"Dreamfever (Fever #4)\", please write a new books that the user may bought",
+    "output": "\"The Sea of Tranquility\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Throne of Glass (Throne of Glass, #1)\", \"The Lightning Thief (Percy Jackson and the Olympians, #1)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Lola and the Boy Next Door (Anna and the French Kiss, #2)\", \"Isla and the Happily Ever After (Anna and the French Kiss, #3)\", \"Fangirl\", \"November 9\", \"The Bad Beginning (A Series of Unfortunate Events, #1)\", please write a new books that the user may bought",
+    "output": "\"The Ersatz Elevator (A Series of Unfortunate Events, #6)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hooker and the Hermit (Rugby, #1)\", \"Wild and Free (The Three, #3)\", \"Wildest Dreams (Fantasyland, #1)\", \"Creed (Unfinished Hero, #2)\", \"Six of Hearts (Hearts, #1)\", \"When I'm Gone (Rosemary Beach, #10)\", \"Truth or Beard (Winston Brothers, #1)\", \"Three Wishes\", \"The Will (Magdalene, #1)\", \"Heaven and Hell (Heaven and Hell, #1)\", please write a new books that the user may bought",
+    "output": "\"The Golden Dynasty (Fantasyland, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Own the Wind (Chaos, #1)\", \"Take This Regret (Take This Regret, #1)\", \"Pushing the Limits (Pushing the Limits, #1)\", \"Dare You To (Pushing the Limits, #2)\", \"This Girl (Slammed, #3)\", \"Crush (Crash, #3)\", \"Clash (Crash, #2)\", \"Crash (Crash, #1)\", \"City of Heavenly Fire (The Mortal Instruments, #6)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", please write a new books that the user may bought",
+    "output": "\"How to Kill a Rock Star\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Selection (The Selection, #1)\", \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", \"City of Lost Souls (The Mortal Instruments, #5)\", \"Blood Promise (Vampire Academy, #4)\", \"Spirit Bound (Vampire Academy, #5)\", \"The Golden Lily (Bloodlines, #2)\", \"The Indigo Spell (Bloodlines, #3)\", \"The Book Thief\", \"Entwined\", please write a new books that the user may bought",
+    "output": "\"The Blood of Olympus (The Heroes of Olympus, #5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Snow Like Ashes (Snow Like Ashes, #1)\", \"Winter (The Lunar Chronicles, #4)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"The Start of Me and You\", \"Through the Dark (The Darkest Minds, #1.5, #2.5, #3.5)\", \"The Last Star (The 5th Wave, #3)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Everbound (Everneath, #2)\", please write a new books that the user may bought",
+    "output": "\"The Bane Chronicles\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"City of Glass (The Mortal Instruments, #3)\", \"Heir of Fire (Throne of Glass, #3)\", \"Clockwork Angel (The Infernal Devices, #1)\", \"Clockwork Princess (The Infernal Devices, #3)\", \"Unwind (Unwind, #1)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"The Raven Boys (The Raven Cycle, #1)\", \"Queen of Shadows (Throne of Glass, #4)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Grave Mercy (His Fair Assassin, #1)\", please write a new books that the user may bought",
+    "output": "\"Throne of Glass (Throne of Glass, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Eleanor & Park\", \"Gone Girl\", \"Sharp Objects\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", \"Me Before You (Me Before You, #1)\", \"Darkfever (Fever, #1)\", \"Shadowfever (Fever, #5)\", \"Uprooted\", \"The Royal We\", please write a new books that the user may bought",
+    "output": "\"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"City of Ashes (The Mortal Instruments, #2)\", \"City of Glass (The Mortal Instruments, #3)\", \"Me Before You (Me Before You, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"More Happy Than Not\", \"What I Thought Was True\", \"My Life Next Door\", \"Snow Like Ashes (Snow Like Ashes, #1)\", please write a new books that the user may bought",
+    "output": "\"A Little Life\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Red Queen (Red Queen, #1)\", \"After I Do\", \"Dangerous Girls\", \"Never Never (Never Never, #1)\", \"I'll Meet You There\", \"You Don't Have to Say You Love Me\", \"Confess\", \"Ugly Love\", \"Loving Mr. Daniels\", \"November 9\", please write a new books that the user may bought",
+    "output": "\"The Problem with Forever\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Reached (Matched, #3)\", \"Lola and the Boy Next Door (Anna and the French Kiss, #2)\", \"The Ruby Circle (Bloodlines, #6)\", \"Ruby Red (Precious Stone Trilogy, #1)\", \"My Life Next Door\", \"Ascend (Trylle, #3)\", \"Ten Tiny Breaths (Ten Tiny Breaths, #1)\", \"The Boy Who Sneaks in My Bedroom Window\", \"Catching Jordan\", \"Stealing Parker\", please write a new books that the user may bought",
+    "output": "\"Losing Hope (Hopeless, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", \"The DUFF: Designated Ugly Fat Friend\", \"Throne of Glass (Throne of Glass, #1)\", \"Harry Potter and the Chamber of Secrets (Harry Potter, #2)\", \"Maybe Someday (Maybe, #1)\", \"Unravel Me (Shatter Me, #2)\", \"Destroy Me (Shatter Me, #1.5)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", please write a new books that the user may bought",
+    "output": "\"Between the Lines (Between the Lines, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Blue Castle\", \"War and Peace\", \"Atlas Shrugged\", \"Thirteenth Child (Frontier Magic, #1)\", \"Shards of Hope (Psy-Changeling, #14)\", \"The King of Attolia (The Queen's Thief, #3)\", \"The False Prince (The Ascendance Trilogy #1)\", \"The Call of the Wild\", \"Princess Academy (Princess Academy, #1)\", \"Book of a Thousand Days\", please write a new books that the user may bought",
+    "output": "\"Storm Front (The Dresden Files, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Gone (Gone, #1)\", \"Matched (Matched, #1)\", \"Reached (Matched, #3)\", \"Life As We Knew It (Last Survivors, #1)\", \"Fangirl\", \"The 5th Wave (The 5th Wave, #1)\", \"City of Glass (The Mortal Instruments, #3)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"My Heart and Other Black Holes\", \"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\", please write a new books that the user may bought",
+    "output": "\"Hollow City (Miss Peregrine’s Peculiar Children, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Dirty Rowdy Thing (Wild Seasons, #2)\", \"The Edge of Never (The Edge of Never, #1)\", \"Finding Dandelion (Dearest, #2)\", \"Falling Away (Fall Away, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", \"Point of Retreat (Slammed, #2)\", \"Unteachable\", \"Aflame (Fall Away, #4)\", \"Last Call (Cocktail, #4.5)\", \"One with You (Crossfire, #5)\", please write a new books that the user may bought",
+    "output": "\"The Score (Off-Campus, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Winter (The Lunar Chronicles, #4)\", \"Cress (The Lunar Chronicles, #3)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Second Chance Summer\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Half-Blood (Covenant, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"Frostbite (Vampire Academy, #2)\", \"Lies We Tell Ourselves\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", please write a new books that the user may bought",
+    "output": "\"Champion (Legend, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Heir (The Selection, #4)\", \"The One (The Selection, #3)\", \"Isla and the Happily Ever After (Anna and the French Kiss, #3)\", \"The Husband's Secret\", \"The Too-Clever Fox (The Grisha, #2.5)\", \"Just One Night (Just One Day, #2.5)\", \"By Your Side\", \"Truly Madly Guilty\", \"Illuminae (The Illuminae Files, #1)\", \"This Savage Song (Monsters of Verity, #1)\", please write a new books that the user may bought",
+    "output": "\"Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists (Pottermore Presents, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Destroy Me (Shatter Me, #1.5)\", \"Unravel Me (Shatter Me, #2)\", \"Ignite Me (Shatter Me, #3)\", \"The Fault in Our Stars\", \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Origin (Lux, #4)\", \"Throne of Glass (Throne of Glass, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", please write a new books that the user may bought",
+    "output": "\"Prodigy (Legend, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Dearest Clementine (Dearest, #1)\", \"Finding Dandelion (Dearest, #2)\", \"Never Never (Never Never, #1)\", \"Deeper (Caroline & West, #1)\", \"Bad Romeo (Starcrossed, #1)\", \"Eleanor & Park\", \"Black Iris\", \"Marrow\", \"Thief (Love Me with Lies, #3)\", \"The Dead List\", please write a new books that the user may bought",
+    "output": "\"Just for Now (Sea Breeze, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Fiery Heart (Bloodlines, #4)\", \"The Midnight Heir (The Bane Chronicles, #4)\", \"Confessions of a Shopaholic (Shopaholic, #1)\", \"The Perks of Being a Wallflower\", \"Heir of Fire (Throne of Glass, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Sweet Evil (Sweet, #1)\", \"The Bane Chronicles\", \"Rebel Belle (Rebel Belle, #1)\", \"White Hot Kiss (The Dark Elements, #1)\", please write a new books that the user may bought",
+    "output": "\"Lady Midnight (The Dark Artifices, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Pivot Point (Pivot Point, #1)\", \"Forbidden\", \"Origin (Lux, #4)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Thief (Love Me with Lies, #3)\", \"The False Prince (The Ascendance Trilogy #1)\", \"The Runaway King (The Ascendance Trilogy, #2)\", \"The Shadow Throne (The Ascendance Trilogy, #3)\", \"The Naturals (The Naturals, #1)\", \"The Crimson Crown (Seven Realms, #4)\", please write a new books that the user may bought",
+    "output": "\"Lying Season (Experiment in Terror, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Mistake (Off-Campus, #2)\", \"The Friend Zone (Game On, #2)\", \"King (King, #1)\", \"Fighting Shadows (On the Ropes, #2)\", \"Ride Steady (Chaos, #3)\", \"Ryker (Cold Fury Hockey, #4)\", \"Cocky Bastard\", \"The Paper Swan\", \"Sustained (The Legal Briefs, #2)\", \"Hold On (The 'Burg, #6)\", please write a new books that the user may bought",
+    "output": "\"Grayson's Vow\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hate U Give\", \"When Dimple Met Rishi\", \"Wintergirls\", \"Under Rose-Tainted Skies\", \"The Sword of Summer (Magnus Chase and the Gods of Asgard, #1)\", \"It's Kind of a Funny Story\", \"Thirteen Reasons Why\", \"The Gentleman's Guide to Vice and Virtue\", \"Every Heart a Doorway (Wayward Children, #1)\", \"Queens of Geek\", please write a new books that the user may bought",
+    "output": "\"Moxie\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Ruin and Rising (The Grisha, #3)\", \"Sweet Reckoning (Sweet, #3)\", \"Loving Mr. Daniels\", \"Blood Promise (Vampire Academy, #4)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Addicted to You (Addicted, #1)\", \"Addicted for Now (Addicted, #2)\", \"The Score (Off-Campus, #3)\", \"The Do-Over\", \"Whatever Life Throws at You\", please write a new books that the user may bought",
+    "output": "\"The Wrath and the Dawn (The Wrath and the Dawn, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Red Queen (Red Queen, #1)\", \"Angelfall (Penryn & the End of Days, #1)\", \"The Rose Society (The Young Elites, #2)\", \"Siege and Storm (The Grisha, #2)\", \"Maybe Someday (Maybe, #1)\", \"Six of Crows (Six of Crows, #1)\", \"Slammed (Slammed, #1)\", \"Ruin and Rising (The Grisha, #3)\", \"November 9\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", please write a new books that the user may bought",
+    "output": "\"Animal Farm\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Origin (Lux, #4)\", \"Throne of Glass (Throne of Glass, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Prodigy (Legend, #2)\", \"Champion (Legend, #3)\", \"The Hero of Ages (Mistborn, #3)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"The Boys of Summer (Summer, #1)\", please write a new books that the user may bought",
+    "output": "\"Pushing the Limits (Pushing the Limits, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"The Sleeper and the Spindle\", \"Empire of Storms (Throne of Glass, #5)\", \"The Hating Game\", \"Illuminae (The Illuminae Files, #1)\", \"A Darker Shade of Magic (Shades of Magic, #1)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"Strange the Dreamer (Strange the Dreamer, #1)\", \"Lord of Shadows (The Dark Artifices, #2)\", please write a new books that the user may bought",
+    "output": "\"Made You Up\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Simon vs. the Homo Sapiens Agenda\", \"The Upside of Unrequited\", \"Salt to the Sea\", \"The Rose & the Dagger (The Wrath & the Dawn, #2)\", \"The Hate U Give\", \"Ramona Blue\", \"The Names They Gave Us\", \"Eliza and Her Monsters\", \"The Gentleman's Guide to Vice and Virtue\", \"The Problem with Forever\", please write a new books that the user may bought",
+    "output": "\"How to Make a Wish\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", \"Cress (The Lunar Chronicles, #3)\", \"Water for Elephants\", \"Warm Bodies (Warm Bodies, #1)\", \"A Game of Thrones (A Song of Ice and Fire, #1)\", \"Winter (The Lunar Chronicles, #4)\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"The Battle of the Labyrinth (Percy Jackson and the Olympians, #4)\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", please write a new books that the user may bought",
+    "output": "\"If I Stay (If I Stay, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"You (You, #1)\", \"The Crown of Embers (Fire and Thorns, #2)\", \"Rock Bottom (Tristan & Danika, #2)\", \"Every Last Word\", \"Before We Were Strangers\", \"The Allure of Julian Lefray (The Allure, #1)\", \"Dark Wild Night (Wild Seasons, #3)\", \"Breaking Him (Love is War, #1)\", \"Starflight (Starflight, #1)\", \"Illuminae (The Illuminae Files, #1)\", please write a new books that the user may bought",
+    "output": "\"Dirty Rowdy Thing (Wild Seasons, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Harder (Caroline & West, #2)\", \"Kiss the Sky (Calloway Sisters, #1; Addicted, #2.1)\", \"Fuel the Fire (Calloway Sisters, #3; Addicted, #3.1)\", \"The Story of Us (Carnage, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"In the Stillness\", \"Open Road Summer\", \"Broken Juliet (Starcrossed, #2)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", please write a new books that the user may bought",
+    "output": "\"The Friend Zone (Game On, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Snow Like Ashes (Snow Like Ashes, #1)\", \"Shadow and Bone (The Grisha, #1)\", \"The Raven Boys (The Raven Cycle, #1)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Hallowed (Unearthly, #2)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Empire of Storms (Throne of Glass, #5)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Red Queen (Red Queen, #1)\", \"Eleanor & Park\", please write a new books that the user may bought",
+    "output": "\"Unwind (Unwind, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"The Sin Eater’s Daughter (The Sin Eater’s Daughter, #1)\", \"The Girl at Midnight (The Girl at Midnight, #1)\", \"The Picture of Dorian Gray\", \"Red Queen (Red Queen, #1)\", \"Nimona\", \"Carry On\", \"The Wide Window (A Series of Unfortunate Events, #3)\", \"The Austere Academy (A Series of Unfortunate Events, #5)\", \"The Reptile Room (A Series of Unfortunate Events, #2)\", please write a new books that the user may bought",
+    "output": "\"The Ersatz Elevator (A Series of Unfortunate Events, #6)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Infinite Sea (The 5th Wave, #2)\", \"Obsidian (Lux, #1)\", \"The Elite (The Selection, #2)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Queen of Shadows (Throne of Glass, #4)\", \"In The Afterlight (The Darkest Minds, #3)\", \"Heir of Fire (Throne of Glass, #3)\", \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", please write a new books that the user may bought",
+    "output": "\"The One (The Selection, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Eleanor and Park\", \"If He Had Been with Me\", \"To Kill a Mockingbird\", \"A Visit from the Goon Squad\", \"The Body Finder (The Body Finder, #1)\", \"I Am Number Four (Lorien Legacies, #1)\", \"Everybody Sees the Ants\", \"Where She Went (If I Stay, #2)\", \"The Language of Flowers\", \"The Dream Thieves (The Raven Cycle, #2)\", please write a new books that the user may bought",
+    "output": "\"Sinner (The Wolves of Mercy Falls, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Great Expectations\", \"The Hunger Games (The Hunger Games, #1)\", \"We Were Liars\", \"Divergent (Divergent, #1)\", \"Looking for Alaska\", \"Eleanor & Park\", \"East of Eden\", \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", \"Catching Fire (The Hunger Games, #2)\", \"Harry Potter and the Chamber of Secrets (Harry Potter, #2)\", please write a new books that the user may bought",
+    "output": "\"Anna and the French Kiss (Anna and the French Kiss, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared\", \"Mr. Mercedes (Bill Hodges Trilogy, #1)\", \"Blindness\", \"Wildwood Dancing (Wildwood, #1)\", \"On the Jellicoe Road\", \"If You Find Me\", \"Revolution\", \"Okay for Now\", \"A Game of Thrones (A Song of Ice and Fire, #1)\", \"The Catcher in the Rye\", please write a new books that the user may bought",
+    "output": "\"My Heart and Other Black Holes\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Vengeance Road (Vengeance Road, #1)\", \"The Fixer (The Fixer, #1)\", \"Six of Crows (Six of Crows, #1)\", \"Captive Prince (Captive Prince, #1)\", \"Captive Prince: Volume Two (Captive Prince, #2)\", \"The Long Game (The Fixer, #2)\", \"Strange the Dreamer (Strange the Dreamer, #1)\", \"The Wicked + The Divine, Vol. 2: Fandemonium\", \"Crooked Kingdom (Six of Crows, #2)\", \"The King's Men (All for the Game, #3)\", please write a new books that the user may bought",
+    "output": "\"Middlesex\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Noggin\", \"Everything, Everything\", \"Ask the Passengers\", \"Station Eleven\", \"Bone Gap\", \"Golden Boy\", \"It Ends with Us\", \"The Nightingale\", \"You're Never Weird on the Internet\", \"Graceling (Graceling Realm, #1)\", please write a new books that the user may bought",
+    "output": "\"The Alloy of Law (Mistborn, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"Flat-Out Love (Flat-Out Love, #1)\", \"Amy & Roger's Epic Detour\", \"It's Not Summer Without You (Summer, #2)\", \"A Monster Calls\", \"My Life Next Door\", \"Fire with Fire (Burn for Burn, #2)\", \"Maybe Someday (Maybe, #1)\", \"Confess\", \"The Retribution of Mara Dyer (Mara Dyer, #3)\", please write a new books that the user may bought",
+    "output": "\"Slammed (Slammed, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Opal (Lux, #3)\", \"Opposition (Lux, #5)\", \"Cruel Beauty (Cruel Beauty Universe, #1)\", \"Alienated (Alienated, #1)\", \"Iron's Prophecy (The Iron Fey, #4.5)\", \"Significance (Significance, #1)\", \"Jessica's Guide to Dating on the Dark Side (Jessica, #1)\", \"Of Beast and Beauty\", \"Everbound (Everneath, #2)\", \"Rogue (Talon, #2)\", please write a new books that the user may bought",
+    "output": "\"All the Bright Places\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"At Peace (The 'Burg, #2)\", \"The Collectors’ Society (The Collectors’ Society, #1)\", \"It Ends with Us\", \"Kyland\", \"After the Bridge (The Infernal Devices #3.1)\", \"The Golden Dynasty (Fantasyland, #2)\", \"Fantastical (Fantasyland, #3)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Transcendence\", \"Convicted (Consequences, #3)\", please write a new books that the user may bought",
+    "output": "\"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"This is Falling (Falling, #1)\", \"Play (Stage Dive, #2)\", \"The Girl in 6E (Deanna Madden, #1)\", \"Sempre: Redemption (Sempre, #2)\", \"Made (Sempre, #0.4)\", \"You (You, #1)\", \"Torture to Her Soul (Monster in His Eyes, #2)\", \"By Any Other Name (Forbidden, #1)\", \"The Allure of Dean Harper (The Allure, #2)\", \"Target on Our Backs (Monster in His Eyes, #3)\", please write a new books that the user may bought",
+    "output": "\"The Wall of Winnipeg and Me\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Night (The Night Trilogy #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"Me Before You (Me Before You, #1)\", \"More Happy Than Not\", \"Lord of Shadows (The Dark Artifices, #2)\", \"Fantastic Beasts and Where to Find Them: The Original Screenplay\", \"The Hate U Give\", \"The Circle\", \"Ready Player One\", \"History Is All You Left Me\", please write a new books that the user may bought",
+    "output": "\"Tales from the Shadowhunter Academy\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Rule (Marked Men, #1)\", \"Bossman\", \"Neighbor Dearest\", \"Ramsay\", \"Twisted Palace (The Royals, #3)\", \"Dating-ish (Knitting in the City, #6)\", \"Stroked Long (Stroked, #2)\", \"Vicious (Sinners of Saint, #1)\", \"Max (Cold Fury Hockey, #6)\", \"All In (Full Tilt, #2)\", please write a new books that the user may bought",
+    "output": "\"The Hard Count\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Harry Potter and the Chamber of Secrets (Harry Potter, #2)\", \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", \"Wuthering Heights\", \"Blue Is the Warmest Color\", \"The Yellow Wallpaper and Other Stories\", \"Matilda\", \"The Secret Garden\", \"Altered (Altered, #1)\", please write a new books that the user may bought",
+    "output": "\"Yes Please\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Addicted to You (Addicted, #1)\", \"Burying Water (Burying Water, #1)\", \"Rogue (Real, #4)\", \"Black Iris\", \"The Distance Between Us\", \"Wild and Free (The Three, #3)\", \"Wildest Dreams (Fantasyland, #1)\", \"The Golden Dynasty (Fantasyland, #2)\", \"Fantastical (Fantasyland, #3)\", \"The Sweetest Thing (Lucky Harbor, #2)\", please write a new books that the user may bought",
+    "output": "\"Head Over Heels (Lucky Harbor, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Paper Swan\", \"Sustained (The Legal Briefs, #2)\", \"Hold On (The 'Burg, #6)\", \"Grayson's Vow\", \"Heart Recaptured (Hades Hangmen, #2)\", \"Betrayal (Infidelity, #1)\", \"The Baller\", \"To Love Jason Thorn\", \"Sugar Daddy (Sugar Bowl, #1)\", \"At Peace (The 'Burg, #2)\", please write a new books that the user may bought",
+    "output": "\"First Touch (First and Last, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Forever Princess (The Princess Diaries, #10)\", \"City of Bones (The Mortal Instruments, #1)\", \"Clockwork Princess (The Infernal Devices, #3)\", \"The Iron King (The Iron Fey, #1)\", \"Angelfall (Penryn & the End of Days, #1)\", \"Unhinged (Splintered, #2)\", \"Snow Like Ashes (Snow Like Ashes, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"The Retribution of Mara Dyer (Mara Dyer, #3)\", please write a new books that the user may bought",
+    "output": "\"Scarlet (Scarlet, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Made (Sempre, #0.4)\", \"Puddle Jumping (Puddle Jumping, #1)\", \"Confess\", \"All the Bright Places\", \"Crushed (Redemption, #2)\", \"It Ends with Us\", \"Before I Go to Sleep\", \"The Silent Waters (Elements, #3)\", \"Behind Closed Doors\", \"Throne of Glass (Throne of Glass, #1)\", please write a new books that the user may bought",
+    "output": "\"The Couple Next Door\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Finders Keepers (Bill Hodges Trilogy, #2)\", \"A Head Full of Ghosts\", \"The Godfather\", \"Dark Matter\", \"The Things They Carried\", \"Lock In (Lock In, #1)\", \"Before the Fall\", \"End of Watch (Bill Hodges Trilogy, #3)\", \"The Butterfly Garden (The Collector #1)\", \"Pretty Girls\", please write a new books that the user may bought",
+    "output": "\"The Big Sleep (Philip Marlowe, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Dark Triumph (His Fair Assassin, #2)\", \"Mortal Heart (His Fair Assassin, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"The Eternity Code (Artemis Fowl, #3)\", \"The Last Guardian (Artemis Fowl, #8)\", \"Winter (The Lunar Chronicles, #4)\", \"What We Saw\", \"I Hunt Killers (Jasper Dent, #1)\", \"The Book Thief\", \"Stars Above (The Lunar Chronicles, #4.5)\", please write a new books that the user may bought",
+    "output": "\"The Infinite Sea (The 5th Wave, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Romeo and Juliet\", \"Hamlet\", \"A Midsummer Night's Dream\", \"Othello\", \"The Tempest\", \"The Chronicles of Narnia (Chronicles of Narnia, #1-7)\", \"The Elements of Style\", \"The Picture of Dorian Gray\", \"Anne of Green Gables (Anne of Green Gables, #1)\", \"The Secret Garden\", please write a new books that the user may bought",
+    "output": "\"Winnie-the-Pooh (Winnie-the-Pooh, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Insurgent (Divergent, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"The Fate of Ten (Lorien Legacies, #6)\", \"Furthermore\", \"Ready Player One\", \"Empire of Storms (Throne of Glass, #5)\", \"Graceling (Graceling Realm, #1)\", \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", \"Harry Potter and the Chamber of Secrets (Harry Potter, #2)\", please write a new books that the user may bought",
+    "output": "\"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Crown of Embers (Fire and Thorns, #2)\", \"Dreams of Gods and Monsters (Daughter of Smoke and Bone, #3)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Me Before You (Me Before You, #1)\", \"Bloodlines (Bloodlines, #1)\", \"The Golden Lily (Bloodlines, #2)\", \"The Indigo Spell (Bloodlines, #3)\", \"I'll Give You the Sun\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"The Fiery Heart (Bloodlines, #4)\", please write a new books that the user may bought",
+    "output": "\"Silver Shadows (Bloodlines, #5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Sweet Hope (Sweet Home, #3; Carillo Boys, #2)\", \"Corrupt (Devil's Night, #1)\", \"Amour Amour (Aerial Ethereal, #1)\", \"Uncaged (Corps Security, #3.5)\", \"Motorcycle Man (Dream Man, #4)\", \"Bared to You (Crossfire, #1)\", \"Three, Two, One (321)\", \"The Hooker and the Hermit (Rugby, #1)\", \"The Friend Zone (Game On, #2)\", \"The Deal (Off-Campus, #1)\", please write a new books that the user may bought",
+    "output": "\"It Had to Be You (Chicago Stars, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"First Touch (First and Last, #1)\", \"Hollywood Dirt (Hollywood Dirt, #1)\", \"Lawless (King, #3)\", \"The Fall Up (The Fall Up, #1)\", \"It Ends with Us\", \"Hearts in Darkness (Hearts in Darkness, #1)\", \"The Dark Light of Day (The Dark Light of Day, #1)\", \"Left Drowning (Left Drowning, #1)\", \"Idol (VIP, #1)\", \"All of You (Between Breaths, #1)\", please write a new books that the user may bought",
+    "output": "\"The Mason List\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Too Late\", \"Paper Princess (The Royals, #1)\", \"Where One Goes\", \"Broken Prince (The Royals, #2)\", \"Twisted Palace (The Royals, #3)\", \"The Bird and the Sword (The Bird and the Sword Chronicles, #1)\", \"Flat-Out Matt (Flat-Out Love, #1.5)\", \"Kulti\", \"The Hating Game\", \"Beard Science (Winston Brothers, #3)\", please write a new books that the user may bought",
+    "output": "\"Bright Side (Bright Side, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Red Queen (Red Queen, #1)\", \"Origin (Lux, #4)\", \"Opposition (Lux, #5)\", \"The Girl Who Played with Fire (Millennium, #2)\", \"All the Bright Places\", \"The Girl Who Kicked the Hornet's Nest (Millennium, #3)\", \"When\", \"Forbidden\", please write a new books that the user may bought",
+    "output": "\"The Ocean at the End of the Lane\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Nimona\", \"Monsters of Men (Chaos Walking, #3)\", \"Highly Illogical Behavior\", \"The Sun Is Also a Star\", \"Alexander Hamilton\", \"Girl Against the Universe\", \"Furthermore\", \"The Gentleman's Guide to Vice and Virtue\", \"This Adventure Ends\", \"Queens of Geek\", please write a new books that the user may bought",
+    "output": "\"When Dimple Met Rishi\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Blood Promise (Vampire Academy, #4)\", \"Lady Midnight (The Dark Artifices, #1)\", \"Lord of Shadows (The Dark Artifices, #2)\", \"The Mime Order (The Bone Season, #2)\", \"Murder on the Orient Express (Hercule Poirot, #10)\", \"Hemlock (Hemlock, #1)\", \"Green Eggs and Ham\", \"Rebecca\", \"The BFG\", \"The Witches\", please write a new books that the user may bought",
+    "output": "\"Twilight / Life and Death (Twilight, #1, 1.75)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The One (The Selection, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Nimona\", \"Queen of Shadows (Throne of Glass, #4)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Empire of Storms (Throne of Glass, #5)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"The Lost Herondale (Tales from the Shadowhunter Academy, #2)\", please write a new books that the user may bought",
+    "output": "\"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"My Life Next Door\", \"Ugly Love\", \"Scarlet (The Lunar Chronicles, #2)\", \"The Final Empire (Mistborn, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Cress (The Lunar Chronicles, #3)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", please write a new books that the user may bought",
+    "output": "\"Winter (The Lunar Chronicles, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Blood Promise (Vampire Academy, #4)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Addicted to You (Addicted, #1)\", \"Addicted for Now (Addicted, #2)\", \"The Score (Off-Campus, #3)\", \"The Do-Over\", \"Whatever Life Throws at You\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Sempre (Sempre, #1)\", \"Ladies Man (Manwhore, #3)\", please write a new books that the user may bought",
+    "output": "\"Beautiful Bitch (Beautiful Bastard, #1.5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Pride and Prejudice\", \"Crown Duel (Crown & Court #1-2)\", \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"The Girl of Fire and Thorns (Fire and Thorns, #1)\", \"Cinder (The Lunar Chronicles, #1)\", \"Wildwood Dancing (Wildwood, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Winter (The Lunar Chronicles, #4)\", \"Seraphina (Seraphina, #1)\", \"Tiger Lily\", please write a new books that the user may bought",
+    "output": "\"Walk on Earth a Stranger  (The Gold Seer Trilogy, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Allegiant (Divergent, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Second Chance Summer\", \"The Final Empire (Mistborn, #1)\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"Crash into You (Pushing the Limits, #3)\", \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Goblet of Fire (Harry Potter, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Pucked (Pucked, #1)\", \"Sweet Home (Sweet Home, #1)\", \"The Dark Light of Day (The Dark Light of Day, #1)\", \"Lead (Stage Dive, #3)\", \"Deep (Stage Dive, #4)\", \"Torture to Her Soul (Monster in His Eyes, #2)\", \"The Hooker and the Hermit (Rugby, #1)\", \"Six of Hearts (Hearts, #1)\", \"The Allure of Dean Harper (The Allure, #2)\", \"Hearts of Fire (Hearts, #2)\", please write a new books that the user may bought",
+    "output": "\"It Ends with Us\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Prodigy (Legend, #2)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"The Fate of the Tearling (The Queen of the Tearling, #3)\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Nimona\", \"A Darker Shade of Magic (Shades of Magic, #1)\", \"The Infinite Sea (The 5th Wave, #2)\", \"The Last Star (The 5th Wave, #3)\", \"The Sun Is Also a Star\", please write a new books that the user may bought",
+    "output": "\"The Serpent King\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Sustained (The Legal Briefs, #2)\", \"Hold On (The 'Burg, #6)\", \"Grayson's Vow\", \"Heart Recaptured (Hades Hangmen, #2)\", \"Betrayal (Infidelity, #1)\", \"The Baller\", \"To Love Jason Thorn\", \"Sugar Daddy (Sugar Bowl, #1)\", \"At Peace (The 'Burg, #2)\", \"First Touch (First and Last, #1)\", please write a new books that the user may bought",
+    "output": "\"Cunning (Infidelity, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Red Queen (Red Queen, #1)\", \"Eleanor & Park\", \"Landline\", \"Frost Like Night (Snow Like Ashes, #3)\", \"Crystal Storm (Falling Kingdoms, #5)\", \"Illuminae (The Illuminae Files, #1)\", \"The School for Good and Evil (The School for Good and Evil, #1)\", \"The Midnight Star (The Young Elites, #3)\", \"A Torch Against the Night (An Ember in the Ashes, #2)\", \"The Beginning of Everything\", please write a new books that the user may bought",
+    "output": "\"Armada\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"If I Stay (If I Stay, #1)\", \"Kiss an Angel\", \"Queen of Shadows (Throne of Glass, #4)\", \"A Walk to Remember\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"A Thousand Boy Kisses\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"The Assassin and the Desert (Throne of Glass, #0.3)\", \"The Assassin and the Empire (Throne of Glass, #0.5)\", please write a new books that the user may bought",
+    "output": "\"The Bird and the Sword (The Bird and the Sword Chronicles, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Library of Souls (Miss Peregrine's Peculiar Children, #3)\", \"The Bitter Kingdom (Fire and Thorns, #3)\", \"The Girl of Fire and Thorns (Fire and Thorns, #1)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The Lost Hero (The Heroes of Olympus, #1)\", \"The Son of Neptune (The Heroes of Olympus, #2)\", \"The Mark of Athena (The Heroes of Olympus, #3)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", please write a new books that the user may bought",
+    "output": "\"The Hunger Games (The Hunger Games, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"City of Glass (The Mortal Instruments, #3)\", \"Fangirl\", \"Ready Player One\", \"The Final Empire (Mistborn, #1)\", \"Carry On\", \"The Name of the Wind (The Kingkiller Chronicle, #1)\", \"Simon vs. the Homo Sapiens Agenda\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought",
+    "output": "\"A Storm of Swords (A Song of Ice and Fire, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Shadow Throne (The Ascendance Trilogy, #3)\", \"Thorn\", \"Sunbolt (The Sunbolt Chronicles, #1)\", \"Partials (Partials Sequence, #1)\", \"Fragments (Partials Sequence, #2)\", \"Ready Player One\", \"Cracked (Soul Eaters, #1)\", \"Crushed (Soul Eaters, #2)\", \"Mr. Kiss and Tell (Veronica Mars, #2)\", \"The Archived (The Archived, #1)\", please write a new books that the user may bought",
+    "output": "\"End of Days (Penryn & the End of Days, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Winter (The Lunar Chronicles, #4)\", \"Vicious (Villains, #1)\", \"My Heart and Other Black Holes\", \"The Coldest Girl in Coldtown\", \"Cress (The Lunar Chronicles, #3)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"The Son of Neptune (The Heroes of Olympus, #2)\", \"Heartless\", \"Amy & Roger's Epic Detour\", \"Unearthly (Unearthly, #1)\", please write a new books that the user may bought",
+    "output": "\"Openly Straight (Openly Straight, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"Red Queen (Red Queen, #1)\", \"Shadow and Bone (The Grisha, #1)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"A Long, Long Sleep (UniCorp #1)\", \"The Immortal Rules (Blood of Eden, #1)\", \"City of Glass (The Mortal Instruments, #3)\", \"Heir of Fire (Throne of Glass, #3)\", \"Clockwork Angel (The Infernal Devices, #1)\", \"Clockwork Princess (The Infernal Devices, #3)\", please write a new books that the user may bought",
+    "output": "\"Unwind (Unwind, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Sweet Peril (Sweet, #2)\", \"It Ends with Us\", \"Ignite Me (Shatter Me, #3)\", \"The Sword of Summer (Magnus Chase and the Gods of Asgard, #1)\", \"Empire of Storms (Throne of Glass, #5)\", \"Everything, Everything\", \"The Queen of the Tearling (The Queen of the Tearling, #1)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Clockwork Angel (The Infernal Devices, #1)\", \"The Rose & the Dagger (The Wrath & the Dawn, #2)\", please write a new books that the user may bought",
+    "output": "\"The Raven Boys (The Raven Cycle, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Curious Incident of the Dog in the Night-Time\", \"Inescapable (The Premonition, #1)\", \"Intuition (The Premonition, #2)\", \"Indebted (The Premonition, #3)\", \"Incendiary (The Premonition, #4)\", \"Strange the Dreamer (Strange the Dreamer, #1)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Red Queen (Red Queen, #1)\", \"Glass Sword (Red Queen, #2)\", please write a new books that the user may bought",
+    "output": "\"Along for the Ride\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cruel Beauty (Cruel Beauty Universe, #1)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"Splintered (Splintered, #1)\", \"The Rose Society (The Young Elites, #2)\", \"UnWholly (Unwind, #2)\", \"Graceling (Graceling Realm, #1)\", \"The Last Star (The 5th Wave, #3)\", \"City of Glass (The Mortal Instruments, #3)\", \"Black Ice\", \"Beginnings: Obsidian & Onyx (Lux, #1-2)\", please write a new books that the user may bought",
+    "output": "\"Hex Hall (Hex Hall, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Strange and Beautiful Sorrows of Ava Lavender\", \"The Kiss of Deception (The Remnant Chronicles, #1)\", \"The Forbidden Wish (The Forbidden Wish, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"Forbidden\", \"Every Last Breath (The Dark Elements, #3)\", \"Warcross (Warcross, #1)\", \"The Bird and the Sword (The Bird and the Sword Chronicles, #1)\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", please write a new books that the user may bought",
+    "output": "\"This Savage Song  (Monsters of Verity, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Feast for Crows (A Song of Ice and Fire, #4)\", \"Dominic (Slater Brothers, #1)\", \"The Redemption of Callie & Kayden (The Coincidence, #2)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"Come Away with Me (With Me in Seattle, #1)\", \"Fight with Me (With Me in Seattle, #2)\", \"I Hunt Killers (Jasper Dent, #1)\", \"Blood of My Blood (Jasper Dent, #3)\", \"The Assassin's Blade (Throne of Glass, #0.1-#0.5)\", \"Unteachable\", please write a new books that the user may bought",
+    "output": "\"Scoring Wilder\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Tiger Lily\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Hero of Ages (Mistborn, #3)\", \"City of Stairs (The Divine Cities, #1)\", \"The Raven King (The Raven Cycle, #4)\", \"The Crown of Embers (Fire and Thorns, #2)\", \"Dreams of Gods and Monsters (Daughter of Smoke and Bone, #3)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Me Before You (Me Before You, #1)\", \"Bloodlines (Bloodlines, #1)\", please write a new books that the user may bought",
+    "output": "\"The Golden Lily (Bloodlines, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Emmy & Oliver\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"The Midnight Star (The Young Elites, #3)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", \"Voyager (Outlander, #3)\", \"It Ends with Us\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\", \"Pale Kings and Princes (Tales from the Shadowhunter Academy, #6)\", please write a new books that the user may bought",
+    "output": "\"The Fiery Trial (Tales from the Shadowhunter Academy, #8)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Opposition (Lux, #5)\", \"Maybe Someday (Maybe, #1)\", \"Archer's Voice\", \"Making Faces\", \"Until the End (Sea Breeze, #9)\", \"The Rosie Project (Don Tillman, #1)\", \"Stinger\", \"Thief (Love Me with Lies, #3)\", \"Me Before You (Me Before You, #1)\", \"Fangirl\", please write a new books that the user may bought",
+    "output": "\"Eleanor and Park\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Outsiders\", \"Revival\", \"The Storied Life of A.J. Fikry\", \"Cinder (The Lunar Chronicles, #1)\", \"Scarlet (The Lunar Chronicles, #2)\", \"City of Heavenly Fire (The Mortal Instruments, #6)\", \"Throne of Glass (Throne of Glass, #1)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Simon vs. the Homo Sapiens Agenda\", please write a new books that the user may bought",
+    "output": "\"Drama\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Me Before You (Me Before You, #1)\", \"Prodigy (Legend, #2)\", \"The Young Elites (The Young Elites, #1)\", \"The Darkest Minds (The Darkest Minds, #1)\", \"The Raven King (The Raven Cycle, #4)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Queen of Shadows (Throne of Glass, #4)\", \"Red Queen (Red Queen, #1)\", \"The Collectors’ Society (The Collectors’ Society, #1)\", please write a new books that the user may bought",
+    "output": "\"Truthwitch (The Witchlands, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Slammed (Slammed, #1)\", \"Illusions of Fate\", \"Ugly Love\", \"Lola and the Boy Next Door (Anna and the French Kiss, #2)\", \"Fangirl\", \"The 5th Wave (The 5th Wave, #1)\", \"Hopeless (Hopeless, #1)\", \"Maybe Someday (Maybe, #1)\", \"The Kiss of Deception (The Remnant Chronicles, #1)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", please write a new books that the user may bought",
+    "output": "\"Snow Like Ashes (Snow Like Ashes, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"Capture (Elements of Chemistry #3; Hypothesis, #1.3)\", \"Pucked (Pucked, #1)\", \"Truth or Beard (Winston Brothers, #1)\", \"Beard Science (Winston Brothers, #3)\", \"Grin and Beard It (Winston Brothers, #2)\", \"Playing with Fire (Hot in Chicago, #2)\", \"Nuts (Hudson Valley, #1)\", \"Lead (Stage Dive, #3)\", \"Deep (Stage Dive, #4)\", please write a new books that the user may bought",
+    "output": "\"The Year We Fell Down (The Ivy Years, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Grave Mercy (His Fair Assassin, #1)\", \"Do Androids Dream of Electric Sheep?\", \"Where Things Come Back\", \"The Shock of the Fall\", \"Finnikin of the Rock (Lumatere Chronicles, #1)\", \"Dark Triumph (His Fair Assassin, #2)\", \"The Raven King (The Raven Cycle, #4)\", \"Station Eleven\", \"Mortal Heart (His Fair Assassin, #3)\", \"The Well of Ascension (Mistborn, #2)\", please write a new books that the user may bought",
+    "output": "\"The Hero of Ages (Mistborn, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Second Chance Summer\", \"The Rose Society (The Young Elites, #2)\", \"Glass Sword (Red Queen, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"A Darker Shade of Magic (Shades of Magic, #1)\", \"A Torch Against the Night (An Ember in the Ashes, #2)\", \"Crooked Kingdom (Six of Crows, #2)\", \"A Gathering of Shadows (Shades of Magic, #2)\", please write a new books that the user may bought",
+    "output": "\"Caraval (Caraval, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Saga, Vol. 2 (Saga, #2)\", \"Saga, Vol. 3 (Saga, #3)\", \"Saga, Vol. 4 (Saga, #4)\", \"Ms. Marvel, Vol. 2: Generation Why\", \"Ms. Marvel, Vol. 3: Crushed\", \"Saga, Vol. 5 (Saga, #5)\", \"Lumberjanes, Vol. 2:  Friendship to the Max\", \"Ms. Marvel, Vol. 4: Last Days\", \"Far From You\", \"We Should All Be Feminists\", please write a new books that the user may bought",
+    "output": "\"Lumberjanes, Vol. 4: Out of Time\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Prodigy (Legend, #2)\", \"Champion (Legend, #3)\", \"The Hero of Ages (Mistborn, #3)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"The Boys of Summer (Summer, #1)\", \"Pushing the Limits (Pushing the Limits, #1)\", \"Froi of the Exiles (Lumatere Chronicles, #2)\", \"The One (The Selection, #3)\", \"Sweet Peril (Sweet, #2)\", please write a new books that the user may bought",
+    "output": "\"A Thousand Pieces of You (Firebird, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Sweet Hope (Sweet Home, #3; Carillo Boys, #2)\", \"Carry the Ocean (The Roosevelt, #1)\", \"The Coincidence of Callie & Kayden (The Coincidence, #1)\", \"Love, in English (Love, in English, #1)\", \"Gus (Bright Side, #2)\", \"Misconduct\", \"First Touch (First and Last, #1)\", \"Hollywood Dirt (Hollywood Dirt, #1)\", \"Lawless (King, #3)\", \"The Fall Up (The Fall Up, #1)\", please write a new books that the user may bought",
+    "output": "\"It Ends with Us\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Never Never (Never Never, #1)\", \"Beautiful Oblivion (The Maddox Brothers, #1)\", \"Never Never: Part Two (Never Never, #2)\", \"Enchanted (Woodcutter Sisters #1; Books of Arilland #1)\", \"Slammed (Slammed, #1)\", \"November 9\", \"Gone Girl\", \"Four: A Divergent Story Collection (Divergent, #0.1 - 0.4)\", \"An Abundance of Katherines\", \"Cinder & Ella (Cinder & Ella, #1)\", please write a new books that the user may bought",
+    "output": "\"Until Friday Night (The Field Party, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Nowhere but Here\", \"Hero (Hero, #1)\", \"Bad Romeo (Starcrossed, #1)\", \"Broken Juliet (Starcrossed, #2)\", \"For You (The 'Burg, #1)\", \"You (You, #1)\", \"Bright Side (Bright Side, #1)\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Regret (Rock Chick, #7)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", please write a new books that the user may bought",
+    "output": "\"Wicked Heart (Starcrossed, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Finding It (Losing It, #3)\", \"Two Boys Kissing\", \"The Perks of Being a Wallflower\", \"Unwrapping Hank (Unwrapping Hank, #1)\", \"Simon vs. the Homo Sapiens Agenda\", \"Bear, Otter, and the Kid (Bear, Otter, and the Kid, #1)\", \"More Happy Than Not\", \"How To Be A Normal Person\", \"Strong Signal (Cyberlove, #1)\", \"Him (Him #1)\", please write a new books that the user may bought",
+    "output": "\"Us (Him #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"Clockwork Prince (The Infernal Devices, #2)\", \"Clockwork Princess (The Infernal Devices, #3)\", \"Fangirl\", \"Cinder (The Lunar Chronicles, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"The Amazing Book is Not on Fire\", \"Blue Is the Warmest Color\", \"Since You've Been Gone\", please write a new books that the user may bought",
+    "output": "\"Nimona\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Thing About Jellyfish\", \"Winter (The Lunar Chronicles, #4)\", \"Strange the Dreamer (Strange the Dreamer, #1)\", \"The Midnight Star (The Young Elites, #3)\", \"The Female of the Species\", \"More Than This\", \"Tin Stars (Descender, #1)\", \"Our Dark Duet (Monsters of Verity, #2)\", \"Vicious (Villains, #1)\", \"The Smell of Other People's Houses\", please write a new books that the user may bought",
+    "output": "\"The Well of Ascension (Mistborn, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Graceling (Graceling Realm, #1)\", \"The Raven King (The Raven Cycle, #4)\", \"The Dream Thieves (The Raven Cycle, #2)\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"The Gray Wolf Throne (Seven Realms, #3)\", \"The Crimson Crown (Seven Realms, #4)\", \"The Young Elites (The Young Elites, #1)\", \"The Sculptor\", \"Illuminae (The Illuminae Files, #1)\", please write a new books that the user may bought",
+    "output": "\"Killing Sarai (In the Company of Killers, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Love That Split the World\", \"Vicious (Villains, #1)\", \"The Strange and Beautiful Sorrows of Ava Lavender\", \"The Girl from Everywhere (The Girl from Everywhere, #1)\", \"A Thousand Nights (A Thousand Nights, #1)\", \"Rebel of the Sands (Rebel of the Sands, #1)\", \"Wintersong (Wintersong, #1)\", \"Code Name Verity (Code Name Verity, #1)\", \"The Scorpion Rules (Prisoners of Peace, #1)\", \"The Crown's Game (The Crown's Game, #1)\", please write a new books that the user may bought",
+    "output": "\"Romancing Mister Bridgerton (Bridgertons, #4)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Paper Hearts (Hearts, #2)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"King of Hearts (Hearts, #3)\", \"The Hurricane (The Hurricane, #1)\", \"Dearest Clementine (Dearest, #1)\", \"Fueled (Driven, #2)\", \"Crashed (Driven, #3)\", \"Driven (Driven, #1)\", \"Tyrant (King, #2)\", \"Willing Captive\", please write a new books that the user may bought",
+    "output": "\"Happily Ever Ninja (Knitting in the City, #5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hobbit\", \"Artemis Fowl (Artemis Fowl, #1)\", \"The Ocean at the End of the Lane\", \"The Goldfinch\", \"Cloud Atlas\", \"The Thousand Autumns of Jacob de Zoet\", \"Ghostwritten\", \"The Sweetness at the Bottom of the Pie (Flavia de Luce, #1)\", \"The Old Man and the Sea\", \"Yes Please\", please write a new books that the user may bought",
+    "output": "\"Bossypants\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Between Shades of Gray\", \"Truthwitch (The Witchlands, #1)\", \"End of Days (Penryn & the End of Days, #3)\", \"It Ends with Us\", \"Paper Princess (The Royals, #1)\", \"The Beauty of Darkness (The Remnant Chronicles, #3)\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Nothing to Envy: Ordinary Lives in North Korea\", \"The Sacred Lies of Minnow Bly\", \"We Are the Ants\", please write a new books that the user may bought",
+    "output": "\"The Female of the Species\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Scorpio Races\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"The Sin Eater’s Daughter (The Sin Eater’s Daughter, #1)\", \"The Unbeatable Squirrel Girl, Volume 1: Squirrel Power\", \"Rat Queens, Vol. 1: Sass & Sorcery\", \"The Serpent King\", \"Rat Queens, Vol. 2: The Far Reaching Tentacles of N'rygoth\", \"The Wicked + The Divine, Vol. 2: Fandemonium\", \"Gotham Academy, Vol. 1: Welcome to Gotham Academy\", please write a new books that the user may bought",
+    "output": "\"Lumberjanes, Vol. 4: Out of Time\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Friends Without Benefits (Knitting in the City, #2)\", \"Love Hacked (Knitting in the City, #3)\", \"Neanderthal Marries Human (Knitting in the City, #1.5)\", \"Truth or Beard (Winston Brothers, #1)\", \"Turbulence (Turbulence, #1)\", \"Ruin (Ruin, #1)\", \"Never Let You Go\", \"Dark Horse (Class 5, #1)\", \"Priest (Priest, #1)\", \"Paper Hearts (Hearts, #2)\", please write a new books that the user may bought",
+    "output": "\"Kaleidoscope Hearts (Hearts, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Point of Retreat (Slammed, #2)\", \"This Girl (Slammed, #3)\", \"Gabriel's Redemption (Gabriel's Inferno, #3)\", \"The Young Elites (The Young Elites, #1)\", \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Red Queen (Red Queen, #1)\", \"Origin (Lux, #4)\", \"Opposition (Lux, #5)\", \"The Girl Who Played with Fire (Millennium, #2)\", please write a new books that the user may bought",
+    "output": "\"All the Bright Places\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"I'll Give You the Sun\", \"The Dream Thieves (The Raven Cycle, #2)\", \"Half Bad (The Half Bad Trilogy, #1)\", \"Clockwork Prince (The Infernal Devices, #2)\", \"Winter (The Lunar Chronicles, #4)\", \"Vicious (Villains, #1)\", \"My Heart and Other Black Holes\", \"The Coldest Girl in Coldtown\", \"Cress (The Lunar Chronicles, #3)\", please write a new books that the user may bought",
+    "output": "\"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Kingdom of Dreams (Westmoreland, #1)\", \"The Fill-In Boyfriend\", \"Rebel Spring (Falling Kingdoms, #2)\", \"Chosen at Nightfall (Shadow Falls, #5)\", \"Untold (The Lynburn Legacy, #2)\", \"The Lost Symbol (Robert Langdon, #3)\", \"Nevernight (The Nevernight Chronicle, #1)\", \"Everything, Everything\", \"Wicked (A Wicked Saga, #1)\", \"Tempest (Tempest, #1)\", please write a new books that the user may bought",
+    "output": "\"Shatter Me (Shatter Me, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Damaged Like Us (Like Us, #1)\", \"Archer's Voice\", \"Infini (Aerial Ethereal, #2)\", \"Sincerely, Carter (Sincerely Carter, #1)\", \"The Score (Off-Campus, #3)\", \"The Baller\", \"RoomHate\", \"Paper Hearts (Hearts, #2)\", \"Finding Dandelion (Dearest, #2)\", \"Us (Him #2)\", please write a new books that the user may bought",
+    "output": "\"Shameless\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Gentleman's Position (Society of Gentlemen, #3)\", \"The Dark Tide (The Adrien English Mysteries, #5)\", \"Strong Signal (Cyberlove, #1)\", \"Not His Kiss to Take\", \"How to Walk Like a Man (Howl At The Moon #2)\", \"Fast Connection (Cyberlove, #2)\", \"Who We Are (Bear, Otter, and the Kid, #2)\", \"The Art of Breathing (Bear, Otter, and the Kid, #3)\", \"How To Be A Normal Person\", \"The Lightning-Struck Heart (Tales From Verania, #1)\", please write a new books that the user may bought",
+    "output": "\"2016 on Goodreads\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The King of Attolia (The Queen's Thief, #3)\", \"The Queen of Attolia (The Queen's Thief, #2)\", \"The House of Mirth\", \"Gone Girl\", \"The Little Prince\", \"Much Ado About Nothing\", \"All the Ugly and Wonderful Things\", \"The Complete Persepolis\", \"Fables, Vol. 1: Legends in Exile\", \"Fables, Vol. 4: March of the Wooden Soldiers\", please write a new books that the user may bought",
+    "output": "\"Nimona\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Throne of Glass (Throne of Glass, #1)\", \"Entwined\", \"Hearts in Darkness (Hearts in Darkness, #1)\", \"Hard as It Gets (Hard Ink, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Hard to Hold on To (Hard Ink, #2.5)\", \"Fangirl\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"Angelfall (Penryn & the End of Days, #1)\", please write a new books that the user may bought",
+    "output": "\"Lola and the Boy Next Door (Anna and the French Kiss, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Empire of Storms (Throne of Glass, #5)\", \"Oblivion (Lux, #1.5)\", \"Milk and Honey\", \"Brutally Beautiful (Beautiful, #1)\", \"A Thousand Boy Kisses\", \"Lady Midnight (The Dark Artifices #1)\", \"The Problem with Forever\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Raven King (The Raven Cycle, #4)\", please write a new books that the user may bought",
+    "output": "\"Sustained (The Legal Briefs, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Saving Raphael Santiago (The Bane Chronicles, #6)\", \"The Course of True Love [and First Dates] (The Bane Chronicles, #10)\", \"The Last Stand of the New York Institute (The Bane Chronicles, #9)\", \"The Bane Chronicles\", \"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\", \"The Lost Herondale (Tales from the Shadowhunter Academy, #2)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"The Evil We Love (Tales from the Shadowhunter Academy, #5)\", \"Pale Kings and Princes (Tales from the Shadowhunter Academy, #6)\", \"Bitter of Tongue (Tales from the Shadowhunter Academy, #7)\", please write a new books that the user may bought",
+    "output": "\"The Fiery Trial (Tales from the Shadowhunter Academy, #8)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Seditious Affair (Society of Gentlemen, #2)\", \"Simon vs. the Homo Sapiens Agenda\", \"How to Repair a Mechanical Heart\", \"Him (Him #1)\", \"Crossroads (Crossroads, #1)\", \"A Gentleman's Position (Society of Gentlemen, #3)\", \"Sutphin Boulevard (Five Boroughs, #1)\", \"How To Be A Normal Person\", \"Unwrapping Hank (Unwrapping Hank, #1)\", \"Strong Signal (Cyberlove, #1)\", please write a new books that the user may bought",
+    "output": "\"Wolfsong (Green Creek, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Burn for Me (Hidden Legacy, #1)\", \"White Hot (Hidden Legacy, #2)\", \"Cinder & Ella (Cinder & Ella, #1)\", \"One Fell Sweep (Innkeeper Chronicles, #3)\", \"The Wall of Winnipeg and Me\", \"Kulti\", \"Magic Binds (Kate Daniels, #9)\", \"The Hook Up (Game On, #1)\", \"Beautiful Disaster (Beautiful, #1)\", \"Remember When 2: The Sequel (Remember Trilogy, #2)\", please write a new books that the user may bought",
+    "output": "\"Remember When 3: The Finale (Remember Trilogy, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Paper Princess (The Royals, #1)\", \"Broken Prince (The Royals, #2)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"Twisted Palace (The Royals, #3)\", \"Missoula: Rape and the Justice System in a College Town\", \"The Transfer (Divergent, #0.1)\", \"The Host (The Host, #1)\", \"Anne of Green Gables (Anne of Green Gables, #1)\", please write a new books that the user may bought",
+    "output": "\"Anne of the Island (Anne of Green Gables, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Jane Eyre\", \"Life As We Knew It (Last Survivors, #1)\", \"Ender's Game (Ender's Saga, #1)\", \"The Outsiders\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"1984\", \"The Sacred Lies of Minnow Bly\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Fahrenheit 451\", please write a new books that the user may bought",
+    "output": "\"The Winner's Kiss (The Winner's Trilogy, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Serpent King\", \"Akata Witch (Akata Witch, #1)\", \"End of Watch (Bill Hodges Trilogy, #3)\", \"Homegoing\", \"This Savage Song (Monsters of Verity, #1)\", \"Echo\", \"Cinder (The Lunar Chronicles, #1)\", \"Where'd You Go, Bernadette\", \"Highly Illogical Behavior\", \"The Girl from Everywhere (The Girl from Everywhere, #1)\", please write a new books that the user may bought",
+    "output": "\"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Opposition (Lux, #5)\", \"Sweet Evil (Sweet, #1)\", \"Take a Chance (Rosemary Beach, #7; Chance, #1)\", \"Landline\", \"White Hot Kiss (The Dark Elements, #1)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Darkest Minds (The Darkest Minds, #1)\", \"The Diviners (The Diviners, #1)\", \"The Bronze Horseman (The Bronze Horseman, #1)\", \"Impulse (Impulse, #1)\", please write a new books that the user may bought",
+    "output": "\"The Last Olympian (Percy Jackson and the Olympians, #5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Deity (Covenant, #3)\", \"The Return (Titan, #1)\", \"Magic Dreams (Kate Daniels, #4.5)\", \"Shadow and Bone (The Grisha, #1)\", \"Glass Sword (Red Queen, #2)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"World After (Penryn & the End of Days, #2)\", \"End of Days (Penryn & the End of Days, #3)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Clockwork Princess (The Infernal Devices, #3)\", please write a new books that the user may bought",
+    "output": "\"City of Heavenly Fire (The Mortal Instruments, #6)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", \"Cinder & Ella (Cinder & Ella, #1)\", \"Twilight (The Mediator, #6)\", \"Remembrance (The Mediator, #7)\", \"Salt to the Sea\", \"Harry Potter and the Cursed Child, Parts 1 & 2 (Harry Potter, #8)\", \"Everything, Everything\", \"Fantastic Beasts and Where to Find Them: The Original Screenplay\", \"Gemina (The Illuminae Files, #2)\", \"The Diabolic (The Diabolic, #1)\", please write a new books that the user may bought",
+    "output": "\"Stolen Songbird (The Malediction Trilogy, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Saga, Vol. 2 (Saga, #2)\", \"Seconds\", \"Fangirl\", \"Animal Farm\", \"Vicious (Villains, #1)\", \"Saga, Vol. 4 (Saga, #4)\", \"Saga, Vol. 3 (Saga, #3)\", \"The Perks of Being a Wallflower\", \"Carry On\", \"Welcome to Night Vale (Night Vale, #1)\", please write a new books that the user may bought",
+    "output": "\"Rat Queens, Vol. 1: Sass & Sorcery\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Cinder (The Lunar Chronicles, #1)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"As You Wish: Inconceivable Tales from the Making of The Princess Bride\", \"Cress (The Lunar Chronicles, #3)\", \"Elsewhere\", \"Rook\", \"Half Wild (The Half Bad Trilogy, #2)\", \"Aristotle and Dante Discover the Secrets of the Universe\", please write a new books that the user may bought",
+    "output": "\"A God in Ruins\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Point of Retreat (Slammed, #2)\", \"The Heart of Betrayal (The Remnant Chronicles, #2)\", \"Me Before You (Me Before You, #1)\", \"Be with Me (Wait for You, #2)\", \"November 9\", \"The Martian\", \"Bird Box\", \"The Giver (The Giver, #1)\", \"The 5th Wave (The 5th Wave, #1)\", \"Never Never (Never Never, #1)\", please write a new books that the user may bought",
+    "output": "\"Yes Please\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Half-Blood (Covenant, #1)\", \"Pure (Covenant, #2)\", \"Deity (Covenant, #3)\", \"Elixir (Covenant, #3.5)\", \"Sentinel (Covenant, #5)\", \"Apollyon (Covenant, #4)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"White Hot Kiss (The Dark Elements, #1)\", \"Stone Cold Touch (The Dark Elements, #2)\", \"Insurgent (Divergent, #2)\", please write a new books that the user may bought",
+    "output": "\"Allegiant (Divergent, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Where One Goes\", \"Broken Prince (The Royals, #2)\", \"Twisted Palace (The Royals, #3)\", \"The Bird and the Sword (The Bird and the Sword Chronicles, #1)\", \"Flat-Out Matt (Flat-Out Love, #1.5)\", \"Kulti\", \"The Hating Game\", \"Beard Science (Winston Brothers, #3)\", \"Bright Side (Bright Side, #1)\", \"Gus (Bright Side, #2)\", please write a new books that the user may bought",
+    "output": "\"Mists of the Serengeti\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Royally Screwed (Royally, #1)\", \"Roman Crazy\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Royally Matched (Royally, #2)\", \"Without Merit\", \"The Hate U Give\", \"Wait for It\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", \"Beautiful Mistake\", \"Own the Wind (Chaos, #1)\", please write a new books that the user may bought",
+    "output": "\"Fire Inside (Chaos, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Shattered by You (Tear Asunder, #3)\", \"Kyland\", \"Reclaiming the Sand (Reclaiming the Sand, #1)\", \"Perfect Ruin (Unyielding, #2)\", \"Deep Redemption (Hades Hangmen, #4)\", \"Midnight Lily\", \"The Paper Swan\", \"The Slayer (Untamed Hearts, #2)\", \"Debt\", \"Riot (Scarred Souls, #4)\", please write a new books that the user may bought",
+    "output": "\"Whispers and the Roars\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Uninvited (Uninvited, #1)\", \"Hopeless (Hopeless, #1)\", \"Everneath (Everneath, #1)\", \"Scarlet (The Lunar Chronicles, #2)\", \"Easy (Contours of the Heart, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"These Broken Stars (Starbound, #1)\", \"Pivot Point (Pivot Point, #1)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Immortal Rules (Blood of Eden, #1)\", please write a new books that the user may bought",
+    "output": "\"Immortal Beloved (Immortal Beloved, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Phantom of the Opera\", \"The Dream Thieves (The Raven Cycle, #2)\", \"The Godfather\", \"The Invention of Hugo Cabret\", \"My Grandmother Asked Me to Tell You She's Sorry\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America\", \"The Remains of the Day\", \"Atonement\", \"The Absolutely True Diary of a Part-Time Indian\", please write a new books that the user may bought",
+    "output": "\"The Little Prince\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Paper Towns\", \"Catching Fire (The Hunger Games, #2)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Mr. Kiss and Tell (Veronica Mars, #2)\", \"Fangirl\", \"Eleanor & Park\", \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"Cinder (The Lunar Chronicles, #1)\", please write a new books that the user may bought",
+    "output": "\"Cress (The Lunar Chronicles, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Acheron (Dark-Hunter #14)\", \"Midnight Awakening (Midnight Breed, #3)\", \"Late Eclipses (October Daye, #4)\", \"Chimes at Midnight (October Daye, #7)\", \"Kiss of the Highlander (Highlander, #4)\", \"I Want My Hat Back\", \"Magic Rises (Kate Daniels, #6)\", \"Throne of Glass (Throne of Glass, #1)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought",
+    "output": "\"Empire of Storms (Throne of Glass, #5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Hammer of Thor (Magnus Chase and the Gods of Asgard, #2)\", \"Secret History (Mistborn, #3.5)\", \"Wolf by Wolf (Wolf by Wolf, #1)\", \"Blood for Blood (Wolf By Wolf, #2)\", \"We Are the Ants\", \"The Long Way to a Small, Angry Planet (Wayfarers, #1)\", \"Death of a Pirate King (The Adrien English Mysteries, #4)\", \"The Unexpected Everything\", \"Sticks & Stones (Cut & Run, #2)\", \"Divide & Conquer (Cut & Run, #4)\", please write a new books that the user may bought",
+    "output": "\"Touch & Geaux (Cut & Run, #7)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"Second Chance Summer\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Attachments\", \"Blood Promise (Vampire Academy, #4)\", \"Simon vs. the Homo Sapiens Agenda\", \"Library of Souls (Miss Peregrine's Peculiar Children, #3)\", \"Night (The Night Trilogy #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", please write a new books that the user may bought",
+    "output": "\"Me Before You (Me Before You, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Easy (Contours of the Heart, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"These Broken Stars (Starbound, #1)\", \"Pivot Point (Pivot Point, #1)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Immortal Rules (Blood of Eden, #1)\", \"Immortal Beloved (Immortal Beloved, #1)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"Of Poseidon (The Syrena Legacy, #1)\", please write a new books that the user may bought",
+    "output": "\"Asunder (Newsoul, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Scarlet (Scarlet, #1)\", \"Stolen Songbird (The Malediction Trilogy, #1)\", \"Enclave (Razorland, #1)\", \"Cinder & Ella (Cinder & Ella, #1)\", \"The 5th Wave (The 5th Wave, #1)\", \"King Hall (Forever Evermore, #1)\", \"King's Cage (Red Queen, #3)\", \"Six of Crows (Six of Crows, #1)\", \"Confessions of a Shopaholic (Shopaholic, #1)\", \"The Taking (The Taking, #1)\", please write a new books that the user may bought",
+    "output": "\"Before Jamaica Lane (On Dublin Street, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Lies of Locke Lamora (Gentleman Bastard, #1)\", \"Saga, Vol. 5 (Saga, #5)\", \"Nimona\", \"Pax\", \"Saga, Vol. 6 (Saga, #6)\", \"Warbreaker (Warbreaker, #1)\", \"Gone with the Wind\", \"Saga, Vol. 7 (Saga, #7)\", \"Bridge to Terabithia\", \"The Long Way to a Small, Angry Planet (Wayfarers, #1)\", please write a new books that the user may bought",
+    "output": "\"The Sparrow (The Sparrow, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Rose Society (The Young Elites, #2)\", \"Fantastic Beasts and Where to Find Them\", \"Me Before You (Me Before You, #1)\", \"Six of Crows (Six of Crows, #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"My Sister's Keeper\", \"Heartless\", \"King's Cage (Red Queen, #3)\", \"The Ship of the Dead (Magnus Chase and the Gods of Asgard, #3)\", \"Gemina (The Illuminae Files, #2)\", please write a new books that the user may bought",
+    "output": "\"The Call (The Call, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Attachments\", \"Forgive Me, Leonard Peacock\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"Rat Queens, Vol. 1: Sass & Sorcery\", \"The Girl on the Train\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The Hero of Ages (Mistborn, #3)\", \"Sharp Objects\", \"Ugly Love\", \"Hopeless (Hopeless, #1)\", please write a new books that the user may bought",
+    "output": "\"Y: The Last Man, Vol. 10: Whys and Wherefores (Y: The Last Man, #10)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Burn (Blood & Roses, #3)\", \"Twisted (Blood & Roses, #5)\", \"Collateral (Blood & Roses, #6)\", \"The Score (Off-Campus, #3)\", \"Sweet Fall (Sweet Home, #2; Carillo Boys, #1)\", \"Sweet Hope (Sweet Home, #3; Carillo Boys, #2)\", \"Sweet Soul (Sweet Home, #4; Carillo Boys, #3)\", \"Leave Me Breathless (Ross Siblings, #3)\", \"Clipped Wings (Clipped Wings, #1)\", \"The Undoing (Call of Crows, #2)\", please write a new books that the user may bought",
+    "output": "\"Raze (Scarred Souls, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Six of Crows (Six of Crows, #1)\", \"Amour Amour (Aerial Ethereal, #1)\", \"Never Never: Part Three (Never Never, #3)\", \"A Head Full of Ghosts\", \"Infini (Aerial Ethereal, #2)\", \"Some Kind of Perfect (Calloway Sisters, #4.5; Addicted, #3.5)\", \"Milk and Honey\", \"It Ends with Us\", \"The Bird and the Sword (The Bird and the Sword, #1)\", \"All the Ugly and Wonderful Things\", please write a new books that the user may bought",
+    "output": "\"The Sea of Tranquility\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Captive Prince (Captive Prince, #1)\", \"Captive Prince: Volume Two (Captive Prince, #2)\", \"The Long Game (The Fixer, #2)\", \"Strange the Dreamer (Strange the Dreamer, #1)\", \"The Wicked + The Divine, Vol. 2: Fandemonium\", \"Crooked Kingdom (Six of Crows, #2)\", \"The King's Men (All for the Game, #3)\", \"Middlesex\", \"Fade (In The Company of Shadows, #4)\", \"Rules of Civility\", please write a new books that the user may bought",
+    "output": "\"The Diabolic (The Diabolic, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Blue Is the Warmest Color\", \"Wonder\", \"Towers of Midnight (Wheel of Time, #13)\", \"The Serpent King\", \"History Is All You Left Me\", \"A Conjuring of Light (Shades of Magic, #3)\", \"The Queen of the Tearling (The Queen of the Tearling, #1)\", \"My Lady Jane (The Lady Janies, #1)\", \"The Goldfinch\", \"Mr. Penumbra's 24-Hour Bookstore (Mr. Penumbra's 24-Hour Bookstore, #1)\", please write a new books that the user may bought",
+    "output": "\"Night Film\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Penultimate Peril (A Series of Unfortunate Events, #12)\", \"Catching Fire (The Hunger Games, #2)\", \"The Westing Game\", \"Matilda\", \"The BFG\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"Cinder (The Lunar Chronicles, #1)\", \"Wonder (Wonder #1)\", \"Eleanor and Park\", please write a new books that the user may bought",
+    "output": "\"Inside Out & Back Again\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Just One Day (Just One Day, #1)\", \"Worth the Fall (The McKinney Brothers, #1)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"The Mason List\", \"Loving Mr. Daniels\", \"Maybe Not (Maybe, #1.5)\", \"Long Way Down (Calloway Sisters, #4; Addicted, #3.2)\", \"Damaged Like Us (Like Us, #1)\", \"Archer's Voice\", please write a new books that the user may bought",
+    "output": "\"Infini (Aerial Ethereal, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Through the Ever Night (Under the Never Sky, #2)\", \"Timekeeper (Timekeeper, #1)\", \"The Foxhole Court (All for the Game, #1)\", \"This Shattered World (Starbound, #2)\", \"Their Fractured Light (Starbound, #3)\", \"The Raven King (All for the Game, #2)\", \"The King's Men (All for the Game, #3)\", \"Afterimage (In The Company of Shadows, #2)\", \"Fade (In The Company of Shadows, #4)\", \"Goodbye Days\", please write a new books that the user may bought",
+    "output": "\"The Beauty of Darkness (The Remnant Chronicles, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Crown of Midnight (Throne of Glass, #2)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Gone Girl\", \"Cinder (The Lunar Chronicles, #1)\", \"Scarlet (The Lunar Chronicles, #2)\", \"Cress (The Lunar Chronicles, #3)\", \"Winter (The Lunar Chronicles, #4)\", \"The Selection (The Selection, #1)\", \"Carry On\", \"City of Ashes (The Mortal Instruments, #2)\", please write a new books that the user may bought",
+    "output": "\"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Flat-Out Celeste (Flat-Out Love, #2)\", \"Confess\", \"You (You, #1)\", \"Archer's Voice\", \"Hamlet\", \"Me Before You (Me Before You, #1)\", \"To Professor, with Love (Forbidden Men, #2)\", \"Six of Hearts (Hearts, #1)\", \"God-Shaped Hole\", \"Ruthless People (Ruthless People, #1)\", please write a new books that the user may bought",
+    "output": "\"The Untouchables (Ruthless People, #2)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"How To Be A Normal Person\", \"Strong Signal (Cyberlove, #1)\", \"Him (Him #1)\", \"Us (Him #2)\", \"Who We Are (Bear, Otter, and the Kid, #2)\", \"The Art of Breathing (Bear, Otter, and the Kid, #3)\", \"American Love Songs\", \"All the Bright Places\", \"Hot Head (Head #1)\", \"Promises (Coda Books, #1)\", please write a new books that the user may bought",
+    "output": "\"Highly Illogical Behavior\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Eleanor & Park\", \"Opal (Lux, #3)\", \"Crash (Crash, #1)\", \"Onyx (Lux, #2)\", \"Maybe Someday (Maybe, #1)\", \"Obsidian (Lux, #1)\", \"Playing for Keeps (Neighbor from Hell, #1)\", \"Just the Sexiest Man Alive\", \"Clash (Crash, #2)\", \"Crush (Crash, #3)\", please write a new books that the user may bought",
+    "output": "\"Finding Cinderella (Hopeless, #2.5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Snow Like Ashes (Snow Like Ashes, #1)\", \"Ugly Love\", \"The False Prince (The Ascendance Trilogy #1)\", \"Pivot Point (Pivot Point, #1)\", \"The Runaway King (The Ascendance Trilogy, #2)\", \"The Sea of Tranquility\", \"The Shadow Throne (The Ascendance Trilogy, #3)\", \"The Infinite Sea (The 5th Wave, #2)\", \"Leaving Paradise (Leaving Paradise, #1)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought",
+    "output": "\"We'll Always Have Summer (Summer, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Wonder\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Empire of Storms (Throne of Glass, #5)\", \"The Raven King (The Raven Cycle, #4)\", \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"Scarlet (The Lunar Chronicles, #2)\", \"Cress (The Lunar Chronicles, #3)\", \"Uprooted\", please write a new books that the user may bought",
+    "output": "\"Fairest (The Lunar Chronicles, #3.5)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Falling Kingdoms (Falling Kingdoms, #1)\", \"Rebel Spring (Falling Kingdoms, #2)\", \"Gathering Darkness (Falling Kingdoms, #3)\", \"Frozen Tides (Falling Kingdoms, #4)\", \"A Storm of Swords (A Song of Ice and Fire, #3)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Empire of Storms (Throne of Glass, #5)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", please write a new books that the user may bought",
+    "output": "\"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Age of Myth (The Legends of the First Empire, #1)\", \"Once Broken Faith (October Daye, #10)\", \"Hostage to Pleasure (Psy-Changeling, #5)\", \"Bonds of Justice (Psy-Changeling #8)\", \"Archangel's Heart (Guild Hunter, #9)\", \"Deadhouse Gates (The Malazan Book of the Fallen, #2)\", \"The Crimson Campaign (Powder Mage, #2)\", \"Thief of Shadows (Maiden Lane, #4)\", \"A Prayer for Owen Meany\", \"Gentleman Jole and the Red Queen\", please write a new books that the user may bought",
+    "output": "\"Wildfire (Hidden Legacy, #3)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"I'll Give You the Sun\", \"The Piper's Son\", \"Addicted After All (Addicted, #3)\", \"Me Before You (Me Before You, #1)\", \"Fuel the Fire (Calloway Sisters, #3; Addicted, #3.1)\", \"Long Way Down (Calloway Sisters, #4; Addicted, #3.2)\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Archer's Voice\", \"Confess\", please write a new books that the user may bought",
+    "output": "\"Bad Romeo (Starcrossed, #1)\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Divide & Conquer (Cut & Run, #4)\", \"Armed & Dangerous (Cut & Run, #5)\", \"Captive Prince: Volume Two (Captive Prince, #2)\", \"Zero at the Bone\", \"Know Not Why\", \"Touch & Geaux (Cut & Run, #7)\", \"Crash & Burn (Cut & Run, #9)\", \"Ball & Chain (Cut & Run, #8)\", \"Muscling Through\", \"The Mating of Michael (Sex in Seattle, #3)\", please write a new books that the user may bought",
+    "output": "\"Peter Darling\"\n"
+  },
+  {
+    "instruction": "Given a list of books the user recently enjoys, please recommend a new books that the user may like",
+    "input": "The user has played the following books before: \"Oblivion (Lux, #1.5)\", \"Milk and Honey\", \"Brutally Beautiful (Beautiful, #1)\", \"A Thousand Boy Kisses\", \"Lady Midnight (The Dark Artifices #1)\", \"The Problem with Forever\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Raven King (The Raven Cycle, #4)\", \"Sustained (The Legal Briefs, #2)\", \"Royally Screwed (Royally, #1)\", please write a new books that the user may bought",
+    "output": "\"Roman Crazy\"\n"
+  }
+]
