@@ -153,7 +153,7 @@ model_epoch_*/
 *.onnx
 
 # Datasets & caches
-data/
+# data/
 data_raw/
 data_processed/
 datasets/
