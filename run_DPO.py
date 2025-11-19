@@ -188,11 +188,11 @@ def train_dpo(config):
 
     # Load DPO training dataset (JSON lines format: one JSON per line)
     train_data = safe_load_json(config["train_data_path"])
-    # valid_data = safe_load_json(config["valid_data_path"])
+    valid_data = safe_load_json(config["valid_data_path"])
 
     # Convert lists to HuggingFace Dataset objects
     train_dataset = Dataset.from_list(train_data)
-    # eval_dataset = Dataset.from_list(valid_data)
+    eval_dataset = Dataset.from_list(valid_data)
 
     # Prepare training arguments from the dpo section of config
     training_args = DPOConfig(
@@ -206,7 +206,7 @@ def train_dpo(config):
         bf16 = config["dpo"]["bf16"],
         logging_steps = config["dpo"]["logging_steps"],
         optim = config["dpo"]["optim"],
-        # eval_strategy = config["dpo"]["evaluation_strategy"],
+        eval_strategy = config["dpo"]["evaluation_strategy"],
         save_strategy = config["dpo"]["save_strategy"],
         output_dir = output_dir,
         save_total_limit = config["dpo"].get("save_total_limit", 1),
@@ -222,7 +222,7 @@ def train_dpo(config):
         ref_model = reference_model,
         args = training_args,
         train_dataset = train_dataset,
-        # eval_dataset = eval_dataset,
+        eval_dataset = eval_dataset,
         processing_class = tokenizer,
     )
 
@@ -240,14 +240,13 @@ def train_dpo(config):
 if __name__ == "__main__":
     print("Starting DPO training...")
 
-    # distance  = "ches"
+    # distance  = "ln_ches_score"
     distance = "last_hidden_embedding_inner_prod"
-    composition = "top100"
+    # composition = "top100"
+    composition = "random100_seed123"
 
     CONFIG_DPO = {
 
-        #"distance": "ches",
-        # "distance": "ln_ches",
         "distance": distance,
         "composition": composition,
 
@@ -257,7 +256,7 @@ if __name__ == "__main__":
         "resume_from_checkpoint": "base_model",
         # Dataset paths
         "train_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/subsets/{distance}_{composition}.json",
-        # "valid_data_path": f"{DATA_INPUT_DIR}/{strategy}/{composition}/valid.json",
+        "valid_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/valid_subsets/{distance}_{composition}.json",
 
         # Output
         "output_dir": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/Goodreads_test/{distance}_{composition}/",
