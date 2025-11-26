@@ -1,0 +1,802 @@
+[
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"This is Falling (Falling, #1)\", \"Play (Stage Dive, #2)\", \"The Girl in 6E (Deanna Madden, #1)\", \"Sempre: Redemption (Sempre, #2)\", \"Made (Sempre, #0.4)\", \"You (You, #1)\", \"Torture to Her Soul (Monster in His Eyes, #2)\", \"By Any Other Name (Forbidden, #1)\", \"The Allure of Dean Harper (The Allure, #2)\", \"Target on Our Backs (Monster in His Eyes, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Wall of Winnipeg and Me\"",
+    "rejected": "\"Broken Dove (Fantasyland, #4)\"",
+    "ches_score": 54285.546875,
+    "ln_ches_score": -158.2763671875,
+    "last_hidden_embedding_inner_prod": 1924.062255859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The One (The Selection, #3)\", \"Burned (Burned, #1)\", \"Death Note, Vol. 3: Hard Run (Death Note, #3)\", \"Fallout (Crank, #3)\", \"Wintergirls\", \"Fullmetal Alchemist, Vol. 1 (Fullmetal Alchemist, #1)\", \"This Is Where It Ends\", \"Attack on Titan, Vol. 1 (Attack on Titan, #1)\", \"The Bad Beginning (A Series of Unfortunate Events, #1)\", \"The Reptile Room (A Series of Unfortunate Events, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Milk and Honey\"",
+    "rejected": "\"Ricochet (Addicted, #1.5)\"",
+    "ches_score": 46453.421875,
+    "ln_ches_score": -156.792724609375,
+    "last_hidden_embedding_inner_prod": 1923.219970703125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Paper Towns\", \"Catching Fire (The Hunger Games, #2)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Mr. Kiss and Tell (Veronica Mars, #2)\", \"Fangirl\", \"Eleanor & Park\", \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"Cinder (The Lunar Chronicles, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Cress (The Lunar Chronicles, #3)\"",
+    "rejected": "\"The Eternity Cure (Blood of Eden, #2)\"",
+    "ches_score": -997.296875,
+    "ln_ches_score": -156.09893798828125,
+    "last_hidden_embedding_inner_prod": 2034.5732421875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"Capture (Elements of Chemistry #3; Hypothesis, #1.3)\", \"Pucked (Pucked, #1)\", \"Truth or Beard (Winston Brothers, #1)\", \"Beard Science (Winston Brothers, #3)\", \"Grin and Beard It (Winston Brothers, #2)\", \"Playing with Fire (Hot in Chicago, #2)\", \"Nuts (Hudson Valley, #1)\", \"Lead (Stage Dive, #3)\", \"Deep (Stage Dive, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Year We Fell Down (The Ivy Years, #1)\"",
+    "rejected": "\"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\"",
+    "ches_score": 216567.625,
+    "ln_ches_score": -154.556396484375,
+    "last_hidden_embedding_inner_prod": 2017.306640625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Allegiant (Divergent, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Second Chance Summer\", \"The Final Empire (Mistborn, #1)\", \"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"Crash into You (Pushing the Limits, #3)\", \"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)\", \"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Harry Potter and the Goblet of Fire (Harry Potter, #4)\"",
+    "rejected": "\"Northanger Abbey\"",
+    "ches_score": -240337.9375,
+    "ln_ches_score": -153.558837890625,
+    "last_hidden_embedding_inner_prod": 1910.032958984375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Captive Prince (Captive Prince, #1)\", \"Two Boys Kissing\", \"Carry the Ocean (The Roosevelt, #1)\", \"For Real\", \"Carry On\", \"The Night Circus\", \"The Song of Achilles\", \"Six of Crows (Six of Crows, #1)\", \"A Gentleman's Position (Society of Gentlemen, #3)\", \"Misfits (Urban Soul, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Raven Boys (The Raven Cycle, #1)\"",
+    "rejected": "\"Hexed (The Iron Druid Chronicles, #2)\"",
+    "ches_score": 4462.40625,
+    "ln_ches_score": -152.9931640625,
+    "last_hidden_embedding_inner_prod": 2015.135986328125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Raven King (The Raven Cycle, #4)\", \"Sustained (The Legal Briefs, #2)\", \"Royally Screwed (Royally, #1)\", \"Roman Crazy\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Royally Matched (Royally, #2)\", \"Without Merit\", \"The Hate U Give\", \"Wait for It\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Beautiful Mistake\"",
+    "rejected": "\"Lucky in Love (Lucky Harbor, #4)\"",
+    "ches_score": 43649.03515625,
+    "ln_ches_score": -152.329833984375,
+    "last_hidden_embedding_inner_prod": 1960.3428955078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Falling Kingdoms (Falling Kingdoms, #1)\", \"Rebel Spring (Falling Kingdoms, #2)\", \"Gathering Darkness (Falling Kingdoms, #3)\", \"Frozen Tides (Falling Kingdoms, #4)\", \"A Storm of Swords (A Song of Ice and Fire, #3)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Empire of Storms (Throne of Glass, #5)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\"",
+    "rejected": "\"The Names They Gave Us\"",
+    "ches_score": -308047.8125,
+    "ln_ches_score": -151.43670654296875,
+    "last_hidden_embedding_inner_prod": 1865.55859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Wonder\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"A Gathering of Shadows (Shades of Magic, #2)\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Empire of Storms (Throne of Glass, #5)\", \"The Raven King (The Raven Cycle, #4)\", \"Born to Endless Night (Tales from the Shadowhunter Academy, #9)\", \"Scarlet (The Lunar Chronicles, #2)\", \"Cress (The Lunar Chronicles, #3)\", \"Uprooted\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Fairest (The Lunar Chronicles, #3.5)\"",
+    "rejected": "\"Beneath This Man (This Man, #2)\"",
+    "ches_score": -101115.765625,
+    "ln_ches_score": -151.166015625,
+    "last_hidden_embedding_inner_prod": 2026.8023681640625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Hammer of Thor (Magnus Chase and the Gods of Asgard, #2)\", \"Secret History (Mistborn, #3.5)\", \"Wolf by Wolf (Wolf by Wolf, #1)\", \"Blood for Blood (Wolf By Wolf, #2)\", \"We Are the Ants\", \"The Long Way to a Small, Angry Planet (Wayfarers, #1)\", \"Death of a Pirate King (The Adrien English Mysteries, #4)\", \"The Unexpected Everything\", \"Sticks & Stones (Cut & Run, #2)\", \"Divide & Conquer (Cut & Run, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Touch & Geaux (Cut & Run, #7)\"",
+    "rejected": "\"Pantomime (Micah Grey, #1)\"",
+    "ches_score": -42226.171875,
+    "ln_ches_score": -150.9822998046875,
+    "last_hidden_embedding_inner_prod": 2002.4580078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Immortal Rules (Blood of Eden, #1)\", \"Finding Cinderella (Hopeless, #2.5)\", \"Until You (Fall Away, #1.5)\", \"The Eternity Cure (Blood of Eden, #2)\", \"Making Faces\", \"More Than Forever (More Than, #4)\", \"The Fill-In Boyfriend\", \"Here Be Sexist Vampires (Deep In Your Veins, #1)\", \"The DUFF: Designated Ugly Fat Friend\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\"",
+    "rejected": "\"Never Let You Go\"",
+    "ches_score": -290796.5625,
+    "ln_ches_score": -145.375732421875,
+    "last_hidden_embedding_inner_prod": 1923.3123779296875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Prodigy (Legend, #2)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"The Fate of the Tearling (The Queen of the Tearling, #3)\", \"The Winner's Crime (The Winner's Trilogy, #2)\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Nimona\", \"A Darker Shade of Magic (Shades of Magic, #1)\", \"The Infinite Sea (The 5th Wave, #2)\", \"The Last Star (The 5th Wave, #3)\", \"The Sun Is Also a Star\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Serpent King\"",
+    "rejected": "\"Unspoken (The Lynburn Legacy, #1)\"",
+    "ches_score": 32678.54296875,
+    "ln_ches_score": -138.2489013671875,
+    "last_hidden_embedding_inner_prod": 1975.94091796875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Red Queen (Red Queen, #1)\", \"Origin (Lux, #4)\", \"Opposition (Lux, #5)\", \"The Girl Who Played with Fire (Millennium, #2)\", \"All the Bright Places\", \"The Girl Who Kicked the Hornet's Nest (Millennium, #3)\", \"When\", \"Forbidden\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Ocean at the End of the Lane\"",
+    "rejected": "\"A Canticle for Leibowitz\"",
+    "ches_score": -28970.75,
+    "ln_ches_score": -135.92352294921875,
+    "last_hidden_embedding_inner_prod": 2022.98193359375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"It Ends with Us\", \"The Matchmaker's Playbook (Wingmen Inc., #1)\", \"Paper Princess (The Royals, #1)\", \"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\", \"Broken Prince (The Royals, #2)\", \"Twisted Palace (The Royals, #3)\", \"Elude (Eagle Elite, #6)\", \"Pushing the Limits (Pushing the Limits, #1)\", \"The Matchmaker's Replacement (Wingmen Inc., #2)\", \"Moonshot\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Black Lies\"",
+    "rejected": "\"Sex Criminals, Vol. 1: One Weird Trick\"",
+    "ches_score": 52858.75,
+    "ln_ches_score": -135.492919921875,
+    "last_hidden_embedding_inner_prod": 1991.15771484375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The King of Attolia (The Queen's Thief, #3)\", \"The Queen of Attolia (The Queen's Thief, #2)\", \"The House of Mirth\", \"Gone Girl\", \"The Little Prince\", \"Much Ado About Nothing\", \"All the Ugly and Wonderful Things\", \"The Complete Persepolis\", \"Fables, Vol. 1: Legends in Exile\", \"Fables, Vol. 4: March of the Wooden Soldiers\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Nimona\"",
+    "rejected": "\"American Gods\"",
+    "ches_score": -10035.45703125,
+    "ln_ches_score": -135.283935546875,
+    "last_hidden_embedding_inner_prod": 1955.9217529296875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"City of Ashes (The Mortal Instruments, #2)\", \"City of Glass (The Mortal Instruments, #3)\", \"Me Before You (Me Before You, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"More Happy Than Not\", \"What I Thought Was True\", \"My Life Next Door\", \"Snow Like Ashes (Snow Like Ashes, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Little Life\"",
+    "rejected": "\"The Queen (The Selection, #0.4)\"",
+    "ches_score": 37869.6328125,
+    "ln_ches_score": -131.3443603515625,
+    "last_hidden_embedding_inner_prod": 1894.90478515625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Cinder (The Lunar Chronicles, #1)\", \"Legend (Legend, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Scarlet (The Lunar Chronicles, #2)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Silence (Hush, Hush, #3)\", \"Finale (Hush, Hush, #4)\", \"Winter (The Lunar Chronicles, #4)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"City of Glass (The Mortal Instruments, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"City of Ashes (The Mortal Instruments, #2)\"",
+    "rejected": "\"Fighting Temptation (Men of Honor, #1)\"",
+    "ches_score": -25651.046875,
+    "ln_ches_score": -130.8726806640625,
+    "last_hidden_embedding_inner_prod": 2016.3857421875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Dark Triumph (His Fair Assassin, #2)\", \"Mortal Heart (His Fair Assassin, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"The Eternity Code (Artemis Fowl, #3)\", \"The Last Guardian (Artemis Fowl, #8)\", \"Winter (The Lunar Chronicles, #4)\", \"What We Saw\", \"I Hunt Killers (Jasper Dent, #1)\", \"The Book Thief\", \"Stars Above (The Lunar Chronicles, #4.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Infinite Sea (The 5th Wave, #2)\"",
+    "rejected": "\"Halfway to the Grave (Night Huntress, #1)\"",
+    "ches_score": -10383.078125,
+    "ln_ches_score": -130.09521484375,
+    "last_hidden_embedding_inner_prod": 2032.127197265625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Empire of Storms (Throne of Glass, #5)\", \"Oblivion (Lux, #1.5)\", \"Milk and Honey\", \"Brutally Beautiful (Beautiful, #1)\", \"A Thousand Boy Kisses\", \"Lady Midnight (The Dark Artifices #1)\", \"The Problem with Forever\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Raven King (The Raven Cycle, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Sustained (The Legal Briefs, #2)\"",
+    "rejected": "\"American Vampire, Vol. 1\"",
+    "ches_score": -80866.984375,
+    "ln_ches_score": -125.7100830078125,
+    "last_hidden_embedding_inner_prod": 1957.245361328125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Shattered by You (Tear Asunder, #3)\", \"Kyland\", \"Reclaiming the Sand (Reclaiming the Sand, #1)\", \"Perfect Ruin (Unyielding, #2)\", \"Deep Redemption (Hades Hangmen, #4)\", \"Midnight Lily\", \"The Paper Swan\", \"The Slayer (Untamed Hearts, #2)\", \"Debt\", \"Riot (Scarred Souls, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Whispers and the Roars\"",
+    "rejected": "\"By a Thread (Elemental Assassin, #6)\"",
+    "ches_score": 46987.90625,
+    "ln_ches_score": -125.4271240234375,
+    "last_hidden_embedding_inner_prod": 1963.286865234375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Cress (The Lunar Chronicles, #3)\", \"Winter (The Lunar Chronicles, #4)\", \"The Selection (The Selection, #1)\", \"Carry On\", \"City of Ashes (The Mortal Instruments, #2)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"City of Glass (The Mortal Instruments, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The Elite (The Selection, #2)\", \"The One (The Selection, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\"",
+    "rejected": "\"Lover Eternal (Black Dagger Brotherhood, #2)\"",
+    "ches_score": -151371.1875,
+    "ln_ches_score": -124.76495361328125,
+    "last_hidden_embedding_inner_prod": 2028.36376953125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Taint (Sexual Education, #1)\", \"Rogue (Real, #4)\", \"Rival (Fall Away, #2)\", \"Six of Hearts (Hearts, #1)\", \"This is Falling (Falling, #1)\", \"Fallen Too Far (Rosemary Beach, #1; Too Far, #1)\", \"Stay with Me (Wait for You, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", \"The Friend Zone (Game On, #2)\", \"The Boy Who Sneaks in My Bedroom Window\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Deal (Off-Campus, #1)\"",
+    "rejected": "\"Breathe (Sea Breeze, #1)\"",
+    "ches_score": -2645.125,
+    "ln_ches_score": -124.085205078125,
+    "last_hidden_embedding_inner_prod": 2029.9234619140625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Destroy Me (Shatter Me, #1.5)\", \"Unravel Me (Shatter Me, #2)\", \"Ignite Me (Shatter Me, #3)\", \"The Fault in Our Stars\", \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Origin (Lux, #4)\", \"Throne of Glass (Throne of Glass, #1)\", \"Cress (The Lunar Chronicles, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Prodigy (Legend, #2)\"",
+    "rejected": "\"The Forever Song (Blood of Eden, #3)\"",
+    "ches_score": 10307.34375,
+    "ln_ches_score": -122.4932861328125,
+    "last_hidden_embedding_inner_prod": 2030.6085205078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"History Is All You Left Me\", \"My Lady Jane (The Lady Janies, #1)\", \"The Girl from Everywhere (The Girl from Everywhere, #1)\", \"Stalking Jack the Ripper (Stalking Jack the Ripper, #1)\", \"Nevernight (The Nevernight Chronicle, #1)\", \"When the Moon Was Ours\", \"Nimona\", \"Monsters of Men (Chaos Walking, #3)\", \"Highly Illogical Behavior\", \"The Sun Is Also a Star\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Alexander Hamilton\"",
+    "rejected": "\"Such a Rush\"",
+    "ches_score": 3876.21484375,
+    "ln_ches_score": -122.0787353515625,
+    "last_hidden_embedding_inner_prod": 1962.4610595703125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Blue Castle\", \"War and Peace\", \"Atlas Shrugged\", \"Thirteenth Child (Frontier Magic, #1)\", \"Shards of Hope (Psy-Changeling, #14)\", \"The King of Attolia (The Queen's Thief, #3)\", \"The False Prince (The Ascendance Trilogy #1)\", \"The Call of the Wild\", \"Princess Academy (Princess Academy, #1)\", \"Book of a Thousand Days\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Storm Front (The Dresden Files, #1)\"",
+    "rejected": "\"A Confederacy of Dunces\"",
+    "ches_score": -89593.484375,
+    "ln_ches_score": -121.34747314453125,
+    "last_hidden_embedding_inner_prod": 1935.4893798828125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Heir (The Selection, #4)\", \"The One (The Selection, #3)\", \"Isla and the Happily Ever After (Anna and the French Kiss, #3)\", \"The Husband's Secret\", \"The Too-Clever Fox (The Grisha, #2.5)\", \"Just One Night (Just One Day, #2.5)\", \"By Your Side\", \"Truly Madly Guilty\", \"Illuminae (The Illuminae Files, #1)\", \"This Savage Song (Monsters of Verity, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists (Pottermore Presents, #2)\"",
+    "rejected": "\"Sparks Rise (The Darkest Minds #2.5)\"",
+    "ches_score": -434042.0625,
+    "ln_ches_score": -117.6593017578125,
+    "last_hidden_embedding_inner_prod": 2005.3551025390625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Ten Thousand Skies Above You (Firebird, #2)\", \"Last Breath (The Morganville Vampires, #11)\", \"A Madness So Discreet\", \"Dragonfly in Amber (Outlander, #2)\", \"Voyager (Outlander, #3)\", \"Drums of Autumn (Outlander, #4)\", \"Throne of Glass (Throne of Glass, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\"",
+    "rejected": "\"Mansfield Park\"",
+    "ches_score": -209038.734375,
+    "ln_ches_score": -116.1875,
+    "last_hidden_embedding_inner_prod": 1931.519287109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Pivot Point (Pivot Point, #1)\", \"Forbidden\", \"Origin (Lux, #4)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Thief (Love Me with Lies, #3)\", \"The False Prince (The Ascendance Trilogy #1)\", \"The Runaway King (The Ascendance Trilogy, #2)\", \"The Shadow Throne (The Ascendance Trilogy, #3)\", \"The Naturals (The Naturals, #1)\", \"The Crimson Crown (Seven Realms, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Lying Season (Experiment in Terror, #4)\"",
+    "rejected": "\"Flirting with Scandal (Capital Confessions, #1)\"",
+    "ches_score": 41262.125,
+    "ln_ches_score": -116.1650390625,
+    "last_hidden_embedding_inner_prod": 2024.03515625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Burn for Me (Hidden Legacy, #1)\", \"White Hot (Hidden Legacy, #2)\", \"Cinder & Ella (Cinder & Ella, #1)\", \"One Fell Sweep (Innkeeper Chronicles, #3)\", \"The Wall of Winnipeg and Me\", \"Kulti\", \"Magic Binds (Kate Daniels, #9)\", \"The Hook Up (Game On, #1)\", \"Beautiful Disaster (Beautiful, #1)\", \"Remember When 2: The Sequel (Remember Trilogy, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Remember When 3: The Finale (Remember Trilogy, #3)\"",
+    "rejected": "\"Bloodlines (Bloodlines, #1)\"",
+    "ches_score": -169902.171875,
+    "ln_ches_score": -115.5281982421875,
+    "last_hidden_embedding_inner_prod": 2016.000732421875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Addicted to You (Addicted, #1)\", \"Burying Water (Burying Water, #1)\", \"Rogue (Real, #4)\", \"Black Iris\", \"The Distance Between Us\", \"Wild and Free (The Three, #3)\", \"Wildest Dreams (Fantasyland, #1)\", \"The Golden Dynasty (Fantasyland, #2)\", \"Fantastical (Fantasyland, #3)\", \"The Sweetest Thing (Lucky Harbor, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Head Over Heels (Lucky Harbor, #3)\"",
+    "rejected": "\"The Copper Gauntlet (Magisterium, #2)\"",
+    "ches_score": 12738.5,
+    "ln_ches_score": -113.784423828125,
+    "last_hidden_embedding_inner_prod": 2025.441162109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Blood Promise (Vampire Academy, #4)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Addicted to You (Addicted, #1)\", \"Addicted for Now (Addicted, #2)\", \"The Score (Off-Campus, #3)\", \"The Do-Over\", \"Whatever Life Throws at You\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"Sempre (Sempre, #1)\", \"Ladies Man (Manwhore, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Beautiful Bitch (Beautiful Bastard, #1.5)\"",
+    "rejected": "\"The Color of Magic (Discworld, #1; Rincewind #1)\"",
+    "ches_score": 6880.4375,
+    "ln_ches_score": -111.9183349609375,
+    "last_hidden_embedding_inner_prod": 2031.522705078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Bad Romeo (Starcrossed, #1)\", \"Broken Juliet (Starcrossed, #2)\", \"For You (The 'Burg, #1)\", \"You (You, #1)\", \"Bright Side (Bright Side, #1)\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Regret (Rock Chick, #7)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"Wicked Heart (Starcrossed, #3)\", \"The Scorpion Rules (Prisoners of Peace, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Cocky Bastard\"",
+    "rejected": "\"Moonglow (Darkest London, #2)\"",
+    "ches_score": 38040.4140625,
+    "ln_ches_score": -111.5723876953125,
+    "last_hidden_embedding_inner_prod": 1962.40625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Blue Is the Warmest Color\", \"Wonder\", \"Towers of Midnight (Wheel of Time, #13)\", \"The Serpent King\", \"History Is All You Left Me\", \"A Conjuring of Light (Shades of Magic, #3)\", \"The Queen of the Tearling (The Queen of the Tearling, #1)\", \"My Lady Jane (The Lady Janies, #1)\", \"The Goldfinch\", \"Mr. Penumbra's 24-Hour Bookstore (Mr. Penumbra's 24-Hour Bookstore, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Night Film\"",
+    "rejected": "\"Sweet Home (Sweet Home, #1)\"",
+    "ches_score": 29456.775390625,
+    "ln_ches_score": -111.403564453125,
+    "last_hidden_embedding_inner_prod": 1943.71728515625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Emmy & Oliver\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"The Midnight Star (The Young Elites, #3)\", \"Harry Potter and the Half-Blood Prince (Harry Potter, #6)\", \"Voyager (Outlander, #3)\", \"It Ends with Us\", \"Harry Potter and the Deathly Hallows (Harry Potter, #7)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\", \"Pale Kings and Princes (Tales from the Shadowhunter Academy, #6)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Fiery Trial (Tales from the Shadowhunter Academy, #8)\"",
+    "rejected": "\"Royally Screwed (Royally, #1)\"",
+    "ches_score": -170841.90625,
+    "ln_ches_score": -110.743408203125,
+    "last_hidden_embedding_inner_prod": 2007.713623046875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Story of Us (Carnage, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"In the Stillness\", \"Open Road Summer\", \"Broken Juliet (Starcrossed, #2)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"The Friend Zone (Game On, #2)\", \"Parallel\", \"The Hating Game\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Outlander (Outlander, #1)\"",
+    "rejected": "\"Fall From Grace (Mad World, #1)\"",
+    "ches_score": 2801.453125,
+    "ln_ches_score": -110.303955078125,
+    "last_hidden_embedding_inner_prod": 2014.1495361328125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Cress (The Lunar Chronicles, #3)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Second Chance Summer\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Half-Blood (Covenant, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"Frostbite (Vampire Academy, #2)\", \"Lies We Tell Ourselves\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"Champion (Legend, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Pure (Covenant, #2)\"",
+    "rejected": "\"Salt & Stone (Fire & Flood, #2)\"",
+    "ches_score": 88.03125,
+    "ln_ches_score": -108.9365234375,
+    "last_hidden_embedding_inner_prod": 2011.94287109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Damaged Like Us (Like Us, #1)\", \"Archer's Voice\", \"Infini (Aerial Ethereal, #2)\", \"Sincerely, Carter (Sincerely Carter, #1)\", \"The Score (Off-Campus, #3)\", \"The Baller\", \"RoomHate\", \"Paper Hearts (Hearts, #2)\", \"Finding Dandelion (Dearest, #2)\", \"Us (Him #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Shameless\"",
+    "rejected": "\"Tangled Threads (Elemental Assassin, #4)\"",
+    "ches_score": 67311.734375,
+    "ln_ches_score": -107.7412109375,
+    "last_hidden_embedding_inner_prod": 1926.2686767578125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Winner's Curse (The Winner's Trilogy, #1)\", \"Just One Day (Just One Day, #1)\", \"Worth the Fall (The McKinney Brothers, #1)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"The Mason List\", \"Loving Mr. Daniels\", \"Maybe Not (Maybe, #1.5)\", \"Long Way Down (Calloway Sisters, #4; Addicted, #3.2)\", \"Damaged Like Us (Like Us, #1)\", \"Archer's Voice\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Infini (Aerial Ethereal, #2)\"",
+    "rejected": "\"The Kill Order (Maze Runner, #0.5)\"",
+    "ches_score": 14054.46875,
+    "ln_ches_score": -106.0328369140625,
+    "last_hidden_embedding_inner_prod": 2028.87255859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"I'll Give You the Sun\", \"The Dream Thieves (The Raven Cycle, #2)\", \"Half Bad (The Half Bad Trilogy, #1)\", \"Clockwork Prince (The Infernal Devices, #2)\", \"Winter (The Lunar Chronicles, #4)\", \"Vicious (Villains, #1)\", \"My Heart and Other Black Holes\", \"The Coldest Girl in Coldtown\", \"Cress (The Lunar Chronicles, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\"",
+    "rejected": "\"Rain Reign\"",
+    "ches_score": -482896.5625,
+    "ln_ches_score": -105.50433349609375,
+    "last_hidden_embedding_inner_prod": 1945.081787109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Archer's Voice\", \"Sweet Filthy Boy (Wild Seasons, #1)\", \"Taint (Sexual Education, #1)\", \"Rogue (Real, #4)\", \"Rival (Fall Away, #2)\", \"Six of Hearts (Hearts, #1)\", \"This is Falling (Falling, #1)\", \"Fallen Too Far (Rosemary Beach, #1; Too Far, #1)\", \"Stay with Me (Wait for You, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Friend Zone (Game On, #2)\"",
+    "rejected": "\"Sustained (The Legal Briefs, #2)\"",
+    "ches_score": 18775.671875,
+    "ln_ches_score": -103.01220703125,
+    "last_hidden_embedding_inner_prod": 2032.477783203125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Scorpio Races\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"The Sin Eater’s Daughter (The Sin Eater’s Daughter, #1)\", \"The Unbeatable Squirrel Girl, Volume 1: Squirrel Power\", \"Rat Queens, Vol. 1: Sass & Sorcery\", \"The Serpent King\", \"Rat Queens, Vol. 2: The Far Reaching Tentacles of N'rygoth\", \"The Wicked + The Divine, Vol. 2: Fandemonium\", \"Gotham Academy, Vol. 1: Welcome to Gotham Academy\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Lumberjanes, Vol. 4: Out of Time\"",
+    "rejected": "\"Their Fractured Light (Starbound, #3)\"",
+    "ches_score": -34075.53125,
+    "ln_ches_score": -102.06884765625,
+    "last_hidden_embedding_inner_prod": 1970.2635498046875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"My Life Next Door\", \"Ugly Love\", \"Scarlet (The Lunar Chronicles, #2)\", \"The Final Empire (Mistborn, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Cress (The Lunar Chronicles, #3)\", \"The Winner's Curse (The Winner's Trilogy, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Winter (The Lunar Chronicles, #4)\"",
+    "rejected": "\"Trust (Temptation, #3)\"",
+    "ches_score": -41279.171875,
+    "ln_ches_score": -99.1746826171875,
+    "last_hidden_embedding_inner_prod": 2014.240966796875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Blackmoore\", \"Rebecca\", \"The Fill-In Boyfriend\", \"The Heart of Betrayal (The Remnant Chronicles, #2)\", \"All Fall Down (Embassy Row, #1)\", \"P.S. I Like You\", \"By Your Side\", \"The Distance Between Us\", \"The Importance of Being Earnest\", \"Gone with the Wind\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"And I Darken (The Conqueror's Saga, #1)\"",
+    "rejected": "\"Blue Lily, Lily Blue (The Raven Cycle, #3)\"",
+    "ches_score": -82606.53125,
+    "ln_ches_score": -98.0509033203125,
+    "last_hidden_embedding_inner_prod": 2033.7437744140625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Lassoing the Virgin Mail-Order Bride\", \"Idol (VIP, #1)\", \"The Hot Shot (Game On, #4)\", \"Moonshot\", \"Pennies (Dollar, #1)\", \"The Cad and the Co-Ed (Rugby, #3)\", \"Roman Crazy\", \"The Silent Waters (Elements, #3)\", \"Transfer (The Retrieval Duet, #2)\", \"A Place in the Sun\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Managed (VIP, #2)\"",
+    "rejected": "\"Avoiding Commitment (Avoiding, #1)\"",
+    "ches_score": 62041.984375,
+    "ln_ches_score": -97.681884765625,
+    "last_hidden_embedding_inner_prod": 2010.8543701171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Red Queen (Red Queen, #1)\", \"Angelfall (Penryn & the End of Days, #1)\", \"The Rose Society (The Young Elites, #2)\", \"Siege and Storm (The Grisha, #2)\", \"Maybe Someday (Maybe, #1)\", \"Six of Crows (Six of Crows, #1)\", \"Slammed (Slammed, #1)\", \"Ruin and Rising (The Grisha, #3)\", \"November 9\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Animal Farm\"",
+    "rejected": "\"Fourth Debt (Indebted, #5)\"",
+    "ches_score": 27176.62109375,
+    "ln_ches_score": -96.100830078125,
+    "last_hidden_embedding_inner_prod": 1871.0655517578125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"City of Glass (The Mortal Instruments, #3)\", \"Fangirl\", \"Ready Player One\", \"The Final Empire (Mistborn, #1)\", \"Carry On\", \"The Name of the Wind (The Kingkiller Chronicle, #1)\", \"Simon vs. the Homo Sapiens Agenda\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Storm of Swords (A Song of Ice and Fire, #3)\"",
+    "rejected": "\"The Wicked + The Divine, Vol. 1: The Faust Act\"",
+    "ches_score": -27769.546875,
+    "ln_ches_score": -96.08837890625,
+    "last_hidden_embedding_inner_prod": 1982.5771484375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Reached (Matched, #3)\", \"Lola and the Boy Next Door (Anna and the French Kiss, #2)\", \"The Ruby Circle (Bloodlines, #6)\", \"Ruby Red (Precious Stone Trilogy, #1)\", \"My Life Next Door\", \"Ascend (Trylle, #3)\", \"Ten Tiny Breaths (Ten Tiny Breaths, #1)\", \"The Boy Who Sneaks in My Bedroom Window\", \"Catching Jordan\", \"Stealing Parker\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Losing Hope (Hopeless, #2)\"",
+    "rejected": "\"Still Life with Strings\"",
+    "ches_score": -67080.703125,
+    "ln_ches_score": -94.33447265625,
+    "last_hidden_embedding_inner_prod": 1976.620849609375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Sweet Filthy Boy (Wild Seasons, #1)\", \"Archer's Voice\", \"Captivated by You (Crossfire, #4)\", \"One More Chance (Rosemary Beach, #8; Chance, #2)\", \"This Man (This Man, #1)\", \"Six of Hearts (Hearts, #1)\", \"Lead (Stage Dive, #3)\", \"Black Lies\", \"Worth the Fight (MMA Fighter, #1)\", \"Fading (Fading, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Hook Up (Game On, #1)\"",
+    "rejected": "\"Twenties Girl\"",
+    "ches_score": -87408.078125,
+    "ln_ches_score": -91.212158203125,
+    "last_hidden_embedding_inner_prod": 1968.9686279296875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Grave Mercy (His Fair Assassin, #1)\", \"Do Androids Dream of Electric Sheep?\", \"Where Things Come Back\", \"The Shock of the Fall\", \"Finnikin of the Rock (Lumatere Chronicles, #1)\", \"Dark Triumph (His Fair Assassin, #2)\", \"The Raven King (The Raven Cycle, #4)\", \"Station Eleven\", \"Mortal Heart (His Fair Assassin, #3)\", \"The Well of Ascension (Mistborn, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Hero of Ages (Mistborn, #3)\"",
+    "rejected": "\"American Prince (New Camelot Trilogy, #2)\"",
+    "ches_score": -1269.90625,
+    "ln_ches_score": -88.5982666015625,
+    "last_hidden_embedding_inner_prod": 2018.438232421875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Paper Swan\", \"Sustained (The Legal Briefs, #2)\", \"Hold On (The 'Burg, #6)\", \"Grayson's Vow\", \"Heart Recaptured (Hades Hangmen, #2)\", \"Betrayal (Infidelity, #1)\", \"The Baller\", \"To Love Jason Thorn\", \"Sugar Daddy (Sugar Bowl, #1)\", \"At Peace (The 'Burg, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"First Touch (First and Last, #1)\"",
+    "rejected": "\"Insignia (Insignia, #1)\"",
+    "ches_score": 5600.75,
+    "ln_ches_score": -88.539794921875,
+    "last_hidden_embedding_inner_prod": 2011.4229736328125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Never Never (Never Never, #1)\", \"Beautiful Oblivion (The Maddox Brothers, #1)\", \"Never Never: Part Two (Never Never, #2)\", \"Enchanted (Woodcutter Sisters #1; Books of Arilland #1)\", \"Slammed (Slammed, #1)\", \"November 9\", \"Gone Girl\", \"Four: A Divergent Story Collection (Divergent, #0.1 - 0.4)\", \"An Abundance of Katherines\", \"Cinder & Ella (Cinder & Ella, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Until Friday Night (The Field Party, #1)\"",
+    "rejected": "\"Measuring Up\"",
+    "ches_score": -110887.5546875,
+    "ln_ches_score": -82.3056640625,
+    "last_hidden_embedding_inner_prod": 1867.3935546875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Gone (Gone, #1)\", \"Matched (Matched, #1)\", \"Reached (Matched, #3)\", \"Life As We Knew It (Last Survivors, #1)\", \"Fangirl\", \"The 5th Wave (The 5th Wave, #1)\", \"City of Glass (The Mortal Instruments, #3)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"My Heart and Other Black Holes\", \"Harry Potter and the Philosopher's Stone (Harry Potter, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Hollow City (Miss Peregrine’s Peculiar Children, #2)\"",
+    "rejected": "\"The Mason List\"",
+    "ches_score": -390411.09375,
+    "ln_ches_score": -79.9351806640625,
+    "last_hidden_embedding_inner_prod": 1884.67431640625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"The One (The Selection, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Nimona\", \"Queen of Shadows (Throne of Glass, #4)\", \"An Ember in the Ashes (An Ember in the Ashes, #1)\", \"Empire of Storms (Throne of Glass, #5)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"The Lost Herondale (Tales from the Shadowhunter Academy, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\"",
+    "rejected": "\"The Rithmatist (The Rithmatist, #1)\"",
+    "ches_score": -114049.25,
+    "ln_ches_score": -79.263427734375,
+    "last_hidden_embedding_inner_prod": 2033.0255126953125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Last Time We Say Goodbye\", \"All the Bright Places\", \"My Heart and Other Black Holes\", \"The Deal (Off-Campus, #1)\", \"Kaleidoscope Hearts (Hearts, #1)\", \"The Whitechapel Fiend (Tales from the Shadowhunter Academy, #3)\", \"On the Jellicoe Road\", \"Some Kind of Perfect (Calloway Sisters, #4.5; Addicted, #3.5)\", \"Back to You\", \"Everything, Everything\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Only the Good Spy Young (Gallagher Girls, #4)\"",
+    "rejected": "\"Moonshadow (Moonshadow, #1)\"",
+    "ches_score": -15444.15625,
+    "ln_ches_score": -78.7967529296875,
+    "last_hidden_embedding_inner_prod": 2016.4168701171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Champion (Legend, #3)\", \"Siege and Storm (The Grisha, #2)\", \"Ruin and Rising (The Grisha, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Unravel Me (Shatter Me, #2)\", \"Ignite Me (Shatter Me, #3)\", \"Cinder (The Lunar Chronicles, #1)\", \"Uninvited (Uninvited, #1)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"Days of Blood & Starlight (Daughter of Smoke & Bone, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Dreams of Gods & Monsters (Daughter of Smoke & Bone, #3)\"",
+    "rejected": "\"And I Darken (The Conqueror's Saga, #1)\"",
+    "ches_score": -86283.1875,
+    "ln_ches_score": -77.80810546875,
+    "last_hidden_embedding_inner_prod": 2024.40576171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Rebel Spring (Falling Kingdoms, #2)\", \"Frozen Tides (Falling Kingdoms, #4)\", \"Carry On\", \"Uprooted\", \"Illuminae (The Illuminae Files, #1)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Gemina (The Illuminae Files, #2)\", \"Eating Animals\", \"Crystal Storm (Falling Kingdoms, #5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Dark Triumph (His Fair Assassin, #2)\"",
+    "rejected": "\"Nothing but Shadows (Tales from Shadowhunter Academy, #4)\"",
+    "ches_score": 7508.984375,
+    "ln_ches_score": -77.7364501953125,
+    "last_hidden_embedding_inner_prod": 2026.3480224609375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"Flat-Out Love (Flat-Out Love, #1)\", \"Amy & Roger's Epic Detour\", \"It's Not Summer Without You (Summer, #2)\", \"A Monster Calls\", \"My Life Next Door\", \"Fire with Fire (Burn for Burn, #2)\", \"Maybe Someday (Maybe, #1)\", \"Confess\", \"The Retribution of Mara Dyer (Mara Dyer, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Slammed (Slammed, #1)\"",
+    "rejected": "\"Mature Content (Cyberlove, #4)\"",
+    "ches_score": -11105.671875,
+    "ln_ches_score": -77.1226806640625,
+    "last_hidden_embedding_inner_prod": 1987.104248046875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Sweet Hope (Sweet Home, #3; Carillo Boys, #2)\", \"Carry the Ocean (The Roosevelt, #1)\", \"The Coincidence of Callie & Kayden (The Coincidence, #1)\", \"Love, in English (Love, in English, #1)\", \"Gus (Bright Side, #2)\", \"Misconduct\", \"First Touch (First and Last, #1)\", \"Hollywood Dirt (Hollywood Dirt, #1)\", \"Lawless (King, #3)\", \"The Fall Up (The Fall Up, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"It Ends with Us\"",
+    "rejected": "\"Beautiful Ruins\"",
+    "ches_score": -12936.59765625,
+    "ln_ches_score": -76.4163818359375,
+    "last_hidden_embedding_inner_prod": 2023.0809326171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Welcome to Night Vale (Night Vale, #1)\", \"A Thousand Splendid Suns\", \"Burial Rites\", \"The Lottery\", \"The Year of the Flood  (MaddAddam, #2)\", \"MaddAddam (MaddAddam, #3)\", \"The Casual Vacancy\", \"Fingersmith\", \"The Girl With All the Gifts\", \"Nimona\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Monster Calls\"",
+    "rejected": "\"Speak\"",
+    "ches_score": -18175.232421875,
+    "ln_ches_score": -74.89990234375,
+    "last_hidden_embedding_inner_prod": 1868.712890625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Penultimate Peril (A Series of Unfortunate Events, #12)\", \"Catching Fire (The Hunger Games, #2)\", \"The Westing Game\", \"Matilda\", \"The BFG\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe, #1)\", \"Cinder (The Lunar Chronicles, #1)\", \"Wonder (Wonder #1)\", \"Eleanor and Park\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Inside Out & Back Again\"",
+    "rejected": "\"The Walking Dead, Vol. 02: Miles Behind Us\"",
+    "ches_score": 43345.68359375,
+    "ln_ches_score": -74.2344970703125,
+    "last_hidden_embedding_inner_prod": 1996.803466796875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Harder (Caroline & West, #2)\", \"Kiss the Sky (Calloway Sisters, #1; Addicted, #2.1)\", \"Fuel the Fire (Calloway Sisters, #3; Addicted, #3.1)\", \"The Story of Us (Carnage, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"In the Stillness\", \"Open Road Summer\", \"Broken Juliet (Starcrossed, #2)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Friend Zone (Game On, #2)\"",
+    "rejected": "\"Truth (Consequences, #2)\"",
+    "ches_score": -24739.171875,
+    "ln_ches_score": -74.0887451171875,
+    "last_hidden_embedding_inner_prod": 2032.890869140625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Pucked (Pucked, #1)\", \"Sweet Home (Sweet Home, #1)\", \"The Dark Light of Day (The Dark Light of Day, #1)\", \"Lead (Stage Dive, #3)\", \"Deep (Stage Dive, #4)\", \"Torture to Her Soul (Monster in His Eyes, #2)\", \"The Hooker and the Hermit (Rugby, #1)\", \"Six of Hearts (Hearts, #1)\", \"The Allure of Dean Harper (The Allure, #2)\", \"Hearts of Fire (Hearts, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"It Ends with Us\"",
+    "rejected": "\"I, Robot (Robot #0.1)\"",
+    "ches_score": 52562.8828125,
+    "ln_ches_score": -72.817138671875,
+    "last_hidden_embedding_inner_prod": 1918.020263671875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Snow Like Ashes (Snow Like Ashes, #1)\", \"Winter (The Lunar Chronicles, #4)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"The Start of Me and You\", \"Through the Dark (The Darkest Minds, #1.5, #2.5, #3.5)\", \"The Last Star (The 5th Wave, #3)\", \"Stars Above (The Lunar Chronicles, #4.5)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Everbound (Everneath, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Bane Chronicles\"",
+    "rejected": "\"Real Live Boyfriends: Yes. Boyfriends, Plural. If My Life Weren't Complicated, I Wouldn't Be Ruby Oliver (Ruby Oliver, #4)\"",
+    "ches_score": 230955.09375,
+    "ln_ches_score": -70.860107421875,
+    "last_hidden_embedding_inner_prod": 1930.224609375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Attachments\", \"Forgive Me, Leonard Peacock\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"Rat Queens, Vol. 1: Sass & Sorcery\", \"The Girl on the Train\", \"The Last Olympian (Percy Jackson and the Olympians, #5)\", \"The Hero of Ages (Mistborn, #3)\", \"Sharp Objects\", \"Ugly Love\", \"Hopeless (Hopeless, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Y: The Last Man, Vol. 10: Whys and Wherefores (Y: The Last Man, #10)\"",
+    "rejected": "\"Ryker (Cold Fury Hockey, #4)\"",
+    "ches_score": -492948.125,
+    "ln_ches_score": -70.449462890625,
+    "last_hidden_embedding_inner_prod": 1986.4970703125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Wolf by Wolf (Wolf by Wolf, #1)\", \"It Ain't Me, Babe (Hades Hangmen, #1)\", \"Heart Recaptured (Hades Hangmen, #2)\", \"Souls Unfractured (Hades Hangmen, #3)\", \"Salt to the Sea\", \"Falling Kingdoms (Falling Kingdoms, #1)\", \"The Girl in 6E (Deanna Madden, #1)\", \"Rebel Spring (Falling Kingdoms, #2)\", \"The Love That Split the World\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"It Ends with Us\"",
+    "rejected": "\"Crossroads (Crossroads, #1)\"",
+    "ches_score": 23730.09375,
+    "ln_ches_score": -68.32275390625,
+    "last_hidden_embedding_inner_prod": 1939.25830078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Lord of Darkness (Maiden Lane, #5)\", \"Duke of Midnight (Maiden Lane, #6)\", \"The Deal (Off-Campus, #1)\", \"The Hurricane (The Hurricane, #1)\", \"Playing for Keeps (Neighbor from Hell, #1)\", \"Perfection (Neighbor from Hell, #2)\", \"Checkmate (Neighbor from Hell, #3)\", \"The Mistake (Off-Campus, #2)\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Rescue (Rock Chick, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Rock Chick Redemption (Rock Chick, #3)\"",
+    "rejected": "\"Ultraviolet (Ultraviolet, #1)\"",
+    "ches_score": -45539.421875,
+    "ln_ches_score": -66.5546875,
+    "last_hidden_embedding_inner_prod": 2004.0303955078125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"In The Afterlight (The Darkest Minds, #3)\", \"Beautiful Oblivion (The Maddox Brothers, #1)\", \"The Night Circus\", \"Effortless (Thoughtless, #2)\", \"Never Fade (The Darkest Minds, #2)\", \"Origin (Lux, #4)\", \"The 5th Wave (The 5th Wave, #1)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Bully (Fall Away, #1)\", \"More Than Him (More Than, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"More Than Forever (More Than, #4)\"",
+    "rejected": "\"Made (Sempre, #0.4)\"",
+    "ches_score": -26464.296875,
+    "ln_ches_score": -63.39013671875,
+    "last_hidden_embedding_inner_prod": 2015.1558837890625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Winter (The Lunar Chronicles, #4)\", \"Cress (The Lunar Chronicles, #3)\", \"Fairest (The Lunar Chronicles, #3.5)\", \"Second Chance Summer\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Half-Blood (Covenant, #1)\", \"Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children, #1)\", \"Frostbite (Vampire Academy, #2)\", \"Lies We Tell Ourselves\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Champion (Legend, #3)\"",
+    "rejected": "\"The Little Prince\"",
+    "ches_score": -84840.0703125,
+    "ln_ches_score": -60.3411865234375,
+    "last_hidden_embedding_inner_prod": 1943.53466796875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Rock Chick Revenge (Rock Chick, #5)\", \"Rock Chick Redemption (Rock Chick, #3)\", \"Rock Chick (Rock Chick, #1)\", \"Come to Me Quietly (Closer to You, #1)\", \"Rock Chick Renegade (Rock Chick, #4)\", \"Until You (Fall Away, #1.5)\", \"Unteachable\", \"Shine Not Burn (Shine Not Burn, #1)\", \"Bully (Fall Away, #1)\", \"Reaper's Legacy (Reapers MC, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Twisted (Tangled, #2)\"",
+    "rejected": "\"Breath of Fire (Kingmaker Chronicles #2)\"",
+    "ches_score": 34756.921875,
+    "ln_ches_score": -60.05322265625,
+    "last_hidden_embedding_inner_prod": 2015.20166015625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Maybe Someday (Maybe, #1)\", \"Crooked Kingdom (Six of Crows, #2)\", \"Frost Like Night (Snow Like Ashes, #3)\", \"This Is Our Story\", \"Hunting Prince Dracula (Stalking Jack the Ripper, #2)\", \"The Naturals (The Naturals, #1)\", \"The Language of Thorns: Midnight Tales and Dangerous Magic\", \"The Female of the Species\", \"A Million Junes\", \"Hunted\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Long Game (The Fixer, #2)\"",
+    "rejected": "\"Appealed (The Legal Briefs, #3)\"",
+    "ches_score": -7642.96875,
+    "ln_ches_score": -53.076171875,
+    "last_hidden_embedding_inner_prod": 2027.278564453125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Uninvited (Uninvited, #1)\", \"Hopeless (Hopeless, #1)\", \"Everneath (Everneath, #1)\", \"Scarlet (The Lunar Chronicles, #2)\", \"Easy (Contours of the Heart, #1)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"These Broken Stars (Starbound, #1)\", \"Pivot Point (Pivot Point, #1)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"The Immortal Rules (Blood of Eden, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Immortal Beloved (Immortal Beloved, #1)\"",
+    "rejected": "\"Hawkeye, Volume 4: Rio Bravo\"",
+    "ches_score": -43258.15625,
+    "ln_ches_score": -52.405029296875,
+    "last_hidden_embedding_inner_prod": 1949.3131103515625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Reached (Matched, #3)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"The Raven Boys (The Raven Cycle, #1)\", \"Splintered (Splintered, #1)\", \"The Darkest Minds (The Darkest Minds, #1)\", \"Incarnate (Newsoul, #1)\", \"The Darkest Part of the Forest\", \"The Glass Arrow\", \"Saving Francesca\", \"Six of Crows (Six of Crows, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"An Ember in the Ashes (An Ember in the Ashes, #1)\"",
+    "rejected": "\"The Emperor's Soul\"",
+    "ches_score": -269204.6875,
+    "ln_ches_score": -52.10015869140625,
+    "last_hidden_embedding_inner_prod": 1969.619140625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Friends Without Benefits (Knitting in the City, #2)\", \"Love Hacked (Knitting in the City, #3)\", \"Neanderthal Marries Human (Knitting in the City, #1.5)\", \"Truth or Beard (Winston Brothers, #1)\", \"Turbulence (Turbulence, #1)\", \"Ruin (Ruin, #1)\", \"Never Let You Go\", \"Dark Horse (Class 5, #1)\", \"Priest (Priest, #1)\", \"Paper Hearts (Hearts, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Kaleidoscope Hearts (Hearts, #1)\"",
+    "rejected": "\"Love Hacked (Knitting in the City, #3)\"",
+    "ches_score": -9764.5625,
+    "ln_ches_score": -49.8192138671875,
+    "last_hidden_embedding_inner_prod": 2030.5340576171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Dirty Rowdy Thing (Wild Seasons, #2)\", \"The Edge of Never (The Edge of Never, #1)\", \"Finding Dandelion (Dearest, #2)\", \"Falling Away (Fall Away, #3)\", \"Beautiful Secret (Beautiful Bastard, #4)\", \"Point of Retreat (Slammed, #2)\", \"Unteachable\", \"Aflame (Fall Away, #4)\", \"Last Call (Cocktail, #4.5)\", \"One with You (Crossfire, #5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Score (Off-Campus, #3)\"",
+    "rejected": "\"The Crown (The Selection, #5)\"",
+    "ches_score": -40808.140625,
+    "ln_ches_score": -48.52099609375,
+    "last_hidden_embedding_inner_prod": 2037.7559814453125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Caliban's War (The Expanse, #2)\", \"The Warded Man (Demon Cycle, #1)\", \"The Forever War (The Forever War, #1)\", \"The Desert Spear (Demon Cycle, #2)\", \"Annihilation (Southern Reach, #1)\", \"I Am Legend\", \"Ready Player One\", \"Words of Radiance (The Stormlight Archive, #2)\", \"The Final Empire (Mistborn, #1)\", \"The Well of Ascension (Mistborn, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Hero of Ages (Mistborn, #3)\"",
+    "rejected": "\"Sentinel (Covenant, #5)\"",
+    "ches_score": -35967.921875,
+    "ln_ches_score": -48.35986328125,
+    "last_hidden_embedding_inner_prod": 2027.984130859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Evolution of Mara Dyer (Mara Dyer, #2)\", \"Second Chance Summer\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"Attachments\", \"Blood Promise (Vampire Academy, #4)\", \"Simon vs. the Homo Sapiens Agenda\", \"Library of Souls (Miss Peregrine's Peculiar Children, #3)\", \"Night (The Night Trilogy #1)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Me Before You (Me Before You, #1)\"",
+    "rejected": "\"Saint Anything\"",
+    "ches_score": -127521.9453125,
+    "ln_ches_score": -48.0137939453125,
+    "last_hidden_embedding_inner_prod": 1940.9676513671875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Silver Shadows (Bloodlines, #5)\", \"In The Afterlight (The Darkest Minds, #3)\", \"The Fault in Our Stars\", \"Shield of Winter (Psy-Changeling, #13)\", \"Cinder (The Lunar Chronicles, #1)\", \"Stone Cold Touch (The Dark Elements, #2)\", \"The Return (Titan, #1)\", \"Opposition (Lux, #5)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Sparks Rise (The Darkest Minds #2.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"City of Glass (The Mortal Instruments, #3)\"",
+    "rejected": "\"All Our Yesterdays\"",
+    "ches_score": -84342.5625,
+    "ln_ches_score": -47.58673095703125,
+    "last_hidden_embedding_inner_prod": 1911.5987548828125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Faefever (Fever, #3)\", \"Of Mice and Men\", \"World After (Penryn & the End of Days, #2)\", \"The Son of Neptune (The Heroes of Olympus, #2)\", \"The House of Hades (The Heroes of Olympus, #4)\", \"The Blood of Olympus (The Heroes of Olympus, #5)\", \"Poison Princess (The Arcana Chronicles, #1)\", \"Rock Hard (Rock Kiss, #2)\", \"Endless Knight (The Arcana Chronicles, #2)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Rhapsodic (The Bargainer, #1)\"",
+    "rejected": "\"Until the Sun Falls from the Sky (The Three, #1)\"",
+    "ches_score": 24261.921875,
+    "ln_ches_score": -45.4871826171875,
+    "last_hidden_embedding_inner_prod": 2029.024658203125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Archer's Voice\", \"Rock Chick (Rock Chick, #1)\", \"Rock Chick Reckoning (Rock Chick, #6)\", \"Rock Chick Revolution (Rock Chick, #8)\", \"It Ends with Us\", \"The Goal (Off-Campus, #4)\", \"Beautiful (Beautiful Bastard, #5)\", \"El Diablo (The Devil, #1)\", \"Punk 57\", \"Womanizer (Manwhore, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"School Spirits\"",
+    "rejected": "\"Tricks (Tricks, #1)\"",
+    "ches_score": 30277.21875,
+    "ln_ches_score": -45.2071533203125,
+    "last_hidden_embedding_inner_prod": 1929.571533203125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Reasonable Doubt: Volume 1 (Reasonable Doubt, #1)\", \"Reasonable Doubt: Volume 2 (Reasonable Doubt, #2)\", \"Devil's Game (Reapers MC, #3)\", \"The Sky Is Everywhere\", \"God-Shaped Hole\", \"Monster in His Eyes (Monster in His Eyes, #1)\", \"Falling Away (Fall Away, #3)\", \"What I Thought Was True\", \"Innocents (Dusty, #1)\", \"Love, in English (Love, in English, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Dominic (Slater Brothers, #1)\"",
+    "rejected": "\"Twisted Palace (The Royals, #3)\"",
+    "ches_score": -6460.046875,
+    "ln_ches_score": -44.8614501953125,
+    "last_hidden_embedding_inner_prod": 2006.7568359375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Be My Hero (Forbidden Men, #3)\", \"Rules of Protection (Tangled in Texas, #1)\", \"Kick, Push (Kick Push, #1)\", \"The Power (Titan, #2)\", \"RoomHate\", \"Oblivion (Lux, #1.5)\", \"The Princess Saves Herself in this One\", \"Punk 57\", \"Grievous (Scarlet Scars, #2)\", \"Pucked Off (Pucked, #5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Truce (Neighbor from Hell, #4)\"",
+    "rejected": "\"Eidolon (Wraith Kings, #2)\"",
+    "ches_score": 26266.78125,
+    "ln_ches_score": -44.2747802734375,
+    "last_hidden_embedding_inner_prod": 2028.4549560546875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Throne of Glass (Throne of Glass, #1)\", \"Entwined\", \"Hearts in Darkness (Hearts in Darkness, #1)\", \"Hard as It Gets (Hard Ink, #1)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Hard to Hold on To (Hard Ink, #2.5)\", \"Fangirl\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)\", \"Angelfall (Penryn & the End of Days, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Lola and the Boy Next Door (Anna and the French Kiss, #2)\"",
+    "rejected": "\"Shock & Awe (Sidewinder, #1)\"",
+    "ches_score": -74965.96875,
+    "ln_ches_score": -41.19268798828125,
+    "last_hidden_embedding_inner_prod": 2018.2255859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Fiery Heart (Bloodlines, #4)\", \"The Midnight Heir (The Bane Chronicles, #4)\", \"Confessions of a Shopaholic (Shopaholic, #1)\", \"The Perks of Being a Wallflower\", \"Heir of Fire (Throne of Glass, #3)\", \"Crown of Midnight (Throne of Glass, #2)\", \"Sweet Evil (Sweet, #1)\", \"The Bane Chronicles\", \"Rebel Belle (Rebel Belle, #1)\", \"White Hot Kiss (The Dark Elements, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Lady Midnight (The Dark Artifices, #1)\"",
+    "rejected": "\"A Rogue by Any Other Name (The Rules of Scoundrels, #1)\"",
+    "ches_score": 58981.625,
+    "ln_ches_score": -40.8294677734375,
+    "last_hidden_embedding_inner_prod": 2022.749755859375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Hearts of Fire (Hearts, #2)\", \"Latakia\", \"The Lightning-Struck Heart (Tales From Verania, #1)\", \"Before We Were Strangers\", \"Him (Him #1)\", \"How To Be A Normal Person\", \"Rattlesnake\", \"Wolf by Wolf (Wolf by Wolf, #1)\", \"The Shadow Queen (Ravenspire, #1)\", \"The Mating of Michael (Sex in Seattle, #3)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Capture (Elements of Chemistry #3; Hypothesis, #1.3)\"",
+    "rejected": "\"Sweet Rome (Sweet Home, #1.5)\"",
+    "ches_score": -165641.09375,
+    "ln_ches_score": -40.6861572265625,
+    "last_hidden_embedding_inner_prod": 1992.644287109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Flat-Out Celeste (Flat-Out Love, #2)\", \"Confess\", \"You (You, #1)\", \"Archer's Voice\", \"Hamlet\", \"Me Before You (Me Before You, #1)\", \"To Professor, with Love (Forbidden Men, #2)\", \"Six of Hearts (Hearts, #1)\", \"God-Shaped Hole\", \"Ruthless People (Ruthless People, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Untouchables (Ruthless People, #2)\"",
+    "rejected": "\"The Dex-Files (Experiment in Terror, #5.7)\"",
+    "ches_score": 31201.0625,
+    "ln_ches_score": -40.5419921875,
+    "last_hidden_embedding_inner_prod": 2014.9586181640625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"If I Stay (If I Stay, #1)\", \"Kiss an Angel\", \"Queen of Shadows (Throne of Glass, #4)\", \"A Walk to Remember\", \"A Court of Mist and Fury (A Court of Thorns and Roses, #2)\", \"Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)\", \"A Thousand Boy Kisses\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", \"The Assassin and the Desert (Throne of Glass, #0.3)\", \"The Assassin and the Empire (Throne of Glass, #0.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Bird and the Sword (The Bird and the Sword Chronicles, #1)\"",
+    "rejected": "\"Friction (Legal Affairs, #8)\"",
+    "ches_score": -194752.84375,
+    "ln_ches_score": -40.2098388671875,
+    "last_hidden_embedding_inner_prod": 2024.54443359375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Frost Like Night (Snow Like Ashes, #3)\", \"The Little Prince\", \"The Winner's Kiss (The Winner's Trilogy, #3)\", \"Matilda\", \"The Problem with Forever\", \"Crown of Midnight (Throne of Glass, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"Queen of Shadows (Throne of Glass, #4)\", \"King's Cage (Red Queen, #3)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Court of Wings and Ruin (A Court of Thorns and Roses, #3)\"",
+    "rejected": "\"The Magician's Land (The Magicians, #3)\"",
+    "ches_score": -152967.84375,
+    "ln_ches_score": -37.15533447265625,
+    "last_hidden_embedding_inner_prod": 2035.2685546875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"A Kingdom of Dreams (Westmoreland, #1)\", \"The Fill-In Boyfriend\", \"Rebel Spring (Falling Kingdoms, #2)\", \"Chosen at Nightfall (Shadow Falls, #5)\", \"Untold (The Lynburn Legacy, #2)\", \"The Lost Symbol (Robert Langdon, #3)\", \"Nevernight (The Nevernight Chronicle, #1)\", \"Everything, Everything\", \"Wicked (A Wicked Saga, #1)\", \"Tempest (Tempest, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Shatter Me (Shatter Me, #1)\"",
+    "rejected": "\"Reaper (Boston Underworld, #2)\"",
+    "ches_score": -53001.65625,
+    "ln_ches_score": -36.3271484375,
+    "last_hidden_embedding_inner_prod": 2017.0584716796875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Warm Bodies (Warm Bodies, #1)\", \"Losing It (Losing It, #1)\", \"To All the Boys I've Loved Before (To All the Boys I've Loved Before, #1)\", \"P.S. I Still Love You (To All the Boys I've Loved Before, #2)\", \"The Secret Diary of Lizzie Bennet\", \"Finding It (Losing It, #3)\", \"Faking It (Losing It, #2)\", \"Jane Eyre\", \"Nimona\", \"In Real Life\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)\"",
+    "rejected": "\"Forgotten\"",
+    "ches_score": -311058.875,
+    "ln_ches_score": -36.306884765625,
+    "last_hidden_embedding_inner_prod": 1879.01416015625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Isn't She Lovely (Redemption, #0.5)\", \"Worth the Fall (The McKinney Brothers, #1)\", \"Attraction (Elements of Chemistry #1; Hypothesis, #1.1)\", \"Heat (Elements of Chemistry #2; Hypothesis, #1.2)\", \"Him (Him, #1)\", \"More Than Her (More Than, #2)\", \"Hallowed Ground (Flight & Glory, #4)\", \"Shameless\", \"Every Last Word\", \"Tell Me Three Things\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Deal (Off-Campus, #1)\"",
+    "rejected": "\"Great Expectations\"",
+    "ches_score": -119037.1015625,
+    "ln_ches_score": -35.5015869140625,
+    "last_hidden_embedding_inner_prod": 1965.813720703125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Six of Crows (Six of Crows, #1)\", \"Amour Amour (Aerial Ethereal, #1)\", \"Never Never: Part Three (Never Never, #3)\", \"A Head Full of Ghosts\", \"Infini (Aerial Ethereal, #2)\", \"Some Kind of Perfect (Calloway Sisters, #4.5; Addicted, #3.5)\", \"Milk and Honey\", \"It Ends with Us\", \"The Bird and the Sword (The Bird and the Sword, #1)\", \"All the Ugly and Wonderful Things\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Sea of Tranquility\"",
+    "rejected": "\"The Power of Six (Lorien Legacies, #2)\"",
+    "ches_score": 48462.2578125,
+    "ln_ches_score": -32.10943603515625,
+    "last_hidden_embedding_inner_prod": 1980.99951171875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Graceling (Graceling Realm, #1)\", \"The Raven King (The Raven Cycle, #4)\", \"The Dream Thieves (The Raven Cycle, #2)\", \"Blue Lily, Lily Blue (The Raven Cycle, #3)\", \"The Wrath and the Dawn (The Wrath and the Dawn, #1)\", \"The Gray Wolf Throne (Seven Realms, #3)\", \"The Crimson Crown (Seven Realms, #4)\", \"The Young Elites (The Young Elites, #1)\", \"The Sculptor\", \"Illuminae (The Illuminae Files, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Killing Sarai (In the Company of Killers, #1)\"",
+    "rejected": "\"A Million Junes\"",
+    "ches_score": -156036.125,
+    "ln_ches_score": -32.02581787109375,
+    "last_hidden_embedding_inner_prod": 1943.12158203125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Onyx (Lux, #2)\", \"Opal (Lux, #3)\", \"Origin (Lux, #4)\", \"Opposition (Lux, #5)\", \"A Thousand Pieces of You (Firebird, #1)\", \"Dare You To (Pushing the Limits, #2)\", \"Whatever Life Throws at You\", \"The Young Elites (The Young Elites, #1)\", \"The Rose Society (The Young Elites, #2)\", \"The Assassin's Blade (Throne of Glass, #0.1-0.5)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Assassin and the Underworld (Throne of Glass, #0.4)\"",
+    "rejected": "\"The Wonder\"",
+    "ches_score": -432126.0,
+    "ln_ches_score": -31.599853515625,
+    "last_hidden_embedding_inner_prod": 1884.722412109375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Rock Chick Revolution (Rock Chick, #8)\", \"First Debt (Indebted, #2)\", \"Wildest Dreams (Fantasyland, #1)\", \"Third Debt (Indebted, #4)\", \"Second Debt (Indebted, #3)\", \"Fourth Debt (Indebted, #5)\", \"Sex Love Repeat\", \"If You Leave (Beautifully Broken, #2)\", \"Until the Sun Falls from the Sky (The Three, #1)\", \"Sweet Thing (Sweet Thing, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Fighting Silence (On the Ropes, #1)\"",
+    "rejected": "\"Cold-Hearted Rake (The Ravenels, #1)\"",
+    "ches_score": 12141.171875,
+    "ln_ches_score": -31.248046875,
+    "last_hidden_embedding_inner_prod": 2020.799072265625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Throne of Glass (Throne of Glass, #1)\", \"The Lightning Thief (Percy Jackson and the Olympians, #1)\", \"The Sea of Monsters (Percy Jackson and the Olympians, #2)\", \"The Titan's Curse (Percy Jackson and the Olympians, #3)\", \"Anna and the French Kiss (Anna and the French Kiss, #1)\", \"Lola and the Boy Next Door (Anna and the French Kiss, #2)\", \"Isla and the Happily Ever After (Anna and the French Kiss, #3)\", \"Fangirl\", \"November 9\", \"The Bad Beginning (A Series of Unfortunate Events, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"The Ersatz Elevator (A Series of Unfortunate Events, #6)\"",
+    "rejected": "\"Puddle Jumping (Puddle Jumping, #1)\"",
+    "ches_score": -131006.15625,
+    "ln_ches_score": -30.781494140625,
+    "last_hidden_embedding_inner_prod": 2025.47998046875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Half-Blood (Covenant, #1)\", \"Pure (Covenant, #2)\", \"Deity (Covenant, #3)\", \"Elixir (Covenant, #3.5)\", \"Sentinel (Covenant, #5)\", \"Apollyon (Covenant, #4)\", \"The Unbecoming of Mara Dyer (Mara Dyer, #1)\", \"White Hot Kiss (The Dark Elements, #1)\", \"Stone Cold Touch (The Dark Elements, #2)\", \"Insurgent (Divergent, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Allegiant (Divergent, #3)\"",
+    "rejected": "\"The Shining\"",
+    "ches_score": -102539.6875,
+    "ln_ches_score": -30.22900390625,
+    "last_hidden_embedding_inner_prod": 1888.531982421875
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared\", \"Mr. Mercedes (Bill Hodges Trilogy, #1)\", \"Blindness\", \"Wildwood Dancing (Wildwood, #1)\", \"On the Jellicoe Road\", \"If You Find Me\", \"Revolution\", \"Okay for Now\", \"A Game of Thrones (A Song of Ice and Fire, #1)\", \"The Catcher in the Rye\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"My Heart and Other Black Holes\"",
+    "rejected": "\"The Search for WondLa (The Search for WondLa, #1)\"",
+    "ches_score": 57734.88671875,
+    "ln_ches_score": -23.8201904296875,
+    "last_hidden_embedding_inner_prod": 1962.7364501953125
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"One Good Earl Deserves a Lover (The Rules of Scoundrels, #2)\", \"No Good Duke Goes Unpunished (The Rules of Scoundrels, #3)\", \"Never Judge a Lady by Her Cover (The Rules of Scoundrels, #4)\", \"A Night to Surrender (Spindle Cove, #1)\", \"A Week to Be Wicked (Spindle Cove, #2)\", \"A Lady by Midnight (Spindle Cove, #3)\", \"Nine Rules to Break When Romancing a Rake (Love By Numbers, #1)\", \"Suddenly You\", \"Worth the Fall (The McKinney Brothers, #1)\", \"The Duchess War (Brothers Sinister, #1)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Cruel Beauty (Cruel Beauty Universe, #1)\"",
+    "rejected": "\"Altered (Altered, #1)\"",
+    "ches_score": -98219.90625,
+    "ln_ches_score": -19.064208984375,
+    "last_hidden_embedding_inner_prod": 2017.40234375
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Crown of Midnight (Throne of Glass, #2)\", \"The Fate of Ten (Lorien Legacies, #6)\", \"Bloodlines (Bloodlines, #1)\", \"Siege and Storm (The Grisha, #2)\", \"Heir of Fire (Throne of Glass, #3)\", \"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)\", \"World After (Penryn & the End of Days, #2)\", \"Welcome to Shadowhunter Academy (Tales from the Shadowhunter Academy, #1)\", \"Me Before You (Me Before You, #1)\", \"Queen of Shadows (Throne of Glass, #4)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"A Storm of Swords (A Song of Ice and Fire, #3)\"",
+    "rejected": "\"Tower Lord (Raven's Shadow, #2)\"",
+    "ches_score": -63938.296875,
+    "ln_ches_score": -16.99285888671875,
+    "last_hidden_embedding_inner_prod": 2030.74853515625
+  },
+  {
+    "prompt": "### Instruction:\nGiven a list of books the user recently enjoys, please recommend a new books that the user may like\n### Input:\nThe user has played the following books before: \"Burn (Blood & Roses, #3)\", \"Twisted (Blood & Roses, #5)\", \"Collateral (Blood & Roses, #6)\", \"The Score (Off-Campus, #3)\", \"Sweet Fall (Sweet Home, #2; Carillo Boys, #1)\", \"Sweet Hope (Sweet Home, #3; Carillo Boys, #2)\", \"Sweet Soul (Sweet Home, #4; Carillo Boys, #3)\", \"Leave Me Breathless (Ross Siblings, #3)\", \"Clipped Wings (Clipped Wings, #1)\", \"The Undoing (Call of Crows, #2)\", please write a new books that the user may bought\n### Response:",
+    "chosen": "\"Raze (Scarred Souls, #1)\"",
+    "rejected": "\"Good For You (Between the Lines, #3)\"",
+    "ches_score": -20412.8125,
+    "ln_ches_score": -15.70458984375,
+    "last_hidden_embedding_inner_prod": 2028.8427734375
+  }
+]

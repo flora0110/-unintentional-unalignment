@@ -25,15 +25,15 @@ def filter_has_metric(data, metric):
             out.append(rec)
     return out
 
-def top_k(data, metric, k):
+def top_k(data, metric, start, k):
     # 大到小排序
     sorted_data = sorted(data, key=lambda r: r[metric], reverse=True)
-    return sorted_data[:k]
+    return sorted_data[start:start+k]
 
-def bottom_k(data, metric, k):
+def bottom_k(data, metric, start, k):
     # 小到大排序
     sorted_data = sorted(data, key=lambda r: r[metric])
-    return sorted_data[:k]
+    return sorted_data[start:start+k]
 
 def random_k(data, k, seed):
     rng = random.Random(seed)
@@ -52,6 +52,7 @@ def main():
     ap.add_argument("--input_json", required=True, help="含三個指標欄位的 train_with_prefsim.json")
     ap.add_argument("--out_dir", required=False, default=None, help="輸出資料夾（預設與輸入檔同資料夾）")
     ap.add_argument("--k", type=int, default=100, help="每種集合的樣本數")
+    ap.add_argument("--start", type=int, default=0, help="每種集合的起始索引")
     ap.add_argument("--seed", type=int, default=42, help="random 選樣用的種子")
     args = ap.parse_args()
 
@@ -69,8 +70,8 @@ def main():
             continue
 
         k = min(args.k, len(subset))
-        top_sel = top_k(subset, metric, k)
-        bot_sel = bottom_k(subset, metric, k)
+        top_sel = top_k(subset, metric, args.start, k)
+        bot_sel = bottom_k(subset, metric, args.start, k)
         rnd_sel = random_k(subset, k, args.seed)
 
         top_path = out_dir / f"{metric}_top{k}.json"
