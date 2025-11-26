@@ -71,7 +71,7 @@
         "track_logits_for_tokens": [],
         "log_top_token_logit_change_interval": 50,
         "save_model": false,
-        "save_finegrained_token_metrics": true
+        "save_finegrained_token_metrics": false
       },
       "options": {
         "train_samples_random_seed": [

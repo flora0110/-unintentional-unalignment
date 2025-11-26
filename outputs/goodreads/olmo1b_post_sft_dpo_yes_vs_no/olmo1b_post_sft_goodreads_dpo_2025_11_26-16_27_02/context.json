@@ -1,0 +1,87 @@
+{
+  "experiments_plan_config": {
+    "name": "Goodreads DPO for OLMo-1B model",
+    "description": "",
+    "skip": 0,
+    "repetitions": 1,
+    "largest": false,
+    "multiprocess": false,
+    "num_parallel": 1,
+    "gpu_ids_pool": [
+      0
+    ],
+    "configurations": [
+      {
+        "base_config": {
+          "experiment_name": "olmo1b_post_sft_goodreads_{objective}",
+          "random_seed": -1,
+          "gpu_ids": [],
+          "trainer_checkpoint": "",
+          "epochs": 1,
+          "validate_every": 10,
+          "outputs_dir": "outputs/goodreads/olmo1b_post_sft_{objective}_yes_vs_no",
+          "disable_console_log": true,
+          "save_logs": true,
+          "train_batch_log_interval": -1,
+          "epoch_log_interval": 10,
+          "save_metric_plots": true,
+          "save_every_num_val": 10,
+          "use_tensorboard": false,
+          "use_wandb": false,
+          "wandb_resume_path": "",
+          "wandb_project_name": "goodreads_likelihood_displacement",
+          "wandb_entity_name": "",
+          "wandb_track_model": null,
+          "wandb_exclude_files": [
+            "plots/**"
+          ],
+          "score_metric_name": "train loss",
+          "is_train_metric": true,
+          "score_largest": false,
+          "return_best_score": false,
+          "save_checkpoints": false,
+          "num_checkpoints": 1,
+          "save_checkpoints_by_score": false,
+          "early_stop": false,
+          "early_stop_min_delta": 0,
+          "early_stop_patience": 0,
+          "early_stop_cooldown": 0,
+          "early_stop_restore_best_weights": false,
+          "dataset": "data_files/goodreads/train.json",
+          "num_train_samples": 1,
+          "train_samples_random_seed": -1,
+          "batch_size": -1,
+          "load_dataset_to_gpu": true,
+          "model": "/scratch/user/chuanhsin0110/hf_models/allenai-OLMo-1B-hf",
+          "model_cache_dir": "/scratch/user/chuanhsin0110/hf_cache",
+          "load_model_checkpoint": null,
+          "is_lora_checkpoint": false,
+          "use_lora": false,
+          "lora_rank": 8,
+          "kl_coeff": 0.1,
+          "objective": "dpo",
+          "optimizer": "rmsprop",
+          "lr": 1e-07,
+          "track_logits_for_tokens": [],
+          "log_top_token_logit_change_interval": 50,
+          "save_model": false,
+          "save_finegrained_token_metrics": true
+        },
+        "options": {
+          "train_samples_random_seed": [
+            9773,
+            5290,
+            8767,
+            9818,
+            7596,
+            344,
+            2701,
+            3298,
+            7834,
+            6327
+          ]
+        }
+      }
+    ]
+  }
+}

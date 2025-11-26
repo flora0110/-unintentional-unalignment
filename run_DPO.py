@@ -240,10 +240,14 @@ def train_dpo(config):
 if __name__ == "__main__":
     print("Starting DPO training...")
 
-    # distance  = "ln_ches_score"
-    distance = "last_hidden_embedding_inner_prod"
-    # composition = "top100"
-    composition = "random100_seed123"
+    distance  = "DPO"
+    # distance = "last_hidden_embedding_inner_prod"
+    composition = "RN1"
+    # composition = "bottom100"
+    # composition = "random100_seed123"
+
+    # valid_composition = "random100_seed42"
+    valid_composition = composition
 
     CONFIG_DPO = {
 
@@ -255,11 +259,16 @@ if __name__ == "__main__":
         # "resume_from_checkpoint":  "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/goodreads_models/olmo1b_sft_goodreads_cross_entropy_2025_11_05-05_08_27/model_epoch_0",
         "resume_from_checkpoint": "base_model",
         # Dataset paths
-        "train_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/subsets/{distance}_{composition}.json",
-        "valid_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/valid_subsets/{distance}_{composition}.json",
+        # "train_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/subsets/{distance}_{composition}.json",
+        # "valid_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/valid_subsets/{distance}_{valid_composition}.json",
+
+        "train_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/train.json",
+        "valid_data_path": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/valid.json",
+
+        
 
         # Output
-        "output_dir": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/Goodreads_test/{distance}_{composition}/",
+        "output_dir": f"/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/Goodreads_test/{distance}_{composition}_epoch1/",
 
         # DPO training parameters
         "dpo": {
@@ -268,7 +277,7 @@ if __name__ == "__main__":
         "per_device_eval_batch_size": 2,
         "gradient_accumulation_steps": 4,
         "warmup_steps": 20,
-        "num_train_epochs": 10,
+        "num_train_epochs": 1,
         "learning_rate": 1e-7,
         "bf16": True,
         "logging_steps": 1,
