@@ -10,7 +10,7 @@ CHUNK_END = 10  # 000 ~ 010 (含 10)
 # 輸出檔案
 OUTPUT_JSON_PATH = os.path.join(
     CHUNK_DIR,
-    "random50_item_pref_similarity_best_reject_by_ln_ches.json"
+    "random50_item_pref_similarity_best_reject_by_last_hidden_embedding_inner_prods.json"
 )
 
 
@@ -28,7 +28,7 @@ def main():
             chunk_data = json.load(f)  # list[dict]
 
         for sample in chunk_data:
-            ches_scores = sample.get("ln_ches_scores", {})
+            ches_scores = sample.get("last_hidden_embedding_inner_prods", {})
             if not ches_scores:
                 # 這個 sample 沒有任何 candidate 的 CHES，就略過
                 continue
@@ -43,7 +43,7 @@ def main():
                 "prompt": sample["prompt"],
                 "chosen": sample["chosen"],
                 "rejected": f"\"{best_title}\"",
-                "ln_ches_scores": best_ches,
+                "last_hidden_embedding_inner_prods": best_ches,
             }
 
             selected_samples.append(out_entry)
