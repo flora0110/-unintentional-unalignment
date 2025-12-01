@@ -14,7 +14,7 @@ def main():
     selected_results = []
 
     for sample in all_samples:
-        last_inner = sample.get("last_hidden_embedding_inner_prod", {})
+        last_inner = sample.get("last_hidden_embedding_inner_prods", {})
         if not last_inner:
             # 如果這個 sample 沒有任何候選（沒有出現在 id2name 的 rejected），就跳過
             continue
