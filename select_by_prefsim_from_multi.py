@@ -3,7 +3,7 @@ import os
 
 # 路徑自己改成你實際存的檔案
 INPUT_JSON_PATH = "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/outputs/goodreads_beam/item_pref_similarity.json"
-OUTPUT_JSON_PATH = "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/item_pref_similarity_best_reject_by_ches.json"
+OUTPUT_JSON_PATH = "/scratch/user/chuanhsin0110/LLMRec-Labs/unintentional-unalignment/data_files/goodreads/item_pref_similarity_best_reject_by_ln_ches.json"
 
 
 def main():
@@ -14,22 +14,22 @@ def main():
     selected_results = []
 
     for sample in all_samples:
-        ches_scores = sample.get("ches_scores", {})
-        if not ches_scores:
+        ln_ches_scores = sample.get("ln_ches_scores", {})
+        if not ln_ches_scores:
             # 如果這個 sample 沒有任何候選（沒有出現在 id2name 的 rejected），就跳過
             continue
 
         # 1) 根據 CHES 挑出最小的那個 candidate（越小 = 你定義的 "最差" reject）
         #    key 是書名（不帶外層引號），value 是 ches 值
-        best_title, best_ches = min(ches_scores.items(), key=lambda kv: kv[1])
+        best_title, best_ln_ches = min(ln_ches_scores.items(), key=lambda kv: kv[1])
 
         # 2) 從其他 metric dict 裡拿對應的數值（如果有）
         med_dict = sample.get("minus_normalized_edit_distances", {})
-        ln_ches_dict = sample.get("ln_ches_scores", {})
+        ches_dict = sample.get("ches_scores", {})
         last_inner_dict = sample.get("last_hidden_embedding_inner_prods", {})
 
         best_med = med_dict.get(best_title, None)
-        best_ln_ches = ln_ches_dict.get(best_title, None)
+        best_ches = ches_dict.get(best_title, None)
         best_last_inner = last_inner_dict.get(best_title, None)
 
         # 3) 組成你要的輸出格式
